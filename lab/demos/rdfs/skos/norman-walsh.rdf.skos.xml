@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/style/rdf.xsl"?><rdf:RDF xmlns:cvs="http://nwalsh.com/rdf/cvs#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ttag="http://developers.technorati.com/wiki/RelTag#">
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <cvs:date>$Date$</cvs:date>
+        <dc:title>Topic taxonomy for norman.walsh.name</dc:title>
+        <skos:hasTopConcept rdf:resource="http://norman.walsh.name/knows/taxonomy#Everything"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Activities">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#CarRepair"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#HomeReno"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#HomeRepair"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Interests"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#MakeStuff"/>
+        <skos:prefLabel>Activities</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Ajax">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>ajax</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">ajax</anchor>
+        <skos:prefLabel>Ajax</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Amherst">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-ma-amherst</ttag:tag>
+        <skos:altLabel>Amherst</skos:altLabel>
+        <skos:prefLabel>Amherst, MA, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Animals">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">animals</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Birds"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Herps"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Insects"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Pets"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Rodents"/>
+        <skos:prefLabel>Animals</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#AntiguaAndBarbuda">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>antiguaandbarbuda</ttag:tag>
+        <skos:altLabel>Antigua</skos:altLabel>
+        <skos:prefLabel>Antigua and Barbuda</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Application">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>Applications.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Arizona">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-arizona</ttag:tag>
+        <skos:altLabel>Arizona</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Scottsdale"/>
+        <skos:prefLabel>Arizona, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Art">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Art</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Atom">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>atom</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">atom</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">atom</icon>
+        <skos:prefLabel>Atom</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Balisage">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>balisageConference</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">balisage</anchor>
+        <skos:altLabel>Balisage</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Balisage2008"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Balisage2009"/>
+        <skos:prefLabel>Balisage Conference</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Balisage2008">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>balisageConference08</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">balisage2008</anchor>
+        <skos:prefLabel>Balisage 2008</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Balisage2009">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>balisageConference09</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">balisage2009</anchor>
+        <skos:prefLabel>Balisage 2009</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Bangkok">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>th-bangkok</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">bangkok</icon>
+        <skos:altLabel>Bangkok</skos:altLabel>
+        <skos:prefLabel>Bangkok, Thailand</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Belchertown">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-ma-belchertown</ttag:tag>
+        <skos:altLabel>Belchertown</skos:altLabel>
+        <skos:prefLabel>Belchertown, MA, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Belgium">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>belgium</ttag:tag>
+        <skos:prefLabel>Belgium</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Birds">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>birds</ttag:tag>
+        <skos:prefLabel>Birds</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Birthdays">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Birthdays</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Bookcase">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>bookcase</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Bookcase</anchor>
+        <skos:prefLabel>Bookcase</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Books">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>books</ttag:tag>
+        <skos:prefLabel>Books</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#CA-BC-Vancouver">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>ca-bc-vancouver</ttag:tag>
+        <skos:altLabel>Vancouver</skos:altLabel>
+        <skos:prefLabel>Vancouver, BC, CA</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#CSS">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>css</ttag:tag>
+        <skos:altLabel>CSS</skos:altLabel>
+        <skos:prefLabel>Cascading Style Sheets</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#CVS">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>cvs</ttag:tag>
+        <skos:prefLabel>CVS</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Calabash">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>calabash</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Calabash</anchor>
+        <rdfs:seeAlso rdf:resource="http://xmlcalabash.com/"/>
+        <skos:prefLabel>Calabash</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#California">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-california</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">california</anchor>
+        <skos:altLabel>California</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#LosAngeles"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#SanFrancisco"/>
+        <skos:prefLabel>California, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Canada">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>canada</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#CA-BC-Vancouver"/>
+        <skos:prefLabel>Canada</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#CarRepair">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>carrepair</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">CarRepair</anchor>
+        <skos:prefLabel>Car Repair</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Celebrations">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Birthdays"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Holidays"/>
+        <skos:prefLabel>Celebrations</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Celebrity">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">celebrity</icon>
+        <skos:prefLabel>Celebrity</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Christmas">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>christmas</ttag:tag>
+        <skos:prefLabel>Christmas</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Community">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Community</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Conferences">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">conferences</feed>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Balisage"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Extreme"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#JavaOne"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLPrague"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLSummerSchool"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLUS"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XTech"/>
+        <skos:prefLabel>Conferences</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Connectivity">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">connectivity</icon>
+        <skos:prefLabel>Connectivity</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Contests">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Contests</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Cosmology">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>cosmology</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">cosmology</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">cosmology</icon>
+        <skos:prefLabel>Cosmology</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#CzechRepublic">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>czechrepublic</ttag:tag>
+        <skos:altLabel>CzechRepublic</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Prague"/>
+        <skos:prefLabel>Czech Republic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#DITA">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>dita</ttag:tag>
+        <skos:prefLabel>DITA</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#DRM">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>drm</ttag:tag>
+        <skos:prefLabel>DRM</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#DTD">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlschema-dtd</ttag:tag>
+        <skos:altLabel>DTDs</skos:altLabel>
+        <skos:prefLabel>XML DTDs</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#DocBook">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>docbook</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">docbook</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">docbook</icon>
+        <skos:prefLabel>DocBook</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#DominicanRepublic">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>dominicanrepublic</ttag:tag>
+        <skos:prefLabel>Dominican Republic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Edinburgh">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>gb-edinburgh</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">uk</icon>
+        <skos:altLabel>Edinburgh</skos:altLabel>
+        <skos:prefLabel>Edinburgh, Scotland</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Egypt">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>egypt</ttag:tag>
+        <skos:altLabel>Egypt</skos:altLabel>
+        <skos:prefLabel>Egypt</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Electronics">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>electronics</ttag:tag>
+        <skos:prefLabel>Electronics</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Emacs">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>emacs</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">emacs</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">emacs</icon>
+        <skos:prefLabel>Emacs</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Email">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>email</ttag:tag>
+        <skos:prefLabel>Email</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#England">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>england</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">uk</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#London"/>
+        <skos:prefLabel>England</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Entertainment">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Art"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Books"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Contests"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Humor"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#PotentPotables"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#TV"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Theater"/>
+        <skos:prefLabel>Entertainment</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Everything">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">everything</feed>
+        <skos:definition>The tree of topics is rooted here. Any topic not reachable by following (transitively) the skos:narrower properties of this topic will not appear in the topic navigation hierarchy.</skos:definition>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Activities"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Animals"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Celebrations"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Community"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Conferences"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Connectivity"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Cosmology"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Entertainment"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Links"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Miscellany"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Organizations"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#People"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Places"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Plants"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Politics"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Rants"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Reviews"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#SelfReference"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Sonnets"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Talks"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Technology"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Things"/>
+        <skos:prefLabel>Everything</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Extreme">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>extrememarkup</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Extreme</anchor>
+        <skos:altLabel>Extreme</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Extreme2003"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Extreme2004"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Extreme2006"/>
+        <skos:prefLabel>Extreme Markup Lanuages</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Extreme2003">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Extreme2003</anchor>
+        <skos:prefLabel>Extreme 2003</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Extreme2004">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Extreme2004</anchor>
+        <skos:prefLabel>Extreme 2004</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Extreme2006">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Extreme2006</anchor>
+        <skos:prefLabel>Extreme 2006</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#FilmScans">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>filmscans</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">FilmScans</anchor>
+        <skos:prefLabel>Film Scans</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Firefox">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>firefox</ttag:tag>
+        <skos:prefLabel>Firefox</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Flowers">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>flowers</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">violet</icon>
+        <skos:prefLabel>Flowers</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#France">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>france</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">france</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Paris"/>
+        <skos:prefLabel>France</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#FromPlanes">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">FromPlanes</anchor>
+        <skos:prefLabel>Photos From Planes</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Gadgets">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>gadgets</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#GoogleVoice"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Laptop"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Palm"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Sidekick"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#iPhone"/>
+        <skos:prefLabel>Gadgets</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Gargoyle">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>gargoyles</ttag:tag>
+        <skos:prefLabel>Gargoyle</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Geocaching">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>geocaching</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">geocaching</feed>
+        <skos:prefLabel>Geocaching</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#GlassFish">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>glassfish</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://glassfish.dev.java.net/"/>
+        <skos:prefLabel>GlassFish</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#GoogleVoice">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>googlevoice</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">googlevoice</anchor>
+        <skos:prefLabel>GoogleVoice</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Greasemonkey">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>greasemonkey</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Greasemonkey"/>
+        <skos:prefLabel>Greasemonkey</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#HTML">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>html</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#HTML5"/>
+        <skos:prefLabel>HTML</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#HTML5">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>html5</ttag:tag>
+        <skos:prefLabel>HTML5</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Herps">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>herps</ttag:tag>
+        <skos:prefLabel>Herps</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Holidays">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>holidays</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Christmas"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#NewYears"/>
+        <skos:prefLabel>Holidays</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#HomeReno">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>homereno</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">HomeReno</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Bookcase"/>
+        <skos:prefLabel>Home Renovation</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#HomeRepair">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>homerepair</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">HomeRepair</anchor>
+        <skos:prefLabel>Home Repair</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Humor">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Humor</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#IM">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>im</ttag:tag>
+        <skos:prefLabel>IM</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#IndexTerm">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>Index terms.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Insects">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>insects</ttag:tag>
+        <skos:prefLabel>Insects</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Interests">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Geocaching"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Music"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Photography"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Programming"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Travel"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Typography"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Wine"/>
+        <skos:prefLabel>Interests</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Italy">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>italy</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">italy</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Rome"/>
+        <skos:prefLabel>Italy</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Japan">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>japan</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Kamakura"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#ShinYokohama"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Tokyo"/>
+        <skos:prefLabel>Japan</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Java">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>java</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">java</feed>
+        <rdfs:seeAlso rdf:resource="http://java.sun.com/"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#GlassFish"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#NetBeans"/>
+        <skos:prefLabel>Java</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#JavaOne">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>javaone</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">JavaOne</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#JavaOne04"/>
+        <skos:prefLabel>JavaOne</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#JavaOne04">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">JavaOne04</anchor>
+        <skos:prefLabel>JavaOne '04</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Kamakura">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>jp-kamakura</ttag:tag>
+        <skos:altLabel>Kamakura</skos:altLabel>
+        <skos:prefLabel>Kamakura, Japan</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Landscape">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Landscape</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Laptop">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>laptop</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#ThinkPad"/>
+        <skos:prefLabel>Laptop</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#LasVegas">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>nwn-lasvegas</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">LasVegas</anchor>
+        <skos:altLabel>Las Vegas, NV, US</skos:altLabel>
+        <skos:prefLabel>Las Vegas</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Lazyweb">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>lazyweb</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Lazyweb</anchor>
+        <skos:prefLabel>Lazyweb</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Lightroom">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>lightroom</ttag:tag>
+        <skos:prefLabel>Lightroom</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#LinkGroup">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>Link groups.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Links">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Links</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Linux">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>linux</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">linux</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Ubuntu"/>
+        <skos:prefLabel>Linux</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#London">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>gb-london</ttag:tag>
+        <skos:altLabel>London</skos:altLabel>
+        <skos:prefLabel>London, England</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#LosAngeles">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>nwn-losangeles</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">LosAngeles</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">la</icon>
+        <skos:altLabel>Los Angeles</skos:altLabel>
+        <skos:prefLabel>Los Angeles, CA, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#MakeStuff">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">MakeStuff</anchor>
+        <skos:prefLabel>Making stuff</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#MarkLogic">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>marklogic</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://www.marklogic.com/"/>
+        <skos:prefLabel>Mark Logic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Massachusetts">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-massachusetts</ttag:tag>
+        <skos:altLabel>Massachusetts</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Amherst"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Belchertown"/>
+        <skos:prefLabel>Massachusetts, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Mercurial">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>mercurial</ttag:tag>
+        <skos:prefLabel>Mercurial</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Microblogging">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>microblogging</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">microblogging</anchor>
+        <skos:prefLabel>Microblogging</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Microformats">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>microformats</ttag:tag>
+        <skos:prefLabel>Microformats</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Miscellany">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Miscellany</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Music">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>music</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">music</icon>
+        <skos:prefLabel>Music</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#NetBeans">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>netbeans</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://www.netbeans.org/"/>
+        <skos:prefLabel>NetBeans</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Netherlands">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>netherlands</ttag:tag>
+        <skos:prefLabel>Netherlands</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Nevada">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-nevada</ttag:tag>
+        <skos:altLabel>Nevada</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#LasVegas"/>
+        <skos:prefLabel>Nevada, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#NewYears">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>newyearsday</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">NewYearsDay</anchor>
+        <skos:prefLabel>New Years Day</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#NewYork">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-new-york</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">NewYork</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">newyork</icon>
+        <skos:altLabel>New York</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#NewYorkCity"/>
+        <skos:prefLabel>New York, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#NewYorkCity">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-ny-new-york</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">NewYorkCity</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">newyorkcity</icon>
+        <skos:altLabel>New York City</skos:altLabel>
+        <skos:prefLabel>New York, NY, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Null">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">TheNullTopic</anchor>
+        <rdfs:comment>This topic should never be used for real essays</rdfs:comment>
+        <skos:definition>Essays that are members of this topic are ignored by most of the navigation and other referencing systems used by this site.</skos:definition>
+        <skos:prefLabel>The null topic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#OASIS">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>oasis</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">oasis</feed>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#TC"/>
+        <skos:prefLabel>OASIS</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#OSX">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>osx</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">OSX</anchor>
+        <skos:prefLabel>OS X</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Omit">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:definition>Essays that are members of this topic are not placed in feeds.</skos:definition>
+        <skos:prefLabel>The 'omit' topic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#OmitTags">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:definition>Essays that are members of this topic do not get a Folsonomy Tags section.</skos:definition>
+        <skos:prefLabel>The 'omit tags' topic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Organizations">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#MarkLogic"/>
+        <skos:prefLabel>Organizations</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Palm">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>palm</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">PalmPilot</anchor>
+        <skos:prefLabel>Palm Pilot</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Paris">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>fr-paris</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">paris</icon>
+        <skos:altLabel>Paris</skos:altLabel>
+        <skos:prefLabel>Paris, France</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Pennsylvania">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-pennsylvania</ttag:tag>
+        <skos:altLabel>Pennsylvania</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Philadelphia"/>
+        <skos:prefLabel>Pennsylvania, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#People">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">people</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Celebrity"/>
+        <skos:prefLabel>People</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#PersonName">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>Personal names.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Pets">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>pets</ttag:tag>
+        <skos:prefLabel>Pets</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Philadelphia">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-pa-philadelphia</ttag:tag>
+        <skos:altLabel>Philadelphia</skos:altLabel>
+        <skos:prefLabel>Philadelphia, PA, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#PhotodataOrg">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">photodata</anchor>
+        <skos:prefLabel>photodata.org</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Photography">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>photographs</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">photography</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">photography</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#FilmScans"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#FromPlanes"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#PhotodataOrg"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Project365"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#PubSigns"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#SelfPortrait"/>
+        <skos:prefLabel>Photography</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Places">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#AntiguaAndBarbuda"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Belgium"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Canada"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#CzechRepublic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#DominicanRepublic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Egypt"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#England"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#France"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Italy"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Japan"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Netherlands"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Scotland"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Switzerland"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Thailand"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#UnitedStates"/>
+        <skos:prefLabel>Places</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Plants">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">violet</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Flowers"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Trees"/>
+        <skos:prefLabel>Plants</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Politics">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>politics</ttag:tag>
+        <skos:prefLabel>Politics</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#PotentPotables">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>potentpotables</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">potentpotables</anchor>
+        <skos:prefLabel>Potent Potables</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Prague">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>prague</ttag:tag>
+        <skos:prefLabel>Prague</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Programming">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>programming</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">programming</feed>
+        <skos:prefLabel>Programming</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Project365">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">project365</anchor>
+        <rdfs:seeAlso rdf:resource="http://photojojo.com/content/tutorials/project-365-take-a-photo-a-day/"/>
+        <skos:prefLabel>Project 365</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#PubSigns">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>pubsigns</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">PubSigns</anchor>
+        <skos:prefLabel>Pub Signs</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#RDF">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>rdf</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">rdf</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">rdf</icon>
+        <rdfs:seeAlso rdf:resource="http://www.rdfweb.org/"/>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf-primer/"/>
+        <skos:altLabel>RDF</skos:altLabel>
+        <skos:prefLabel>Resource Description Framework (RDF)</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#RDFSchema">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">RDFSchema</anchor>
+        <skos:altLabel>RDF Schema</skos:altLabel>
+        <skos:prefLabel>RDF Schema</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#RELAXNG">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlschema-rng</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">RELAXNG</anchor>
+        <skos:prefLabel>RELAX NG</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#RSS">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>rss</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">rss</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">rss</icon>
+        <skos:prefLabel>RSS</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Rants">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Rants</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Reviews">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">reviews</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">review</icon>
+        <skos:prefLabel>Reviews</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Rodents">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>rodents</ttag:tag>
+        <skos:prefLabel>Rodents</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Rome">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>it-rome</ttag:tag>
+        <skos:altLabel>Rome</skos:altLabel>
+        <skos:prefLabel>Rome, Italy</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#SanFrancisco">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-ca-sanfrancisco</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">SanFrancisco</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">sanfrancisco</icon>
+        <skos:altLabel>San Francisco</skos:altLabel>
+        <skos:prefLabel>San Francisco, CA, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Schemas">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlschema</ttag:tag>
+        <skos:altLabel>Schemas</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#DTD"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#RDFSchema"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#RELAXNG"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#W3CXMLSchema"/>
+        <skos:prefLabel>Schema Languages</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Scotland">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>scotland</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">uk</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Edinburgh"/>
+        <skos:prefLabel>Scotland</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Scottsdale">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:altLabel>Scottsdale, AZ, US</skos:altLabel>
+        <skos:prefLabel>Scottsdale</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#SelfPortrait">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">SelfPortraits</anchor>
+        <skos:prefLabel>Self Portraits</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#SelfReference">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">SelfReference</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">selfreference</icon>
+        <skos:prefLabel>Self Reference</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#ShinYokohama">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>jp-shinyokahama</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">ShinYokohama</anchor>
+        <skos:altLabel>Shin Yokohama</skos:altLabel>
+        <skos:prefLabel>Shin Yokohama, Japan</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Sidekick">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>sidekick</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">sidekick</anchor>
+        <skos:prefLabel>Sidekick</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Software">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Software</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Solaris">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>solaris</ttag:tag>
+        <skos:prefLabel>Solaris</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Sonnets">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Sonnets</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#SourceControl">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">sourcecodecontrol</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#CVS"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Mercurial"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Subversion"/>
+        <skos:prefLabel>Source Code Control</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Spam">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>spam</ttag:tag>
+        <skos:prefLabel>Spam</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Statuary">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>statuary</ttag:tag>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Gargoyle"/>
+        <skos:prefLabel>Statuary</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Sticky">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">TheStickyTopic</anchor>
+        <rdfs:comment>Articles with this topic always appear on the home page</rdfs:comment>
+        <skos:definition>Essays that are members of this topic appear on every page.</skos:definition>
+        <skos:prefLabel>The 'sticky' topic</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Subversion">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>subversion</ttag:tag>
+        <skos:prefLabel>Subversion</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Switzerland">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>switzerland</ttag:tag>
+        <skos:prefLabel>Switzerland</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Syndication">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">Syndication</anchor>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">syndication</feed>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Atom"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#RSS"/>
+        <skos:prefLabel>Syndication</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#TAG">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>w3ctag</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">W3CTAG</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">tag</icon>
+        <skos:altLabel>W3C TAG</skos:altLabel>
+        <skos:prefLabel>W3C Technical Architecture Group</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#TC">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">OASISTC</anchor>
+        <skos:altLabel>OASIS TC</skos:altLabel>
+        <skos:prefLabel>OASIS Technical Committee</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#TV">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>television</ttag:tag>
+        <skos:altLabel>TV</skos:altLabel>
+        <skos:prefLabel>Television</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Talks">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Talks</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Technology">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">technology</feed>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#CSS"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#DITA"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#DRM"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#DocBook"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Electronics"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Emacs"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Email"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Firefox"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Gadgets"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Greasemonkey"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#HTML"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#IM"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Java"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Lightroom"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Linux"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#OSX"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#RDF"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Schemas"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Software"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Solaris"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#SourceControl"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Spam"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Syndication"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#TheWeb"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#TopicMaps"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#VoIP"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Windows"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XQuery"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XSLT"/>
+        <skos:prefLabel>Technology</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thailand">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>thailand</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">thailand</icon>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Bangkok"/>
+        <skos:prefLabel>Thailand</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#TheWeb">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>www</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">TheWeb</anchor>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">theweb</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">www</icon>
+        <skos:altLabel>The Web</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Ajax"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Lazyweb"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Microblogging"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#OASIS"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#W3C"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#WebServices"/>
+        <skos:prefLabel>The World Wide Web</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Theater">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:prefLabel>Theater</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Things">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Landscape"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Statuary"/>
+        <skos:prefLabel>Things</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#ThinkPad">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>thinkpad</ttag:tag>
+        <skos:prefLabel>ThinkPad</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-bbintroducingtagback">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>bbintroducingtagback</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">bbintroducingtagback</anchor>
+        <skos:prefLabel>BB Introducing Tagback</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-bloghousekeeping">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-bloghousekeeping</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-bloghousekeeping</anchor>
+        <skos:prefLabel>Blog Housekeeping</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-blogthreading">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-blogthreading</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-blogthreading</anchor>
+        <skos:prefLabel>Blog Threading</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-conneg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-conneg</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-conneg</anchor>
+        <skos:prefLabel>Content Negotiation</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-droppedlaptop">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-droppedlaptop</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-droppedlaptop</anchor>
+        <skos:prefLabel>Dropped Laptop</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-escapedmarkup">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-escapedmarkup</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-escapedmarkup</anchor>
+        <skos:prefLabel>Escaped Markup</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-gsmwireless">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-gsmwireless</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-gsmwireless</anchor>
+        <skos:prefLabel>GSM Wireless</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-ie">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-ie</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-ie</anchor>
+        <skos:prefLabel>IE</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-refactordocbook">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-refactordocbook</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-refactordocbook</anchor>
+        <skos:prefLabel>Refactoring DocBook</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-robinsnest">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-robinsnest</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-robinsnest</anchor>
+        <skos:prefLabel>Robin's Nest</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-rssatom">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-rssatom</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-rssatom</anchor>
+        <skos:prefLabel>RSS/Atom</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-spam">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-spam</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-spam</anchor>
+        <skos:prefLabel>Spam</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-threedatesforatom">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-threedatesforatom</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-threedatesforatom</anchor>
+        <skos:prefLabel>Three Dates for Atom</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-uri">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-uri</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-uri</anchor>
+        <skos:prefLabel>URI</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-versioningxml">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-versioningxml</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-versioningxml</anchor>
+        <skos:prefLabel>Versioning XML</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-whereintheworld">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-whereintheworld</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-whereintheworld</anchor>
+        <skos:prefLabel>Where in the World (WITW)</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-xmlcatalogs">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-xmlcatalogs</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-xmlcatalogs</anchor>
+        <skos:prefLabel>XML Catalogs</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwn-xmlemacsunicode">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwn-xmlemacsunicode</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwn-xmlemacsunicode</anchor>
+        <skos:prefLabel>XML, Emacs, and Unicode</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-nwnhardwareupgrades">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>nwnhardwareupgrades</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">nwnhardwareupgrades</anchor>
+        <skos:prefLabel>Hardware Upgrades</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-smithcollegebulbshow">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>smithcollegebulbshow</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">smithcollegebulbshow</anchor>
+        <skos:prefLabel>Smith College Bulb Show</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Thread-techplen">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <ttag:tag>techplen</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">techplen</anchor>
+        <skos:prefLabel>W3C Technical Plenary</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Tokyo">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>jp-tokyo</ttag:tag>
+        <skos:altLabel>Tokyo</skos:altLabel>
+        <skos:prefLabel>Tokyo, Japan</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Topic">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>A specialization of rdfs:Class used for topics.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#TopicMaps">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>topicmaps</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">topicmaps</anchor>
+        <rdfs:seeAlso rdf:resource="http://www.topicmaps.org/"/>
+        <skos:prefLabel>Topic Maps</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Travel">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>travel</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">travel</icon>
+        <skos:prefLabel>Travel</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Trees">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>trees</ttag:tag>
+        <skos:prefLabel>Trees</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Typography">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>typography</ttag:tag>
+        <skos:prefLabel>Typography</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#US-Hawaii">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>us-hawaii</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">hawaii</icon>
+        <skos:altLabel>Hawaii</skos:altLabel>
+        <skos:prefLabel>Hawaii, US</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#USVI-StJohn">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>usvi-stjohn</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">StJohn</anchor>
+        <skos:altLabel>St John</skos:altLabel>
+        <skos:prefLabel>St John, USVI</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#USVI-StThomas">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>usvi-stthomas</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">StThomas</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">stthomas</icon>
+        <skos:altLabel>St Thomas</skos:altLabel>
+        <skos:prefLabel>St Thomas, USVI</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Ubuntu">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>ubuntu</ttag:tag>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">ubuntu</icon>
+        <skos:prefLabel>Ubuntu</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#UnitedStates">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>unitedstates</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">UnitedStates</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">usa</icon>
+        <skos:altLabel>United States</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Arizona"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#California"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Massachusetts"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Nevada"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#NewYork"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Pennsylvania"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#US-Hawaii"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#USVI-StJohn"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#USVI-StThomas"/>
+        <skos:prefLabel>The United States of America</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#VoIP">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>voip</ttag:tag>
+        <skos:prefLabel>VoIP</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#W3C">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>w3c</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">w3c</feed>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#TAG"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#WG"/>
+        <skos:prefLabel>W3C</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#W3CXMLSchema">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlschema-xsd</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XMLSchema</anchor>
+        <skos:altLabel>XML Schema</skos:altLabel>
+        <skos:prefLabel>W3C XML Schema</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#WG">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">W3CWG</anchor>
+        <skos:altLabel>W3C WG</skos:altLabel>
+        <skos:prefLabel>W3C Working Group</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#WebServices">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>webservices</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">WebServices</anchor>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">webservices</feed>
+        <skos:prefLabel>Web Services</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Windows">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>mswindows</ttag:tag>
+        <skos:altLabel>Windows</skos:altLabel>
+        <skos:prefLabel>Microsoft Windows</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#Wine">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>wine</ttag:tag>
+        <skos:prefLabel>Wine</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml</ttag:tag>
+        <feed xmlns="http://norman.walsh.name/knows/taxonomy#">xml</feed>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml</icon>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/REC-xml"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Microformats"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLCatalogs"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLPipelines"/>
+        <skos:prefLabel>XML</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML2003">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml2003</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XML2003</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml2003</icon>
+        <skos:prefLabel>XML 2003</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML2004">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml2004</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XML2004</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml2004</icon>
+        <skos:prefLabel>XML 2004</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML2005">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml2005</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XML2005</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml2005</icon>
+        <skos:prefLabel>XML 2005</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML2006">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml2006</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XML2006</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml2006</icon>
+        <skos:prefLabel>XML 2006</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XML2007">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xml2007</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XML2007</anchor>
+        <icon xmlns="http://norman.walsh.name/knows/taxonomy#">xml2007</icon>
+        <skos:prefLabel>XML 2007</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLCatalogs">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlcatalogs</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XMLCatalogs</anchor>
+        <skos:prefLabel>XML Catalogs</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLPipelines">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlpipelines</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XMLPipelines</anchor>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/XML/Processing/"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XProc"/>
+        <skos:prefLabel>XML Pipelines</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLPrague">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlprague</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xmlprague</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLPrague07"/>
+        <skos:prefLabel>XML Prague</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLPrague07">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlprague</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xmlprague07</anchor>
+        <skos:prefLabel>XML Prague 2007</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLSummerSchool">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlSummerSchool</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xmlsummerschool</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XMLSummerSchool2009"/>
+        <skos:prefLabel>XML Summer School</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLSummerSchool2009">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlss09</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xmlsummerschool2009</anchor>
+        <skos:prefLabel>XML Summer School 2009</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XMLUS">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xmlconference</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xmlconference</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML2003"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML2004"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML2005"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML2006"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XML2007"/>
+        <skos:prefLabel>XML Conference</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XProc">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xproc</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XProc</anchor>
+        <rdfs:seeAlso rdf:resource="http://xproc.org/"/>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#Calabash"/>
+        <skos:prefLabel>XProc</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XQuery">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xquery</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/xquery"/>
+        <skos:prefLabel>XQuery</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XSLT">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xslt</ttag:tag>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/xslt"/>
+        <skos:altLabel>XSLT</skos:altLabel>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XSLT2"/>
+        <skos:prefLabel>XSL Transformations (XSLT)</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XSLT2">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xslt20</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">XSLT20</anchor>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/xslt20/"/>
+        <skos:altLabel>XSLT 2.0</skos:altLabel>
+        <skos:prefLabel>XSL Transformations (XSLT) Version 2.0</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XTech">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>xtech</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xtech</anchor>
+        <skos:narrower rdf:resource="http://norman.walsh.name/knows/taxonomy#XTech2005"/>
+        <skos:prefLabel>XTech</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#XTech2005">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">xtech2005</anchor>
+        <skos:prefLabel>XTech 2005</skos:prefLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://norman.walsh.name/knows/taxonomy#iPhone">
+        <rdf:type rdf:resource="http://norman.walsh.name/knows/taxonomy#Topic"/>
+        <ttag:tag>iphone</ttag:tag>
+        <anchor xmlns="http://norman.walsh.name/knows/taxonomy#">iphone</anchor>
+        <skos:prefLabel>iPhone</skos:prefLabel>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,350 @@
+Namespace: dc <http://purl.org/dc/elements/1.1/>
+Namespace: rdfs <http://www.w3.org/2000/01/rdf-schema#>
+Namespace: owl2xml <http://www.w3.org/2006/12/owl2-xml#>
+Namespace: SWOnto <http://www.semanticweb.org/ontologies/2008/10/SWOnto.owl#>
+Namespace: owl <http://www.w3.org/2002/07/owl#>
+Namespace: xsd <http://www.w3.org/2001/XMLSchema#>
+Namespace: rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
+
+Ontology: <http://www.semanticweb.org/ontologies/2008/10/SWOnto.owl>
+
+Annotations: 
+    dc:date "2009"^^xsd:dateTime,
+    rdfs:label "Ontologie demonstrativa folosita pentru exemplificarea unor concepte discutate la cursul 'Semantic Web'."^^xsd:string,
+    rdfs:label "SWOnto"^^xsd:string,
+    dc:creator "Sabin Buraga"^^xsd:string
+
+ObjectProperty: rudaCu
+
+    Characteristics: 
+        Symmetric,
+        Reflexive
+    
+    Domain: 
+        Persoana
+    
+    Range: 
+        Persoana
+    
+    
+
+
+
+ObjectProperty: detinutDe
+
+    InverseOf: 
+        detine
+    
+    
+
+
+
+ObjectProperty: detine
+
+    Domain: 
+        Proprietar
+    
+    Range: 
+        Multimedia
+    
+    InverseOf: 
+        detinutDe
+    
+    
+
+
+
+ObjectProperty: areGen
+
+    Characteristics: 
+        Functional
+    
+    Domain: 
+        Persoana
+    
+    Range: 
+        Gen
+    
+    
+
+
+
+DataProperty: dimensiune
+
+    Characteristics: 
+        Functional
+    
+    Domain: 
+        Multimedia
+    
+    Range: 
+        unsignedLong
+    
+    
+
+
+
+DataProperty: areVarsta
+
+    Characteristics: 
+        Functional
+    
+    Domain: 
+        Persoana
+    
+    Range: 
+        positiveInteger
+    
+    
+
+
+
+Class: Femeie
+
+    EquivalentTo: 
+        areGen value Feminin
+    
+    SubClassOf: 
+        Persoana
+    
+    DisjointWith: 
+        Barbat
+    
+    
+
+
+
+Class: Multimedia
+
+    Annotations: 
+        rdfs:comment "Clasa resurselor multimedia, include sub-clase specifice."^^xsd:string
+    
+    SubClassOf: 
+        owl:Thing
+    
+    DisjointWith: 
+        Gen,
+        Proprietar
+    
+    
+
+
+
+Class: Video
+
+    SubClassOf: 
+        Multimedia
+    
+    DisjointWith: 
+        LumiVirtuale
+    
+    
+
+
+
+Class: Persoana
+
+    Annotations: 
+        rdfs:comment "Clasa persoanelor."^^xsd:string
+    
+    SubClassOf: 
+        owl:Thing
+    
+    
+
+
+
+Class: Barbat
+
+    EquivalentTo: 
+        areGen value Masculin
+    
+    SubClassOf: 
+        Persoana
+    
+    DisjointWith: 
+        Femeie
+    
+    
+
+
+
+Class: Gen
+
+    Annotations: 
+        rdfs:comment "Specifica genul unei persoane."^^xsd:string
+    
+    SubClassOf: 
+        owl:Thing
+    
+    DisjointWith: 
+        Multimedia
+    
+    
+
+
+
+Class: Proprietar
+
+    SubClassOf: 
+        Persoana,
+        owl:Thing
+    
+    DisjointWith: 
+        Multimedia,
+        LumiVirtuale
+    
+    
+
+
+
+Class: Audio
+
+    SubClassOf: 
+        Multimedia
+    
+    
+
+
+
+Class: owl:Thing
+
+    
+
+
+
+Class: LumiVirtuale
+
+    SubClassOf: 
+        owl:Thing
+    
+    DisjointWith: 
+        Video,
+        Proprietar
+    
+    
+
+
+
+Individual: ancuta
+
+    Annotations: 
+        rdfs:comment "'Ancuta' este un individ identic cu 'Anca'."^^xsd:string
+    
+    Types: 
+        owl:Thing
+    
+    Facts: 
+        rudaCu  eugen
+    
+    SameAs: 
+        anca
+    
+    
+
+
+
+Individual: Feminin
+
+    Types: 
+        Gen,
+        owl:Thing
+    
+    
+
+
+
+Individual: anca
+
+    Annotations: 
+        rdfs:comment "Individ de tip 'Femeie', care detine diverse resurse multimedia, are o anumita varsta si e ruda cu alte persoane."^^xsd:string
+    
+    Types: 
+        Femeie,
+        owl:Thing
+    
+    Facts: 
+        detine  the_wall,
+        areVarsta  "24"^^xsd:byte
+    
+    SameAs: 
+        ancuta
+    
+    
+
+
+
+Individual: zidul
+
+    Annotations: 
+        rdfs:comment "Un film din Romania."^^xsd:string
+    
+    Types: 
+        Video,
+        owl:Thing
+    
+    DifferentFrom: 
+        the_wall
+    
+    
+
+
+
+Individual: eugen
+
+    Types: 
+        Barbat,
+        owl:Thing
+    
+    Facts: 
+        detine  zidul
+    
+    
+
+
+
+Individual: the_eye
+
+    Types: 
+        Audio,
+        owl:Thing
+    
+    Facts: 
+        detinutDe  anca
+    
+    
+
+
+
+Individual: the_wall
+
+    Annotations: 
+        rdfs:comment "Un film de Pink Floyd"^^xsd:string
+    
+    Types: 
+        Video,
+        owl:Thing
+    
+    Facts: 
+        detinutDe  ancuta,
+        dimensiune  "600"^^xsd:unsignedLong
+    
+    DifferentFrom: 
+        zidul
+    
+    
+
+
+
+Individual: Masculin
+
+    Types: 
+        Gen,
+        owl:Thing
+    
+    
+
+
+

@@ -1,0 +1,22 @@
+﻿Title: 'Young persons knowing some students'.
+Author: 'Dr. Sabin Buraga'.
+Namespace: 'http://www.info.uaic.ro/wade/young-persons'.
+
+Comment: 'TBox'.
+Every young-person has-age lower-than 40.
+Every young-person is a person.
+Every person is a living-thing.
+Every male is a person.
+Every female is a person.
+No male is a female.
+Every student is a person.
+X knows Y if-and-only-if Y known-by X.
+Every young-person knows a student.
+
+Comment: 'ABox'.
+Ana is a female.
+Ana is a young-person that knows Dan.
+Cristina known-by Ana.
+Dan is a male.
+Cristina is a young-person that knows Dan.
+George knows a student.

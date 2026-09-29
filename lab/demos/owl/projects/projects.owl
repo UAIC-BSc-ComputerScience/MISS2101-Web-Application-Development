@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY manager_proiecte "http://www.infoiasi.ro/SW/facultate#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.infoiasi.ro/SW/facultate#"
+     xml:base="http://www.infoiasi.ro/SW/facultate"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:manager_proiecte="http://www.infoiasi.ro/SW/facultate#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="">
+        <dc:date rdf:datatype="&xsd;dateTime">2006</dc:date>
+        <dc:creator rdf:datatype="&xsd;string"
+            >Alexandru-Adrian Tantar</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Emilia Tantar</dc:creator>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Mod de lucru pentru managementul proiectelor.</rdfs:comment>
+        <dc:contributor rdf:datatype="&xsd;string">Sabin Buraga</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#areEchipa -->
+
+    <owl:ObjectProperty rdf:about="#areEchipa">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="#Echipa"/>
+        <rdfs:domain rdf:resource="#Proiect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#areNevoieDe -->
+
+    <owl:ObjectProperty rdf:about="#areNevoieDe">
+        <rdfs:domain rdf:resource="#Persoana"/>
+        <rdfs:range rdf:resource="#Resursa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#areNevoieDeResursa -->
+
+    <owl:ObjectProperty rdf:about="#areNevoieDeResursa">
+        <rdfs:domain rdf:resource="#Echipa"/>
+        <rdfs:range rdf:resource="#Resursa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#areProiect -->
+
+    <owl:ObjectProperty rdf:about="#areProiect">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="#areEchipa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#depindeDe -->
+
+    <owl:ObjectProperty rdf:about="#depindeDe">
+        <rdfs:range rdf:resource="#Proiect"/>
+        <rdfs:domain rdf:resource="#Proiect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#esteDisponibila -->
+
+    <owl:ObjectProperty rdf:about="#esteDisponibila">
+        <rdfs:domain rdf:resource="#Resursa"/>
+        <rdfs:range rdf:resource="#Timp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#esteFormataDin -->
+
+    <owl:ObjectProperty rdf:about="#esteFormataDin">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#esteUtilizatDe -->
+
+    <owl:ObjectProperty rdf:about="#esteUtilizatDe">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Proiect"/>
+        <rdfs:range rdf:resource="#Resursa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#formataDin -->
+
+    <owl:ObjectProperty rdf:about="#formataDin">
+        <rdfs:domain rdf:resource="#Echipa"/>
+        <rdfs:range rdf:resource="#Persoana"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#formeaza -->
+
+    <owl:ObjectProperty rdf:about="#formeaza">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="#esteFormataDin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#include -->
+
+    <owl:ObjectProperty rdf:about="#include">
+        <rdfs:range rdf:resource="#Proiect"/>
+        <rdfs:domain rdf:resource="#Proiect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#lucreazaIn -->
+
+    <owl:ObjectProperty rdf:about="#lucreazaIn">
+        <rdfs:domain rdf:resource="#Echipa"/>
+        <rdfs:range rdf:resource="#Timp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#participaLa -->
+
+    <owl:ObjectProperty rdf:about="#participaLa">
+        <rdfs:domain rdf:resource="#Persoana"/>
+        <rdfs:range rdf:resource="#Proiect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#seDesfasoaraIn -->
+
+    <owl:ObjectProperty rdf:about="#seDesfasoaraIn">
+        <rdfs:domain rdf:resource="#Proiect"/>
+        <rdfs:range rdf:resource="#Timp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#utilizeaza -->
+
+    <owl:ObjectProperty rdf:about="#utilizeaza">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="#esteUtilizatDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#Echipa -->
+
+    <owl:Class rdf:about="#Echipa">
+        <rdfs:subClassOf rdf:resource="#Persoana"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#formataDin"/>
+                <owl:someValuesFrom rdf:resource="#Persoana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#formataDin"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="#Proiect"/>
+        <owl:disjointWith rdf:resource="#Resursa"/>
+        <owl:disjointWith rdf:resource="#Timp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#Persoana -->
+
+    <owl:Class rdf:about="#Persoana">
+        <owl:disjointWith rdf:resource="#Proiect"/>
+        <owl:disjointWith rdf:resource="#Resursa"/>
+        <owl:disjointWith rdf:resource="#Timp"/>
+        <rdfs:comment
+            >Defineste tipul generic persoana/angajat</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#Proiect -->
+
+    <owl:Class rdf:about="#Proiect">
+        <owl:disjointWith rdf:resource="#Resursa"/>
+        <owl:disjointWith rdf:resource="#Timp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#Resursa -->
+
+    <owl:Class rdf:about="#Resursa">
+        <owl:disjointWith rdf:resource="#Timp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#Timp -->
+
+    <owl:Class rdf:about="#Timp"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#BeeBee -->
+
+    <Persoana rdf:about="#BeeBee">
+        <areNevoieDe rdf:resource="#OResursaBanala"/>
+    </Persoana>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#EchipaLenesa -->
+
+    <Echipa rdf:about="#EchipaLenesa">
+        <esteFormataDin rdf:resource="#BeeBee"/>
+        <esteFormataDin rdf:resource="#MeeMee"/>
+        <lucreazaIn rdf:resource="#OSecunda"/>
+    </Echipa>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#MeeMee -->
+
+    <Persoana rdf:about="#MeeMee">
+        <areNevoieDe rdf:resource="#OResursaBanala"/>
+    </Persoana>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#OResursaBanala -->
+
+    <rdf:Description rdf:about="#OResursaBanala"/>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#OSecunda -->
+
+    <Timp rdf:about="#OSecunda"/>
+    
+
+
+    <!-- http://www.infoiasi.ro/SW/facultate#ProiectulVid -->
+
+    <rdf:Description rdf:about="#ProiectulVid">
+        <areEchipa rdf:resource="#EchipaLenesa"/>
+        <seDesfasoaraIn rdf:resource="#OSecunda"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.941) http://owlapi.sourceforge.net -->
+

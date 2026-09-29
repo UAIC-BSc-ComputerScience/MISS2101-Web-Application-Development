@@ -1,0 +1,41 @@
+Acest director include exemple de specificare de modele conceptuale (vocabulare, 
+taxonomii), recurgandu-se la RDF si RDF Schema -- detalii in prelegerea de la 
+<https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html#week9>; 
+a se parcurge si capitolul 5 din volumul Sabin Buraga, "Tehnologii XML", 
+Polirom, 2006 -- disponibil ca document PDF la 
+<hhttps://profs.info.uaic.ro/sabin.buraga/teach/courses/web/presentations/Sabin_Buraga-Tehnologii_XML.pdf>.
+
+Directorul vocab/ include documente RDF Schema ce modeleaza o serie de vocabulare
+* multimedia.rdf.xml  - exemplu de taxonomie minimala privind resursele multimedia
+    (furnizat in sintaxa RDF/XML) -- vezi discutiile de la curs
+* lingvistica.rdf.xml - specificarea unui fragment de taxonomie privitoare la 
+    partile de vorbire si folosirea in cadrul unei instante referitoare la stiri
+* familii.rdf.xml     - exemplu de specificare a unui fragment de web referitor
+    la familii de persoane -- vezi discutiile de la curs
+* geo.rdf.xml     - exemplu de schema RDF vizand informatiile geografice 
+    (WGS84 Geo Positioning)	-- a se vizita <https://www.w3.org/2003/01/geo/wgs84_pos>
+* blterms-v1-5.rdf.xml - termeni folositi de British Library, exprimati via RDF Schema
+* whisky.turtle   - model conceptual (vocabular) privitor la sortimente
+    de whisky, distilerii etc. -- preluat de la <https://vocab.org/whisky/>
+* ogp.me.ttl      - model conceptual specificat de Open Graph Protocol 
+    (detalii la <https://ogp.me/>)
+* schema.org.ttl   - un fragment din modelul RDFS ce specifica o serie de concepte
+    oferite de schema.org; modelarea completa e disponibila public la adresa
+    <https://github.com/schemaorg/schemaorg/>
+
+Directorul skos/ contine exemplificari privitoare la modelul SKOS
+* instrument.rdf.skos.xml   - modelarea unui tezaur de termeni: conceptul de instrument
+                             (in format RDF/XML)
+* norman-walsh.rdf.skos.xml - exemplu de taxonomie -- autor: Norman Walsh
+                             (in format RDF/XML)
+
+Documentele SKOS pot fi vizualizate si editate cu diverse instrumente precum
+* SKOSMOS <https://skosmos.org/>
+* SKOS Play! <https://labs.sparna.fr/skos-play/>
+* Protege <https://protege.stanford.edu/>
+
+Permisiunile de utilizare sunt cele stipulate de Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 License: 
+<https://creativecommons.org/licenses/>.
+
+Ultima actualizare: 01 decembrie 2025

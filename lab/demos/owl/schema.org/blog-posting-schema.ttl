@@ -1,0 +1,16 @@
+# Fragment din specificatia OWL privitoare la modelul conceptual schema.org.
+# Detalii la <http://topbraid.org/schema/>
+schema:BlogPosting
+  rdf:type owl:Class ;
+  rdfs:comment "A blog post." ;
+  rdfs:label "Blog posting" ;
+  rdfs:subClassOf schema:SocialMediaPosting .
+schema:SocialMediaPosting
+  rdf:type owl:Class ;
+  rdfs:subClassOf schema:Article .
+schema:Article
+  rdf:type owl:Class ;
+  rdfs:subClassOf schema:CreativeWork .
+schema:CreativeWork
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing .

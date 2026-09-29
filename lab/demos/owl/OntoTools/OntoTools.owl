@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY ontosurvey "http://www.infoiasi.ro/sweb/ontosurvey#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.infoiasi.ro/sweb/ontosurvey#"
+     xml:base="http://www.infoiasi.ro/sweb/ontosurvey"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ontosurvey="http://www.infoiasi.ro/sweb/ontosurvey#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="">
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >An ontology regarding ontological tools.</rdfs:comment>
+        <dc:creator rdf:datatype="&xsd;string"
+            >Ovidiu Nichifor (2006)</dc:creator>
+        <dc:contributor rdf:datatype="&xsd;string"
+            >Sabin Buraga (2008)</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#data-representation -->
+
+    <owl:ObjectProperty rdf:about="#data-representation">
+        <rdfs:range rdf:resource="#DataModel"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#export -->
+
+    <owl:ObjectProperty rdf:about="#export">
+        <rdfs:domain rdf:resource="#Persistence"/>
+        <rdfs:range rdf:resource="#Stream"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#feature-list -->
+
+    <owl:ObjectProperty rdf:about="#feature-list">
+        <rdfs:range rdf:resource="#Feature"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#import -->
+
+    <owl:ObjectProperty rdf:about="#import">
+        <rdfs:domain rdf:resource="#Persistence"/>
+        <rdfs:range rdf:resource="#Stream"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#language-format -->
+
+    <owl:ObjectProperty rdf:about="#language-format">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="#Format"/>
+        <rdfs:domain rdf:resource="#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#language-representation -->
+
+    <owl:ObjectProperty rdf:about="#language-representation">
+        <rdfs:range rdf:resource="#DataModel"/>
+        <rdfs:domain rdf:resource="#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#module-list -->
+
+    <owl:ObjectProperty rdf:about="#module-list">
+        <rdfs:range rdf:resource="#Module"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#standard-alignment -->
+
+    <owl:ObjectProperty rdf:about="#standard-alignment">
+        <rdfs:range rdf:resource="#Standard"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#stream-format -->
+
+    <owl:ObjectProperty rdf:about="#stream-format">
+        <rdfs:range rdf:resource="#Format"/>
+        <rdfs:domain rdf:resource="#Stream"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#API-support -->
+
+    <owl:DatatypeProperty rdf:about="#API-support">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#availability -->
+
+    <owl:DatatypeProperty rdf:about="#availability">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment xml:lang="en"
+            >e.g. Freeware, Shareware, Commercial</rdfs:comment>
+        <rdfs:domain rdf:resource="#Tool"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#brand -->
+
+    <owl:DatatypeProperty rdf:about="#brand">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <owl:equivalentProperty rdf:resource="#name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#name -->
+
+    <owl:DatatypeProperty rdf:about="#name">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment xml:lang="en"
+            >e.g. Protege, OntoStudio</rdfs:comment>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Module"/>
+                    <rdf:Description rdf:about="#Tool"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#platform -->
+
+    <owl:DatatypeProperty rdf:about="#platform">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Tool"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#rank -->
+
+    <owl:DatatypeProperty rdf:about="#rank">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Values between 1 (poor) and 5 (excellent).</rdfs:comment>
+        <rdfs:domain rdf:resource="#Tool"/>
+        <rdfs:range rdf:resource="&xsd;positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Annotation -->
+
+    <owl:Class rdf:about="#Annotation">
+        <rdfs:subClassOf rdf:resource="#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#DataModel -->
+
+    <owl:Class rdf:about="#DataModel">
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Database-BackEnd -->
+
+    <owl:Class rdf:about="#Database-BackEnd">
+        <rdfs:subClassOf rdf:resource="#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Editor -->
+
+    <owl:Class rdf:about="#Editor">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Feature -->
+
+    <owl:Class rdf:about="#Feature">
+        <owl:disjointWith rdf:resource="#Format"/>
+        <owl:disjointWith rdf:resource="#Language"/>
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#File -->
+
+    <owl:Class rdf:about="#File">
+        <rdfs:subClassOf rdf:resource="#Stream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Format -->
+
+    <owl:Class rdf:about="#Format">
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Graphic -->
+
+    <owl:Class rdf:about="#Graphic">
+        <rdfs:subClassOf rdf:resource="#View"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Hierarchy -->
+
+    <owl:Class rdf:about="#Hierarchy">
+        <rdfs:subClassOf rdf:resource="#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Language -->
+
+    <owl:Class rdf:about="#Language">
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Module -->
+
+    <owl:Class rdf:about="#Module"/>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#MultipleInheritance -->
+
+    <owl:Class rdf:about="#MultipleInheritance">
+        <rdfs:subClassOf rdf:resource="#Hierarchy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Object -->
+
+    <owl:Class rdf:about="#Object">
+        <rdfs:subClassOf rdf:resource="#DataModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Persistence -->
+
+    <owl:Class rdf:about="#Persistence">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+        <owl:disjointWith rdf:resource="#Query"/>
+        <owl:disjointWith rdf:resource="#Reasoner"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Query -->
+
+    <owl:Class rdf:about="#Query">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Reasoner -->
+
+    <owl:Class rdf:about="#Reasoner">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+        <owl:disjointWith rdf:resource="#Validator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Relation -->
+
+    <owl:Class rdf:about="#Relation">
+        <rdfs:subClassOf rdf:resource="#DataModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#SingleInheritance -->
+
+    <owl:Class rdf:about="#SingleInheritance">
+        <rdfs:subClassOf rdf:resource="#Hierarchy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Standard -->
+
+    <owl:Class rdf:about="#Standard">
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Stream -->
+
+    <owl:Class rdf:about="#Stream">
+        <owl:disjointWith rdf:resource="#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Text -->
+
+    <owl:Class rdf:about="#Text">
+        <rdfs:subClassOf rdf:resource="#View"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Tool -->
+
+    <owl:Class rdf:about="#Tool">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#module-list"/>
+                <owl:someValuesFrom rdf:resource="#Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#standard-alignment"/>
+                <owl:someValuesFrom rdf:resource="#Standard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#data-representation"/>
+                <owl:someValuesFrom rdf:resource="#DataModel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#feature-list"/>
+                <owl:someValuesFrom rdf:resource="#Feature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#User-Defined -->
+
+    <owl:Class rdf:about="#User-Defined">
+        <rdfs:subClassOf rdf:resource="#Feature"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Plugin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Validator -->
+
+    <owl:Class rdf:about="#Validator">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#View -->
+
+    <owl:Class rdf:about="#View">
+        <rdfs:subClassOf rdf:resource="#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#OWL-W3C -->
+
+    <Standard rdf:about="#OWL-W3C"/>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Pellet -->
+
+    <Reasoner rdf:about="#Pellet">
+        <name rdf:datatype="&xsd;string">Pellet</name>
+    </Reasoner>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#Protege -->
+
+    <Tool rdf:about="#Protege">
+        <rank rdf:datatype="&xsd;byte">4</rank>
+        <platform rdf:datatype="&xsd;string">Java</platform>
+        <brand rdf:datatype="&xsd;string">Protege</brand>
+        <availability rdf:datatype="&xsd;string">open source</availability>
+        <API-support rdf:datatype="&xsd;boolean">true</API-support>
+        <standard-alignment rdf:resource="#OWL-W3C"/>
+        <module-list rdf:resource="#Pellet"/>
+        <standard-alignment rdf:resource="#RDF-W3C"/>
+    </Tool>
+    
+
+
+    <!-- http://www.infoiasi.ro/sweb/ontosurvey#RDF-W3C -->
+
+    <Standard rdf:about="#RDF-W3C"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#RDF-W3C"/>
+            <rdf:Description rdf:about="#OWL-W3C"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.941) http://owlapi.sourceforge.net -->
+

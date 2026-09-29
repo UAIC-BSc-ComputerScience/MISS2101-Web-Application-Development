@@ -1,0 +1,86 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+@prefix schema: <http://schema.org/>.
+
+<_:gs0>
+	rdf:type <http://schema.org/WebPage>;
+	schema:name "Web Application Development";
+	schema:description "syllabus (aka the WADe film)";
+	schema:license <http://creativecommons.org/licenses/by-nc-sa/4.0/>;
+	schema:author "#busaco".
+
+"#wade-lecture0"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web00Introducere.pdf>;
+	schema:name "Introduction & Administrative Info".
+
+"#wade-lecture1"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web01Concepte.pdf>;
+	schema:name "Web Application Development: Concepts & Vision";
+	schema:keywords "Web, architecture, social Web, data, modelling, standards".
+
+<_:gs1>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/dezvoltator-web-varianta-2015>;
+	schema:name "Web Developer?!".
+
+<_:gs2>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/cu-codul-n-nori>;
+	schema:name "Code in Clouds".
+
+<_:gs3>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/25-de-ani-de-web>;
+	schema:name "25 Years of Web".
+
+"#wade-lecture2"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web02ServiciiWeb-REST-API.pdf>;
+	schema:name "REST Web Service Development";
+	schema:keywords "Web, service, SOA, REST, HTTP, representation, resource, API".
+
+<_:gs4>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/rest-and-some-python>;
+	schema:name "REST and some Python".
+
+"#nodejs"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web-nodejs.pdf>;
+	schema:name "Node.js – an introduction";
+	schema:keywords "Web, development, server, Node.js, JavaScript, programming, npm".
+
+"#wade-lecture3"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web03DezvoltareaAplicatiilorWeb-Servicii-API-Mashup-Arhitectura.pdf>;
+	schema:name "Web Application Engineering. Software Architectures";
+	schema:keywords "Web, software engineering, methodology, MVC, architecture, application, microservice, API, mashup".
+
+"#wade-lecture4"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web04ModelareaCunostintelor.pdf>;
+	schema:name "Aspects regarding Data and Knowledge Modeling";
+	schema:keywords "model, conceptualization, interpretation, semantics, tagging, folksonomy, use cases, Web science".
+
+"#wade-lecture5"
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://profs.info.uaic.ro/~busaco/teach/courses/wade/presentations/web05ModelulRDF.pdf>;
+	schema:name "Data Modeling in RDF (Resource Description Framework)";
+	schema:keywords "Web, model, RDF, vocabulary, DCMI, FOAF, DOAP, SIOC, JSON-LD, examples".
+
+<_:gs5>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/semantic-social-web>;
+	schema:name "Semantic Social Web".
+
+<_:gs6>
+	rdf:type <http://schema.org/CreativeWork>;
+	schema:url <http://www.slideshare.net/busaco/semantic-web-in-the-browser-from-a-blind-web-to>;
+	schema:name "Semantic Web in the browser".
+
+"#busaco"
+	rdf:type <http://schema.org/Person>;
+	schema:url <http://www.purl.org/net/busaco>;
+	schema:name "Sabin-Corneliu Buraga".

@@ -1,0 +1,28 @@
+<!-- Exemplu de fisier RDF specificind in termenii vocabularului FOAF 
+     relatiile dintre persoane
+-->     
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<foaf:Person rdf:ID="adria">
+   <foaf:name>Lenuta Alboaie</foaf:name>
+   <foaf:homepage rdf:resource="http://www.infoiasi.ro/~adria"/>
+</foaf:Person>
+<foaf:Person rdf:ID="cristi">
+   <foaf:name>Cristian Olaru</foaf:name>
+</foaf:Person>
+<foaf:Person rdf:ID="sabin">
+   <foaf:name>Sabin Buraga</foaf:name>
+   <foaf:mbox rdf:resource="mailto:busaco@infoiasi.ro"/>
+   <foaf:homepage rdf:resource="http://www.infoiasi.ro/~busaco"/>
+   <foaf:knows rdf:resource="#cristi" />
+</foaf:Person>   
+<foaf:Image rdf:about="http://www.sit.ro/bucuresti.jpg">
+	<dc:date rdf:datatype="xsd:date">2005-10-03</dc:date>
+   <dc:title>Intilnirea de la Bucuresti</dc:title>
+   <foaf:depicts rdf:resource="#cristi" />
+   <foaf:depicts rdf:resource="#sabin" />
+   <foaf:maker rdf:resource="#adria" /> <!-- 'fotograful' -->
+</foaf:Image>  
+</rdf:RDF>

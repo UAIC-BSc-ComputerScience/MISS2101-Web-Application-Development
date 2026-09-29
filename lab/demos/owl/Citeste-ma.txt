@@ -1,0 +1,49 @@
+O serie de documente ilustrand modalitatea de specificare 
+a ontologiilor prin intermediul limbajului OWL:
+
+Directorul SWOnto/ modeleaza o ontologie privitoare la resurse multimedia
+     (incluzand si specificarea instantelor) -- autor: Sabin Buraga (2008, 2009, 2017);
+     a se revedea si cele discutate la prelegerea de la curs: 
+     <https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html#week11> 
+     Modelul conceptual este serializat in format OWL pe baza RDF 
+     (RDF/XML, Turtle, JSON-LD), plus la nivel abstract 
+     (o varianta mai veche e disponibila in sintaxele functionala si Manchester).
+
+Directorul OntoTools/ specifica o ontologie privitoare la instrumente ontologice
+     -- autori: Liliana Cojocaru si Ovidiu Nichifor (2006), 
+	           cu modificari realizate de Sabin Buraga (2008).
+
+Directorul drf-rel/ ilustreaza maniera de specializare a relatiei foaf:knows in 
+     vederea modelarii de tipuri de relatii intre persoane, folosite in cadrul 
+     implementarii Date Review Framework -- autor: Ciprian Amariei (2007), 
+     cu modificari minore de Sabin Buraga (2009); sunt oferite reprezentari 
+     in formatele OWL, functional si Manchester.
+
+Directorul projects/ specifica o ontologie referitoare la managementul 
+     unor proiecte - autori: Emilia si Alexandru-Adrian Tantar (2006), 
+                             cu contributii ale lui Sabin Buraga (2008).
+
+Directorul cinema/ include o ontologie referitoare la productii 
+     cinematografice -- autor: Sergiu Bursuc (2006), 
+     cu contributii minore ale lui Sabin Buraga (2008);
+     sunt disponibile reprezentari in format OWL (XML) si Manchester.
+
+Directorul schema.org/ ofera un mini-fragment din specificatia OWL
+     vizand modelul conceptual schema.org
+     (a se revedea prelegerea aferenta pe situl disciplinei WADe).
+
+Pentru vizualizare, editare si procesare, recomandam cea mai recenta versiune 
+a instrumentului Protege, disponibil liber la <https://protege.stanford.edu/>.
+
+De asemenea, se poate recurge la aplicatiile: 
+* OWLGrEd <http://owlgred.lumii.lv/>
+* WebProtege <https://protegewiki.stanford.edu/wiki/WebProtege>
+
+Alte detalii sunt furnizate in cap. 5 din volumul S. Buraga, "Tehnologii XML",
+Polirom, 2016 -- disponibil liber la adresa Web
+<https://profs.info.uaic.ro/sabin.buraga/teach/courses/web/presentations/Sabin_Buraga-Tehnologii_XML.pdf>.
+
+Permisiunile de utilizare sunt cele stipulate de Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 License <https://creativecommons.org/licenses/>.
+
+Ultima actualizare: 08 decembrie 2025

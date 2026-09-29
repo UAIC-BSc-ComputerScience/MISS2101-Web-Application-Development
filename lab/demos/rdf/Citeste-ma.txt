@@ -1,0 +1,84 @@
+Acest director contine o serie de documente ilustrand vocabularele 
+DCMI, FOAF, DOAP, schema.org etc. in conjunctie cu modelul RDF:
+
+Directorul dcmi/:
+* format.rdf    - document RDF/XML specificand alternative ale formatului unei carti 
+                  (se foloseste vocabularul de termeni DCMI)
+* news.rdf      - document RDF referitor la desfasurarea unui eveniment
+                  (include atat constructii DCMI, cat si vocabularele FOAF si vCal)  
+* musicbrainz.turtle - document RDF in format Turtle ce defineste aplicatia Web MusicBrainz 
+                  in termenii vocabularului privitor la serviciile informationale
+                  (se utilizeaza, alaturi de DCMI, alte vocabulare de interes)
+
+Directorul foaf/:
+* foaf.rdf      - document RDF/XML folosind vocabularul FOAF pentru a specifica 
+                  relatiile dintre persoane (utilizeaza si meta-date DCMI)
+* photos.rdf    - document RDF/XML recurgand la FOAF pentru a exprima anumite fapte
+                  referitoare la un set de fotografii 
+                  -- autor principal: absolventul FII Marius Butuc (2006)
+* foaf-bio.rdf  - document RDF/XML folosind FOAF in conjunctie cu BIO
+                  pentru a modela informatii privitoare la biografia unei persoane
+* myself.ttl    - document RDF in format Turtle ce exprima diverse fapte despre o persoana
+* iand.turtle   - specificarea pe baza sintaxei Turtle a informatiilor
+                  referitoare la o persoana (se recurge la diverse vocabulare)
+* busaco.turtle - document Turtle ce descrie o persoana
+* bblfish.n3    - modelarea profilului unei persoane in termenii FOAF+SSL (WebID), 
+                  utilizandu-se formatul N3
+ 
+Directorul doap/:
+* any23-doap.rdf  - document RDF/XML folosind vocabularul DOAP pentru a descrie 
+                    proiectul software Apache Any23 -- utilizeaza si constructii FOAF
+                    + vocabularul propriu al Apache Software Foundation
+* protege.rdf.xml - document RDF/XML ce recurge la vocabularul DOAP pentru a descrie 
+                    aplicatia Protege -- adopta diverse vocabulare
+
+Directorul sioc/:
+* swig-2009-06-11-sioc.nt - document SIOC reprezentand un fragment
+               dintr-o conversatie pe un canal IRC exportata in format N-Triple
+
+Directorul launchpad/:
+* lenmus.rdf - document RDF/XML ce ilustreaza meta-datele atasate unei aplicatii 
+               open-source, pe baza RDF si a altor vocabulare: FOAF, Launchpad,...
+
+Directorul xmp/:
+* web.xmp    - document continand meta-date specificate in RDF, DCMI si 
+               Adobe XMP <https://www.adobe.com/products/xmp.html>
+
+Directorul dbpedia/:
+* Halloween_characters.n3 - fapte (modelate ca triple RDF exprimate in format N3)
+    privind anumite personaje de film, conform surselor de date DBpedia extrase din Wikipedia
+* Vangelis.n3       - date privitoare la Vangelis oferite de DBpedia
+* Vangelis.rdf      - ca mai sus, dar in format RDF/XML
+* Vangelis.ntriples - ca mai sus, insa in format NTriples
+* Vangelis.json     - aceleasi date exprimate in JSON-LD
+
+Directorul microdata/:
+* triples.n3  - triple RDF preluate din microdatele HTML5 conforme cu modelul schema.org 
+                incluse in filmul desfasurarii materiei "Dezvoltarea aplicatiilor Web" 
+		de la adresa 
+                <https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html>
+
+Directorul gazette/:
+* extract.ttl - asertiuni RDF (in format Turtle) privitoare la informatii legale 
+                extrase de pe https://www.thegazette.co.uk/ 
+                (ce recurge la asertiuni RDFa) via instrumentul 
+                "RDFa 1.1 Distiller and Parser" <https://github.com/RDFLib/pyRdfa3>
+
+Directorul json-ld/:
+* pers.json   - un exemplu de document JSON-LD care specifica fapte despre persoane,
+                pe baza modelului schema.org -- vezi prelegerea disponibila la
+                <https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html#week6>
+
+
+Documentele RDF pot fi editate cu orice editor de texte -- pentru Visual Studio Code, 
+de considerat extensiile RDFox Syntax Highlighting + Stardog RDF Grammars 
+<https://marketplace.visualstudio.com/search?term=tag%3Aturtle&target=VSCode&category=All%20categories&sortBy=Relevance>.
+
+De asemenea, se poate recurge la un editor + validator RDF specializat 
+precum instrumentul Web RDF Sketch Editor <https://sketch.zazuko.com/>.
+
+Aceste resurse pot fi utilizate sub auspiciile prevazute de
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License: 
+https://creativecommons.org/licenses/
+
+Ultima actualizare: 03 noiembrie 2025

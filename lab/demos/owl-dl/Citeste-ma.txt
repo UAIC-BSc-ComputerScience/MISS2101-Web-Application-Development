@@ -1,0 +1,61 @@
+Aceste exemple ilustreaza maniera de realizare a deductiilor
+pe baza rationamentului automat facilitat de logicile descrierii
+-- a se studia in prealabil prelegerea de la curs 
+<https://profs.info.uaic.ro/~busaco/teach/courses/wade/web-film.html#week11>.
+
+Directorul 'SWOnto/':
+Se considera ontologia privitoare la detinatorii de artefacte multimedia
+(SWonto) modelata in OWL si disponibila in formatele RDF/XML, Turtle si JSON-LD.
+
+Incarcand ontologia in mediul Protege <https://protege.stanford.edu/>, 
+in tab-ul DL Query pot fi formulate diverse "interogari"
+(adica realizarea de rationamente automate).
+
+In prealabil, se va activa reasoner-ul -- e.g., FaCT++, HermiT, Pellet --
+in meniul Reasoner -- in varianta Protege 5 (cea mai recenta), 
+este disponibil implicit HermiT, celelalte putand fi instalate ca extensii. 
+
+Pot fi folosite in mod dinamic mai multe instrumente de efectuare 
+a rationamentelor -- a se experimenta cele mentionate in prezentare.
+
+O serie de exemplificari de rationamente recurgand la sintaxa Manchester
+(pentru detalii, a se (re)vedea prezentarea aferenta cursului):
+			Multimedia
+			Proprietar
+			not Femeie
+			Femeie and not Barbat
+			detine some Multimedia and Femeie
+			detine some Multimedia and Barbat
+			Multimedia and detinutDe some Femeie
+			Multimedia and detinutDe value anca			
+			(Audio or Video or LumiVirtuale) and detinutDe some Femeie
+			detinutDe value eugen
+			(detinutDe value eugen) or (detine some Audio)
+			rudaCu some Femeie
+			rudaCu some Barbat and detine min 1 Video
+			rudaCu some Barbat and detine min 1 Audio 
+			Multimedia and detinutDe some (rudaCu value ancuta and not (areGen value Feminin))
+			Multimedia and detinutDe some (rudaCu value ancuta and not Femeie)			
+
+Explicatii privind speciile de logici ale descrierii pot fi furnizate de
+instrumentul Web disponibil la <http://www.cs.man.ac.uk/~ezolin/dl/>.
+
+Ca exercitiu util, folositi un sistem de reasoning intr-un program propriu, 
+pe baza unui framework precum Apache Jena <https://jena.apache.org/>.
+Pentru detalii de interes, a se consulta resursele oferite de 
+<https://jena.apache.org/documentation/inference/>.
+
+Directorul 'young-persons/':
+Vizeaza un experiment de modelare a faptelor privitoare la 
+persoane tinere care cunosc studenti, recurgandu-se la limbaj natural
+controlat si la realizarea deductiilor logice in cadrul instrumentului
+Fluent Editor: <https://www.cognitum.eu/semantics/FluentEditor/>.
+Fragmentul de ontologie e furnizat in limbaj natural
+(a se studia fisierul 'young-persons.encnl'), plus in format OWL
+(serializare RDF/XML: 'young-persons.rdf').
+
+Permisiunile de utilizare sunt cele stipulate de Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 License: 
+<https://creativecommons.org/licenses/>.
+
+Ultima actualizare: 05 decembrie 2022

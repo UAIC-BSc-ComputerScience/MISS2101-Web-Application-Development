@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>#WADe Project Proposals</title>
+<link rel="stylesheet" href="../web.css">
+<link rel="author" href="https://profs.info.uaic.ro/sabin.buraga/">
+<link rel="me" href="https://profs.info.uaic.ro/sabin.buraga/">
+<meta name="subject" content="Web Application Development">
+<meta name="url" content="https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/">
+<meta name="description" content="Web Application Development: linked data &amp; knowledge management on Web / Prof. Sabin-Corneliu Buraga">
+<meta name="author" content="Sabin-Corneliu Buraga - https://profs.info.uaic.ro/sabin.buraga/">
+<style>
+ol {
+  list-style-type: none;
+  counter-reset: c;
+}
+h2::after {
+  counter-increment: c;
+  content: " // " counter(c);
+  font-size: 75%;
+}
+</style>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" id="top">
+
+<div class="nav">
+<nav>
+<ul>
+<li class="opt main"><a href="../index.html" title="Web Application Development (main page)" accesskey="W">#WADe</a></li>
+<li class="opt film"><a href="../web-film.html" title="Details about the Web Application Development syllabus and readings" accesskey="F">film</a></li>
+<li class="opt exam"><a href="../web-exam.html" title="Information regarding the evaluation, grading, marks et al." accesskey="E">eval</a></li>
+<li class="opt biblio"><a href="../web-biblio.html" title="Essential resources of interest" accesskey="B">biblio</a></li>
+<li class="opt contact"><a href="../web-contact.html" title="Contact possibilities" accesskey="C">contact</a></li>
+<li class="opt main"><a href="#top" title="Top of this Webpage" accesskey="T">&#x27F0;</a></li>
+</ul>
+</nav>
+</div>
+
+<article>
+<header>
+<h1 itemprop="name">Web Application Development</h1>
+<p class="slogan" itemprop="description">project proposals (tentative list)</p>
+</header>
+
+<p><strong>A project proposal could be chosen by maximum 4&nbsp;teams. A team  must include 2 persons.</strong></p>
+
+<!--
+<p class="info">Each team should fill in a <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf7GnYHhMD9NWnqpGjtysyN3IYWvzcPxC1cCbuq3MaOqQHNRA/viewform" title="A Web form collecting data about the project to be assessed">WADe Project Assessment form</a> &ndash; deadline: <strong>Monday</strong>, <strong>4&nbsp;November</strong>.</p> 
+<p>Consult the list of <a target="_blank" title="The list of WADe project applications" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVkzwITm1iwYlsTxHLv_1LpJ_x8MzK_fgk-99MDqT3PFIi4fXaDYdiRodei0M1Os2tX9ABhpw67n45/pubhtml?gid=808574358&amp;single=true">submitted project applications</a>.</p>
+-->
+<!--
+<p class="info">&#9888; Team <em>Protocol Fighters</em> <strong>MUST</strong> choose another project proposal!</p>
+-->
+<ol>
+
+<li id="distributed-system-onto">
+<h2 class="projects">DiO (Distributed System Ontology)</h2>
+<p class="info">Create &ndash; possibly, by reusing (parts of) existing ontologies &ndash; an ontological model regarding certain aspects &ndash; data communication, data processing, data storage, etc. &ndash; regarding a distributed system (including platform, framework,...) used in various contexts such as big data, e-health, multimedia streaming, Internet/Web of Things. Starting with this conceptual specification, an additional Web service will be developed in order to manage the collected knowledge about a given solution and context. For instance, significant concepts, relations, restrictions, individuals should be considered as examples for a real software solution &ndash; like <a href="https://hadoop.apache.org/" title="Apache Hadoop">Apache Hadoop</a>, <a href="https://github.com/github/git-lfs" title="Details">Git Large File Storage</a>, <a href="https://wikiba.se/" title="Details">Wikibase</a> &ndash; might be taken into account. Consult also <a href="https://github.com/theanalyst/awesome-distributed-systems" title="Various resources of interest">Awesome distributed systems</a>, <a href="http://highscalability.com/" title="Details">Real Life Architectures</a>, and <a href="https://thenewstack.io/" title="Details">The New Stack</a>.</p>
+</li>
+
+<li id="art-provenance">
+<h2 class="projects">kro (Artwork Provenance)</h2>
+<p class="info">Create a system (such as Web platform, framework, <a href="https://webcomponents.org/" title="Details about Web components">component</a>) able to model and manage &ndash; including operations like query, visualize, recommend,... &ndash; the knowledge about the provenance of each artistic work in conjunction to DBpedia and/or Wikidata, plus <a href="https://data.gov.ro/dataset?tags=patrimoniu+cultural" title="Open data about artworks from Romanian heritage">the Romanian heritage</a>. Various statistical information will be available via a SPARQL endpoint by using the <a href="https://vocab.getty.edu/" title="Details about Getty vocabularies">Getty vocabularies</a>. See also <a href="https://github.com/awesomedata/awesome-public-datasets#museums" title="Details">Museums Open Data</a> and <a href="https://data.europa.eu/data/datasets?query=culture&amp;locale=en" title="Details">Europeana's Culture-related datasets</a>. Consult <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html" title="Introducing Provenance Information @ FAIR Cookbook">Introducing Provenance Information</a>.</p>
+</li>
+
+<li id="webapp-security-control">
+<h2 class="projects">WAS (Web Application Security Control)</h2>
+<p class="info">Using <a href="https://www.exploit-db.com/?type=webapps" title="Details">Web Application Exploits</a> or a similar public dataset regarding the exploits on Web application vulnerabilities, build a "smart" <a href="https://www.dds-foundation.org/omg-dds-standard/" title="Info about the DDS">DDS (Data Distribution Service) publish/subscribe</a> system able to offer real-time alerts about new security issues for a specific class of software like CMS, frameworks, modules, shopping cart managers, etc. Also, study <a href="https://www.w3.org/TR/websub/" title="Details about WebSub">WebSub</a> (W3C Specification). Additionally, the system will provide &ndash; via a SPARQL endpoint &ndash; various solutions (advice, technical reports, defensive programming guidelines and others) to prevent and/or eradicate such security incidents. This information will be available in multiple formats: HTML + RDFa, JSON-LD using <a href="http://schema.org/SoftwareApplication" title="Details">Software Application</a> and/or <a href="http://schema.org/SoftwareSourceCode" title="Details about SoftwareSourceCode concept">SoftwareSourceCode</a> <code>schema.org</code> concepts. Bonus: including a "smart" <a href="https://www.geeksforgeeks.org/web-server-proxies-and-their-role-in-designing-systems/" title="Details">Web proxy</a> able to efficiently cache requested data.</p>
+</li>
+
+</ol>
+
+<footer>
+<div class="urls">see also: <a href="../web-projects.html" title="Details">Requirements</a> &middot; <a href="../web-biblio.html" title="Details">Resources</a> &middot; <a href="../web-contact.html" title="Details">Contact</a></div>
+
+<div>Last update: 28 September 2026 / <a itemprop="license" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+title="Details about Attribution-NonCommercial-ShareAlike 4.0 International License">CC</a><br>
+<span itemid="#busaco" itemscope="" itemtype="http://schema.org/Person" itemprop="author">Prof. <a href="https://profs.info.uaic.ro/sabin.buraga/" title="Visit the Website of Sabin-Corneliu Buraga" itemprop="url"><span itemprop="name">Sabin-Corneliu Buraga</span></a></span></div>
+</footer>
+</article>
+
+</body>
+</html>

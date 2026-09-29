@@ -1,0 +1,20 @@
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:angry-profs a schema:MobileApplication ;
+  schema:name "Angry Profs" ;
+  # corect: valoarea obiectului e un sir de caractere
+  schema:applicationCategory "http://dbpedia.org/resource/Electronic_game" ;
+  # corect: obiectul reprezinta o adresa Web
+  schema:applicationCategory "http://dbpedia.org/resource/Electronic_game"^^sh:IRI ;
+  # corect: valoarea obiectului e un literal (numar)  
+  schema:applicationCategory 33 ;
+  # incorect: tip incorect de date
+  schema:datePublished "null" ;
+  # corect
+  schema:datePublished "2022-11-01"^^xsd:date ;
+  # incorect: nu se specifica limba
+  schema:description "..." ;
+  # corect
+  schema:description "..."@ro .

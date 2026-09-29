@@ -1,0 +1,244 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://xmlns.com/foaf/0.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix ns1: <http://iandavis.com/id/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns2: <http://en.wikipedia.org/wiki/> .
+@prefix ns3: <http://purl.org/> .
+@prefix ns4: <http://iandavis.com/> .
+@prefix ns5: <http://iandavis.com/blog/feed/> .
+@prefix ns6: <http://api.talis.com/stores/iand/items/1216535619213#> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
+@prefix ns7: <http://purl.org/vocab/bio/0.1/> .
+@prefix ns8: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix ns9: <http://code4lib.org/2009#> .
+@prefix ns10: <http://captsolo.net/semweb/foaf-captsolo.rdf#> .
+@prefix ns11: <http://www.w3.org/People/Connolly/#> .
+@prefix ns12: <http://thefigtrees.net/lee/ldf-card#> .
+@prefix ns13: <http://torrez.us/who#> .
+@prefix ns14: <http://danbri.org/foaf.rdf#> .
+@prefix ns15: <http://bblfish.net/people/henry/card#> .
+@prefix ns16: <http://www.w3.org/2002/07/owl#> .
+@prefix ns17: <http://dbtune.org/last.fm/> .
+@prefix ns18: <http://advogato.org/person/iand/foaf.rdf#> .
+@prefix ns19: <https://me.yahoo.com/a/> .
+@prefix contact: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix ns20: <http://purl.org/NET/iand/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns21: <http://api.talis.com/stores/iand/items/1213745795227#> .
+@prefix ns22: <http://xmlns.com/wot/0.1/> .
+@prefix ns23: <http://iandavis.com/blog/> .
+@prefix ns24: <http://purl.org/NET/> .
+@prefix ns25: <http://purl.org/vocab/psychometric-profile/> .
+@prefix ns26: <http://api.talis.com/stores/iand/items/1214277105409#> .
+@prefix ns27: <http://dbpedia.org/resource/> .
+@prefix ns28: <http://api.talis.com/stores/iand/items/1214270019033#> .
+@prefix ns29: <http://api.talis.com/stores/iand/items/1213724386631#> .
+
+<http://iandavis.com/id/me.turtle> rdf:type ns0:Document ,
+                                            dctype:Text ;
+                                   ns0:primaryTopic ns1:me ;
+                                   dct:hasFormat <http://iandavis.com/id/me.rdf> ,
+                                                 <http://iandavis.com/id/me.html> ,
+                                                 <http://iandavis.com/id/me.json> ;
+                                   ns0:topic ns1:me .
+
+<http://iandavis.com/id/me.rdf> rdf:type dctype:Text ,
+                                         ns0:Document ;
+                                dc:format "application/rdf+xml" ;
+                                rdfs:label "RDF/XML" .
+
+<http://iandavis.com/id/me.html> rdf:type dctype:Text ,
+                                          ns0:Document ;
+                                 dc:format "text/html" ;
+                                 rdfs:label "HTML" .
+
+<http://iandavis.com/id/me.json> rdf:type dctype:Text ,
+                                          ns0:Document ;
+                                 dc:format "application/json" ;
+                                 rdfs:label "JSON" .
+
+<http://www.w3.org/Metadata/> rdfs:label "metadata" .
+
+ns1:my-delicious-account rdfs:label "My del.icio.us account" .
+
+ns1:edd rdfs:seeAlso <http://heddley.com/edd/foaf.rdf> .
+
+ns2:Genealogy rdfs:label "genealogy" .
+
+ns3:rss rdfs:label "RSS" .
+
+ns1:david rdfs:seeAlso <http://www.davidgalbraith.org/bio/foaf.rdf> .
+
+ns1:my-ecademy-account rdfs:label "My Ecademy account" ;
+                       rdfs:seeAlso <http://www.ecademy.com/module.php?mod=network&op=foafrdf&uid=19774> .
+
+ns4:blog rdfs:seeAlso ns5:rdf .
+
+ns1:steve rdfs:seeAlso <http://inanna.ecs.soton.ac.uk/swh.xrdf> .
+
+ns1:bill rdfs:seeAlso <http://www.ideaspace.net/users/wkearney/foaf.xrdf> .
+
+ns1:mortenf rdfs:seeAlso <http://www.purl.org/net/morten/foaf.rdf> .
+
+<http://www.semanticplanet.com/> rdfs:seeAlso <http://www.semanticplanet.com/authors/iand.rdf> .
+
+ns1:danny rdfs:seeAlso <http://dannyayers.com/misc/foaf/foaf.rdf> .
+
+ns1:dajobe rdfs:seeAlso <http://purl.org/net/dajobe/webwho.xrdf> .
+
+ns6:self rdfs:label "London Luton" .
+
+<http://c2.com/cgi/wiki?WikiWikiWeb> rdfs:label "Wikis" .
+
+ns1:me rel:acquaintanceOf ns1:aaronsw ,
+                          ns1:eric ,
+                          ns1:bill ,
+                          ns1:jim ,
+                          ns1:julian ;
+       ns7:olb "British; married with kids; technical architect; CTO of Talis; co-author of RSS 1.0; creator of FOAF icons; Semantic Web hacker" ;
+       ns0:title "Mr" ;
+       ns0:phone <tel:+44-7966-473-239> ;
+       rel:childOf ns1:sue ,
+                   ns1:mike ;
+       ns8:attendeeAt ns9:conference ;
+       ns0:mbox_sha1sum "69e31bbcf58d432950127593e292a55975bc55fd" ,
+                        "7a67ac8beac7e47873b870aad4210fccea2a79ff" ,
+                        "0faf39a6195a7cbd805aec710e30506f6c61cf58" ,
+                        "82f780c9c67ddb74986e39a5076d2210aa8d9178" ,
+                        "d71e3599f541bc3a284a19be6bac9e9458dc5fbb" ,
+                        "dd7085aa3616597958f2deb0dc0c483514857082" ,
+                        "89f6d4dd2fb06a92b4bba8827b52a06fe2babb76" ;
+       ns0:surname "Davis" ;
+       ns0:mbox <mailto:nospam@iandavis.com> ;
+       ns0:knows ns1:kier ,
+                 ns1:james ,
+                 ns10:Uldis_Bojars ,
+                 ns1:aaronsw ,
+                 ns11:me ,
+                 ns1:kiyanwang ,
+                 ns1:danny ,
+                 ns1:libby ,
+                 ns1:paulmiller ,
+                 ns1:eric ,
+                 <http://kmi.open.ac.uk/people/tom/> ,
+                 ns1:julian ,
+                 ns1:ajmg ,
+                 ns1:david ,
+                 ns1:steve ,
+                 ns1:sue ,
+                 ns1:daveerrington ,
+                 ns12:LDF ,
+                 ns1:mike ,
+                 ns1:bill ,
+                 ns1:freya ,
+                 ns1:jim ,
+                 ns1:robotrobot ,
+                 ns13:elias ,
+                 ns1:steph ,
+                 ns1:beobal ,
+                 ns1:justin ,
+                 ns1:damian ,
+                 ns14:danbri ,
+                 ns1:malcyl ,
+                 ns1:rsinger ,
+                 ns1:dajobe ,
+                 ns1:edd ,
+                 ns1:mortenf ,
+                 ns1:andy ,
+                 ns15:me ,
+                 ns1:daveiw ,
+                 ns1:keith ;
+       ns0:schoolHomepage <http://www.rhul.ac.uk/> ;
+       ns16:sameAs ns17:ianalchemy ,
+                   ns18:me ;
+       rel:parentOf ns1:kier ,
+                    ns1:freya ;
+       rel:friendOf ns1:james ,
+                    ns1:danny ,
+                    ns1:david ;
+       ns0:openid ns19:i6v46fYwnsid9Bu75b8RIvaRLG7hRgE- ;
+       contact:nearestAirport ns6:self ;
+       rel:spouseOf ns1:steph ;
+       ns0:depiction ns20:depiction ;
+       geo:location ns21:self ;
+       ns0:firstName "Ian" ;
+       ns0:weblog <http://www.semanticplanet.com/> ,
+                  ns4:blog ;
+       ns22:pubkeyAddress ns20:publickey ;
+       rdf:type ns0:Person ;
+       rdfs:seeAlso <http://friendfeed.com/zemantos/subscriptions?output=foaf> ;
+       ns0:workplaceHomepage <http://www.talis.com/> ;
+       ns0:homepage <http://iandavis.com/> ,
+                    ns23:about ,
+                    ns24:iand ;
+       ns0:holdsAccount ns1:my-ecademy-account ,
+                        ns1:my-connotea-account ,
+                        ns1:my-myspace-account ,
+                        ns1:my-lastfm-account ,
+                        ns1:my-technorati-account ,
+                        ns1:my-delicious-account ,
+                        ns1:my-linkedin-account ,
+                        ns1:my-audioscrobbler-account ,
+                        ns1:my-videntity-account ,
+                        ns1:my-digg-account ,
+                        ns1:my-librarything-account ,
+                        ns1:my-musicbrainz-account ;
+       ns25:profile ns26:self ;
+       ns0:name "Ian Davis" ;
+       ns0:nick "iand" ,
+                "ianalchemy" ;
+       ns0:interest ns27:Geocaching ,
+                    ns27:Genealogy ,
+                    <http://www.w3.org/Metadata/> ,
+                    <http://www.w3.org/RDF/> ,
+                    <http://www.w3.org/2000/01/sw/> ,
+                    <http://c2.com/cgi/wiki?WikiWikiWeb> ,
+                    <http://www.w3.org/XML/> ,
+                    ns27:Distributed_computing ,
+                    ns2:Genealogy ,
+                    ns27:Linked_Data ,
+                    <http://xmlns.com/foaf/0.1> ,
+                    ns3:rss ,
+                    ns27:Decentralization ,
+                    ns27:Semantic_Web ;
+       ns7:event ns28:self ,
+                 ns29:self .
+
+ns1:my-audioscrobbler-account rdfs:label "My Audioscrobbler account" .
+
+ns1:my-librarything-account rdfs:label "My LibraryThing account" .
+
+ns1:my-myspace-account rdfs:label "My mySpace account" .
+
+ns1:my-musicbrainz-account rdfs:label "My MusicBrainz account" .
+
+<http://www.w3.org/XML/> rdfs:label "XML" .
+
+<http://www.w3.org/2000/01/sw/> rdfs:label "Semantic Web" .
+
+ns1:eric rdfs:seeAlso <http://www.perceive.net/xml/foaf.rdf> .
+
+ns1:aaronsw rdfs:seeAlso <http://www.aaronsw.com/about.xrdf> .
+
+ns1:my-linkedin-account rdfs:label "My LinkedIn account" .
+
+ns1:julian rdfs:seeAlso <http://www.ecademy.com/module.php?mod=network&op=foafrdf&uid=1> .
+
+ns1:my-lastfm-account rdfs:label "My last.fm account" .
+
+ns1:my-connotea-account rdfs:label "My Connotea account" .
+
+ns1:my-technorati-account rdfs:label "My Technorati account" .
+
+ns1:my-videntity-account rdfs:label "My vIdentity account" .
+
+<http://xmlns.com/foaf/0.1> rdfs:label "FOAF" .
+
+ns1:my-digg-account rdfs:label "My Digg account" .
+
+<http://www.w3.org/RDF/> rdfs:label "RDF" .
+
+ns1:jim rdfs:seeAlso <http://jibbering.com/foaf.rdf> .

@@ -1,0 +1,86 @@
+@prefix court: <https://www.thegazette.co.uk/def/court#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gaz: <https://www.thegazette.co.uk/def/publication#> .
+@prefix insolvency: <https://www.thegazette.co.uk/def/insolvency#> .
+@prefix ns1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns2: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix ns3: <https://www.thegazette.co.uk/def/> .
+@prefix og: <http://ogp.me/ns#> .
+@prefix person: <https://www.thegazette.co.uk/def/person#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix this: <https://www.thegazette.co.uk/id/notice/2225959#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.thegazette.co.uk/id/edition/London> a gaz:Edition .
+
+this:administrator-2--1 a person:Role;
+    person:hasRole this:administrator-2--1-role;
+    person:roleName "Trustee"^^xsd:string .
+
+this:notifiableThing a insolvency:NoticeOfDividend,
+        gaz:NotifiableThing;
+    insolvency:hasCourtCase this:courtCase;
+    insolvency:hasOfficialReceiver this:administrator-1-PersonName-1;
+    insolvency:hasPrimaryIP this:IP1;
+    gaz:email "RTLU.NW@insolvency.gsi.gov.uk"@en;
+    gaz:hasPerson this:person-1;
+    gaz:relatedDate "1945-01-10"^^xsd:date,
+        "2014-11-03"^^xsd:date,
+        "2014-12-10"^^xsd:date .
+
+<https://www.thegazette.co.uk/notice/2225959> rdfs:label <https://www.thegazette.co.uk/id/administrative-area/gb/7000000000018821>,
+        <https://www.thegazette.co.uk/id/postcode/M13BN>;
+    og:image "https://www.thegazette.co.uk/largetile.png"@en;
+    dc11:publisher <https://www.thegazette.co.uk/id/notice/2225959>;
+    prov:has_anchor <https://www.thegazette.co.uk/id/notice/2225959>;
+    prov:has_provenance <https://www.thegazette.co.uk/id/notice/2225959>,
+        <https://www.thegazette.co.uk/id/notice/2225959/provenance>;
+    ns3:administrative-area <https://www.thegazette.co.uk/id/postcode/M13BN>;
+    ns3:postcode this:administrator-1-AddressLineGroup-1;
+    gaz:isAbout <https://www.thegazette.co.uk/id/notice/2225959> .
+
+this:administrator-1-PersonName-1 a foaf:Agent;
+    vcard:adr this:administrator-1-AddressLineGroup-1;
+    foaf:familyName "Oliver"@en;
+    foaf:name "A Oliver"@en;
+    person:initials "A"@en .
+
+this:court a court:Court;
+    court:courtName "Southen County Court"^^xsd:string .
+
+this:courtCase a court:CourtCase;
+    court:caseNumber "201"^^xsd:string;
+    court:caseYear "2011"^^xsd:gYear;
+    court:hasCourt this:court .
+
+this:person-1 a person:Person;
+    foaf:familyName "Boniface"@en;
+    foaf:firstName "Yardena"@en;
+    foaf:name "Yardena Boniface"@en;
+    person:dateOfBirth "1945-01-10"^^xsd:date .
+
+this:administrator-1-AddressLineGroup-1 a vcard:Address;
+    vcard:label "LTADT, The Insolvency Service, 2nd Floor, 3 Piccadilly Place, London Road, Manchester M1 3BN"@en .
+
+<https://www.thegazette.co.uk/id/postcode/M13BN> ns1:lat 53.4777410;
+    ns1:long -2.2327480 .
+
+<https://www.thegazette.co.uk/id/notice/2225959> a insolvency:NoticeOfDividendNotice,
+        gaz:Notice;
+    gaz:hasNoticeCode 2510;
+    gaz:hasNoticeID "2225959"@en;
+    gaz:hasNoticeNumber 2225959;
+    gaz:hasPublicationDate "2014-11-03T00:00:01"^^xsd:dateTime .
+
+[] ns2:role ns2:navigation .
+
+[] ns2:role ns2:navigation .
+
+[] ns2:role ns2:navigation .
+
+[] ns2:role ns2:banner .
+
+

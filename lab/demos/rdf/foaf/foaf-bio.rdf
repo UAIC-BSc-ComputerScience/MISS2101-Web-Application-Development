@@ -1,0 +1,34 @@
+<!-- Exemplu de utilizare a FOAF in conjunctie cu vocabularul Biography
+     specificat de Ian Davis si David Galbraith (c)2004
+     http://purl.org/vocab/bio/
+-->
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:bio="http://purl.org/vocab/bio/0.1/"
+      >
+  <foaf:Person rdf:nodeID="busaco">
+    <foaf:name>Sabin Buraga</foaf:name>
+    <foaf:title>Dr</foaf:title>
+    <foaf:firstName>Sabin</foaf:firstName>
+    <foaf:surname>Buraga</foaf:surname>
+    
+    <bio:keywords>...</bio:keywords>
+    
+    <bio:event>
+      <bio:Birth>
+        <bio:date>1974-07-01</bio:date>
+        <bio:place>Iasi, Romania</bio:place>
+      </bio:Birth>
+    </bio:event>
+  
+    <!-- inca nu... ;)
+    <bio:event>
+      <bio:Death>
+        
+      </bio:Death>
+    </bio:event>
+    -->
+  </foaf:Person>
+</rdf:RDF>

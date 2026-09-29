@@ -1,0 +1,513 @@
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12> <http://purl.org/dc/terms/created> "2009-06-11T02:50:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12> <http://rdfs.org/sioc/ns#content> "please leave in your comments for http://news.ycombinator.com/item?id=652202 -  a library launched by my startup today".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> please leave in your comments for http://news.ycombinator.com/item?id=652202 -  a library launched by my startup today".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56> <http://purl.org/dc/terms/created> "2009-06-11T02:50:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56> <http://rdfs.org/sioc/ns#content> "<a href=\"http://onhover.hover.in/hoverlet/hover.in/relatedyoutube/election\"> election videos</a> will therefore render youtube videos when you hover over the link".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> <a href=\"http://onhover.hover.in/hoverlet/hover.in/relatedyoutube/election\"> election videos</a> will therefore render youtube videos when you hover over the link".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:50:56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24> <http://purl.org/dc/terms/created> "2009-06-11T02:51:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24> <http://rdfs.org/sioc/ns#content> "available events are onhover and onclick ...its essentially using the URI as the API to render contextual apps".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> available events are onhover and onclick ...its essentially using the URI as the API to render contextual apps".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:51:24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03> <http://purl.org/dc/terms/created> "2009-06-11T02:52:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/snail,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03> <http://rdfs.org/sioc/ns#content> "bosky101: the London example returns a pub in Turkey?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03> <http://www.w3.org/2000/01/rdf-schema#label> "<snail> bosky101: the London example returns a pub in Turkey?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/snail,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "snail".
+<irc://freenode/snail,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29> <http://purl.org/dc/terms/created> "2009-06-11T02:52:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/snail,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29> <http://rdfs.org/sioc/ns#content> "bosky101: seems pretty slow to me, but then I'm on the end of a long pipe".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29> <http://www.w3.org/2000/01/rdf-schema#label> "<snail> bosky101: seems pretty slow to me, but then I'm on the end of a long pipe".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/snail,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "snail".
+<irc://freenode/snail,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50> <http://purl.org/dc/terms/created> "2009-06-11T02:52:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50> <http://rdfs.org/sioc/ns#content> "\u0001ACTION hates \"hoverlets\", disabled snap.com at the /etc/hosts level\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> \u0001ACTION hates \"hoverlets\", disabled snap.com at the /etc/hosts level\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51> <http://purl.org/dc/terms/created> "2009-06-11T02:52:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51> <http://rdfs.org/sioc/ns#content> "well that's the app level - depends on who made the app : ) you can build the logic of what shud appear . i expose the hovered word, the url where it was hovered, etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> well that's the app level - depends on who made the app : ) you can build the logic of what shud appear . i expose the hovered word, the url where it was hovered, etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:52:51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38> <http://purl.org/dc/terms/created> "2009-06-11T02:53:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/snail,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38> <http://rdfs.org/sioc/ns#content> "\u0001ACTION finds them so slow they never appear anyway\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38> <http://www.w3.org/2000/01/rdf-schema#label> "<snail> \u0001ACTION finds them so slow they never appear anyway\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/snail,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "snail".
+<irc://freenode/snail,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41> <http://purl.org/dc/terms/created> "2009-06-11T02:53:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41> <http://rdfs.org/sioc/ns#content> "i hate snap too.. because they show ads. but what if you can build the logic.... it could be a dictionary , a map , a stock quote..etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> i hate snap too.. because they show ads. but what if you can build the logic.... it could be a dictionary , a map , a stock quote..etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58> <http://purl.org/dc/terms/created> "2009-06-11T02:53:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58> <http://rdfs.org/sioc/ns#content> "I don't want anything, relevant or not, to pop out of the text when I'm moving the mouse".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> I don't want anything, relevant or not, to pop out of the text when I'm moving the mouse".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59> <http://purl.org/dc/terms/created> "2009-06-11T02:53:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59> <http://rdfs.org/sioc/ns#content> "snail, try going over them twice... still got some optimizing/tweaks to recover.".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> snail, try going over them twice... still got some optimizing/tweaks to recover.".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:53:59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17> <http://purl.org/dc/terms/created> "2009-06-11T02:54:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/snail,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17> <http://rdfs.org/sioc/ns#content> "bosky101: them not appearing is a good thing, not a bad".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17> <http://www.w3.org/2000/01/rdf-schema#label> "<snail> bosky101: them not appearing is a good thing, not a bad".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/snail,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "snail".
+<irc://freenode/snail,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45> <http://purl.org/dc/terms/created> "2009-06-11T02:54:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45> <http://rdfs.org/sioc/ns#content> "it could be onclick as well... think of an oauth login where you dont have to leave the page".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> it could be onclick as well... think of an oauth login where you dont have to leave the page".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52> <http://purl.org/dc/terms/created> "2009-06-11T02:54:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52> <http://rdfs.org/sioc/ns#content> "the first few for eg: are onclick".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> the first few for eg: are onclick".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:54:52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31> <http://purl.org/dc/terms/created> "2009-06-11T02:55:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31> <http://rdfs.org/sioc/ns#content> "or a currency calculator... or rss reader or.... ???".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> or a currency calculator... or rss reader or.... ???".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44> <http://purl.org/dc/terms/created> "2009-06-11T02:55:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/snail,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44> <http://rdfs.org/sioc/ns#content> "bosky101: auth where you don't have to leave the page? sounds like a good idea security wise... NOT".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44> <http://www.w3.org/2000/01/rdf-schema#label> "<snail> bosky101: auth where you don't have to leave the page? sounds like a good idea security wise... NOT".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/snail,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "snail".
+<irc://freenode/snail,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59> <http://purl.org/dc/terms/created> "2009-06-11T02:55:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59> <http://rdfs.org/sioc/ns#content> "fix your caching; they take long to load even though I just looked at it".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> fix your caching; they take long to load even though I just looked at it".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:55:59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23> <http://purl.org/dc/terms/created> "2009-06-11T02:56:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23> <http://rdfs.org/sioc/ns#content> "once I hover once, and the hoverlet loads, second time should take a millisecond to load; but it takes a whole second or so (with hover window blank)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> once I hover once, and the hoverlet loads, second time should take a millisecond to load; but it takes a whole second or so (with hover window blank)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48> <http://purl.org/dc/terms/created> "2009-06-11T02:56:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48> <http://rdfs.org/sioc/ns#content> "PovAddict, golly... the loading img takes time to load...ha ha".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> PovAddict, golly... the loading img takes time to load...ha ha".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:56:48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11> <http://purl.org/dc/terms/created> "2009-06-11T02:57:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11> <http://rdfs.org/sioc/ns#content> "no, I don't see the loading image the second time".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> no, I don't see the loading image the second time".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20> <http://purl.org/dc/terms/created> "2009-06-11T02:57:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20> <http://rdfs.org/sioc/ns#content> "which hoverlet is it?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> which hoverlet is it?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27> <http://purl.org/dc/terms/created> "2009-06-11T02:57:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27> <http://rdfs.org/sioc/ns#content> "it pops a blank window, then a second later the whole content appears".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> it pops a blank window, then a second later the whole content appears".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33> <http://purl.org/dc/terms/created> "2009-06-11T02:57:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33> <http://rdfs.org/sioc/ns#content> "all three in demo 2".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> all three in demo 2".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:57:33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2> <http://purl.org/dc/terms/created> "2009-06-11T02:58:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2> <http://rdfs.org/sioc/ns#content> "I just tried something from demo 4 I hadn't loaded before".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> I just tried something from demo 4 I hadn't loaded before".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:16.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24> <http://purl.org/dc/terms/created> "2009-06-11T02:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24> <http://rdfs.org/sioc/ns#content> "indeed, it took a second for the spinny loading image to appear!".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> indeed, it took a second for the spinny loading image to appear!".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51> <http://purl.org/dc/terms/created> "2009-06-11T02:58:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51> <http://rdfs.org/sioc/ns#content> "sometimes takes longer from window opened to loading image than from loading image to content".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> sometimes takes longer from window opened to loading image than from loading image to content".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:58:51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14> <http://purl.org/dc/terms/created> "2009-06-11T02:59:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14> <http://rdfs.org/sioc/ns#content> "loading image = spinning thing".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> loading image = spinning thing".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22> <http://purl.org/dc/terms/created> "2009-06-11T02:59:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22> <http://rdfs.org/sioc/ns#content> "well incase of maps, 3rd party webservices - they take their own time".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> well incase of maps, 3rd party webservices - they take their own time".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56> <http://purl.org/dc/terms/created> "2009-06-11T02:59:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56> <http://rdfs.org/sioc/ns#content> "and the spinning thing remains until the hoverlet inside has completed its onload".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> and the spinning thing remains until the hoverlet inside has completed its onload".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#02:59:56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10> <http://purl.org/dc/terms/created> "2009-06-11T03:00:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10> <http://rdfs.org/sioc/ns#content> "hmm I don't think you understood what I meant".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> hmm I don't think you understood what I meant".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18> <http://purl.org/dc/terms/created> "2009-06-11T03:00:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18> <http://rdfs.org/sioc/ns#content> "I move mouse over link, window pops up, blank".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> I move mouse over link, window pops up, blank".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25> <http://purl.org/dc/terms/created> "2009-06-11T03:00:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25> <http://rdfs.org/sioc/ns#content> "two seconds later, the spinning thing appears".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> two seconds later, the spinning thing appears".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48> <http://purl.org/dc/terms/created> "2009-06-11T03:00:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48> <http://rdfs.org/sioc/ns#content> "one second later, the list of youtube videos appear".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> one second later, the list of youtube videos appear".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:00:48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00> <http://purl.org/dc/terms/created> "2009-06-11T03:01:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00> <http://rdfs.org/sioc/ns#content> "I move mouse away".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> I move mouse away".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05> <http://purl.org/dc/terms/created> "2009-06-11T03:01:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05> <http://rdfs.org/sioc/ns#content> "hover again on same link".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> hover again on same link".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2> <http://purl.org/dc/terms/created> "2009-06-11T03:01:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2> <http://rdfs.org/sioc/ns#content> "and, again, the window is blank for two seconds, then youtube video list appears instantly (since it's cached)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> and, again, the window is blank for two seconds, then youtube video list appears instantly (since it's cached)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:17.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33> <http://purl.org/dc/terms/created> "2009-06-11T03:01:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33> <http://rdfs.org/sioc/ns#content> "you can't possibly blame that on 3rd party web services :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> you can't possibly blame that on 3rd party web services :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44> <http://purl.org/dc/terms/created> "2009-06-11T03:01:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44> <http://rdfs.org/sioc/ns#content> "unless you're loading the spinning image from their sites".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> unless you're loading the spinning image from their sites".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2> <http://purl.org/dc/terms/created> "2009-06-11T03:01:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2> <http://rdfs.org/sioc/ns#content> "brb".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> brb".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:01:56.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17> <http://purl.org/dc/terms/created> "2009-06-11T03:03:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17> <http://rdfs.org/sioc/ns#content> "alright, can u refresh and try now".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> alright, can u refresh and try now".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:03:17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14> <http://purl.org/dc/terms/created> "2009-06-11T03:06:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14> <http://rdfs.org/sioc/ns#content> "im tryign to figure out if rather than using href, would it be more semantically correct using about or a qurie ,etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> im tryign to figure out if rather than using href, would it be more semantically correct using about or a qurie ,etc".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46> <http://purl.org/dc/terms/created> "2009-06-11T03:06:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46> <http://rdfs.org/sioc/ns#content> "(right now an anchor element with the URI in href or title works)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> (right now an anchor element with the URI in href or title works)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:06:46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12> <http://purl.org/dc/terms/created> "2009-06-11T03:07:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12> <http://rdfs.org/sioc/ns#content> "about?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> about?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:07:12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50> <http://purl.org/dc/terms/created> "2009-06-11T03:08:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50> <http://rdfs.org/sioc/ns#content> "with rdfa, ive seen the about atrribute used to specify some kind of a resource. would there be a vocab to mention this sort of content+event metadata".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> with rdfa, ive seen the about atrribute used to specify some kind of a resource. would there be a vocab to mention this sort of content+event metadata".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:08:50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04> <http://purl.org/dc/terms/created> "2009-06-11T03:09:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04> <http://rdfs.org/sioc/ns#content> "is there any service that lets me upload videos (like youtube) but only keeps them temporarily and doesn't need account creation (like pastebin/imagebin)?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> is there any service that lets me upload videos (like youtube) but only keeps them temporarily and doesn't need account creation (like pastebin/imagebin)?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47> <http://purl.org/dc/terms/created> "2009-06-11T03:09:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47> <http://rdfs.org/sioc/ns#content> "perhaps posterous".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> perhaps posterous".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:09:47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02> <http://purl.org/dc/terms/created> "2009-06-11T03:21:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02> <http://rdfs.org/sioc/ns#content> "bosky101: http://tinypic.com/player.php?v=15h261s&s=5".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> bosky101: http://tinypic.com/player.php?v=15h261s&s=5".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05> <http://purl.org/dc/terms/created> "2009-06-11T03:21:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05> <http://rdfs.org/sioc/ns#content> "see all the blank time?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> see all the blank time?".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29> <http://purl.org/dc/terms/created> "2009-06-11T03:21:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29> <http://rdfs.org/sioc/ns#content> "PovAddict, wow appreciate the effor ..let me have a look at it".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> PovAddict, wow appreciate the effor ..let me have a look at it".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53> <http://purl.org/dc/terms/created> "2009-06-11T03:21:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53> <http://rdfs.org/sioc/ns#content> "bosky101: taking the video was fast, compressing the damned 30MB thing so that it took a reasonable amount of time to upload wasn't :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> bosky101: taking the video was fast, compressing the damned 30MB thing so that it took a reasonable amount of time to upload wasn't :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:21:53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19> <http://purl.org/dc/terms/created> "2009-06-11T03:22:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19> <http://rdfs.org/sioc/ns#content> "\u0001ACTION used ffmpeg built from source\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> \u0001ACTION used ffmpeg built from source\u0001".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2> <http://purl.org/dc/terms/created> "2009-06-11T03:22:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/bosky101,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2> <http://rdfs.org/sioc/ns#content> "and i see more loading images while buffering the video...ha ha".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2> <http://www.w3.org/2000/01/rdf-schema#label> "<bosky101> and i see more loading images while buffering the video...ha ha".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:23.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/bosky101,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "bosky101".
+<irc://freenode/bosky101,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46> <http://purl.org/dc/terms/created> "2009-06-11T03:22:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46> <http://rdfs.org/sioc/ns#content> "lol that's not it :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> lol that's not it :)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3> <http://purl.org/dc/terms/created> "2009-06-11T03:22:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3> <http://rdfs.org/sioc/ns#content> "I think that video has no spinny loading image at all".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> I think that video has no spinny loading image at all".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:22:55.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10> <http://purl.org/dc/terms/created> "2009-06-11T03:23:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10> <http://rdfs.org/sioc/ns#content> "all three hoverlets were already cached".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> all three hoverlets were already cached".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53> <http://purl.org/dc/terms/created> "2009-06-11T03:23:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53> <http://rdfs.org/sioc/ns#content> "btw, I used a camera because I don't have any decent video capture software, and *any* video capture could have affected loading speed anyway".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> btw, I used a camera because I don't have any decent video capture software, and *any* video capture could have affected loading speed anyway".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:23:53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.
+<irc://freenode/%23swig> <http://rdfs.org/sioc/ns#container_of> <http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32>.
+<irc://freenode/%23swig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Forum>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32> <http://purl.org/dc/terms/created> "2009-06-11T03:25:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32> <http://rdfs.org/sioc/ns#has_creator> <irc://freenode/PovAddict,isuser>.
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32> <http://rdfs.org/sioc/ns#content> "(most I tried give me 5fps or so)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32> <http://www.w3.org/2000/01/rdf-schema#label> "<PovAddict> (most I tried give me 5fps or so)".
+<http://tuukka.iki.fi/tmp/swig-2009-06-11#03:25:32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post>.
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/2000/01/rdf-schema#label> "PovAddict".
+<irc://freenode/PovAddict,isuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#User>.

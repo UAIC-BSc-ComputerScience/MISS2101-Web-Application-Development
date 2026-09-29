@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:vcal="http://www.w3.org/2002/12/cal/icaltzd#" xmlns:openlylocal="http://openlylocal.com/info/vocab#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:administrative-geography="http://statistics.data.gov.uk/def/administrative-geography/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://openlylocal.com/id/meetings/23858">
+    <rdfs:label>Prosperity and Economic Development Scrutiny Committee meeting</rdfs:label>
+    <rdf:type rdf:resource="openlylocal:meeting"/>
+    <rdf:type rdf:resource="vcal:Vevent"/>
+    <vcal:summary>Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</vcal:summary>
+    <vcal:dtstart>2009-07-15T18:30:00</vcal:dtstart>
+    <vcal:location>Committee Room 1</vcal:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/id/committees/1400">
+    <openlylocal:meeting rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/meetings/23858">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+    <dct:title>Information about Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</dct:title>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-02T20:32:14+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-09T23:23:26+00:00</dct:modified>
+    <dct:hasFormat rdf:resource="http://openlylocal.com/meetings/23858.xml"/>
+    <dct:hasFormat rdf:resource="http://openlylocal.com/meetings/23858.html"/>
+    <dct:hasFormat rdf:resource="http://openlylocal.com/meetings/23858.rdf"/>
+    <dct:hasFormat rdf:resource="http://openlylocal.com/meetings/23858.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/meetings/23858.xml">
+    <dct:isFormatOf rdf:resource="http://openlylocal.com/meetings/23858"/>
+    <foaf:primaryTopic rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/xml</dct:format>
+    <dct:title>Data in XML format for Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/meetings/23858.html">
+    <dct:isFormatOf rdf:resource="http://openlylocal.com/meetings/23858"/>
+    <foaf:primaryTopic rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>text/html</dct:format>
+    <dct:title>Data in HTML format for Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/meetings/23858.rdf">
+    <dct:isFormatOf rdf:resource="http://openlylocal.com/meetings/23858"/>
+    <foaf:primaryTopic rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/rdf+xml</dct:format>
+    <dct:title>Linked Data in RDF format for Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlylocal.com/meetings/23858.json">
+    <dct:isFormatOf rdf:resource="http://openlylocal.com/meetings/23858"/>
+    <foaf:primaryTopic rdf:resource="http://openlylocal.com/id/meetings/23858"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:format>application/json</dct:format>
+    <dct:title>Data in JSON format for Prosperity and Economic Development Scrutiny Committee meeting, Jul 15 2009,  6.30PM</dct:title>
+  </rdf:Description>
+</rdf:RDF>

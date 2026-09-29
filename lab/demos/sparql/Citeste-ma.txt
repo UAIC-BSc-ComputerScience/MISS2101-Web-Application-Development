@@ -1,0 +1,32 @@
+Acest director contine o serie de exemplificari privind realizarea 
+de interogari SPARQL, fie pe baza datelor RDF locale 
+-- vezi directoarele 'infoiasi-wade' si 'sweet' --, 
+fie disponibile via diverse puncte terminale (servicii) SPARQL.
+A se parcurge si prelegerea din cadrul cursului "Dezvoltarea aplicatiilor Web"
+<https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html#week7>.
+
+De studiat fisierele .rq din fiecare director corespunzator.
+
+Drept editor-client SPARQL interactiv, se poate utiliza unul dintre urmatoarele:
+* YASGUI -- aplicatie Web disponibila public la adresa <https://yasgui.triply.cc/>
+* SparqlGUI -- parte a proiectului dotnetRDF (.NET) <https://www.dotnetrdf.org/>
+  de explorat si <https://github.com/dotnetrdf>
+
+De asemenea, se poate recurge direct la interfetele fiecaruia dintre serviciile 
+precizate mai sus -- iata si o serie de exemplificari (a se parcurge prelegerea de la curs):
+* DBpedia <https://dbpedia.org/sparql> -- detalii la <https://wiki.dbpedia.org/OnlineAccess>
+* Wikidata <https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service>
+* Nobel Prize <https://data.nobelprize.org/sparql>
+* BNF <https://data.bnf.fr/sparql/> -- detalii la <https://data.bnf.fr/semanticweb>
+
+A se parcurge si blog-ul lui Bob DuCharme <https://www.bobdc.com/tags/sparql/>
+si tutorialul de la <https://en.wikibooks.org/wiki/SPARQL> (axat asupra Wikidata).
+
+Aceste resurse pot fi utilizate sub auspiciile prevazute de
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License: 
+<https://creativecommons.org/licenses/>.
+
+Exceptand cazurile in care se mentioneaza alt autor, exemplele 
+sunt concepute de Prof. Sabin Buraga <https://profs.info.uaic.ro/sabin.buraga/>.
+
+Ultima actualizare: 10 noiembrie 2025

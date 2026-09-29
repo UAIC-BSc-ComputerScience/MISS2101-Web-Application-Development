@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix ns0: <http://vocab.org/whisky/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://vocab.org/whisky/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix ns3: <http://umbel.org/umbel/ac/> .
+
+<http://vocab.org/whisky/terms/Whisky.turtle> rdf:type foaf:Document ,
+                                                       dctype:Text ;
+                                              foaf:primaryTopic ns0:Whisky ;
+                                              dct:hasFormat <http://vocab.org/whisky/terms/Whisky.rdf> ,
+                                                            <http://vocab.org/whisky/terms/Whisky.html> ,
+                                                            <http://vocab.org/whisky/terms/Whisky.json> ;
+                                              foaf:topic ns0:Whisky .
+
+<http://vocab.org/whisky/terms/Whisky.rdf> rdf:type dctype:Text ,
+                                                    foaf:Document ;
+                                           dc:format "application/rdf+xml" ;
+                                           rdfs:label "RDF/XML" .
+
+<http://vocab.org/whisky/terms/Whisky.html> rdf:type dctype:Text ,
+                                                     foaf:Document ;
+                                            dc:format "text/html" ;
+                                            rdfs:label "HTML" .
+
+<http://vocab.org/whisky/terms/Whisky.json> rdf:type dctype:Text ,
+                                                     foaf:Document ;
+                                            dc:format "application/json" ;
+                                            rdfs:label "JSON" .
+
+ns1:terms rdf:type ns2:Ontology ;
+          dc:title "Vocabulary for describing whisky varieties"@en ;
+          rdfs:comment "Created at vocamp oxford 2008"@en .
+
+ns0:Whisky rdf:type rdfs:Class ;
+           rdfs:label "Whisky" ,
+                      "Whiskey" ;
+           rdfs:isDefinedBy ns1:terms .
+
+ns0:Brand rdf:type rdfs:Class ;
+          rdfs:label "brand" ;
+          rdfs:isDefinedBy ns1:terms .
+
+ns0:Distillery rdf:type rdfs:Class ;
+               rdfs:label "distillery" ;
+               rdfs:isDefinedBy ns1:terms .
+
+ns0:Cask rdf:type rdfs:Class ;
+         rdfs:label "cask" ;
+         rdfs:isDefinedBy ns1:terms .
+
+ns0:WaterSource rdf:type rdfs:Class ;
+                rdfs:label "water source" ;
+                rdfs:isDefinedBy ns1:terms .
+
+ns0:age rdf:type rdf:Property ;
+        rdfs:label "age" ;
+        rdfs:domain ns0:Whisky ;
+        rdfs:isDefinedBy ns1:terms .
+
+ns0:brand rdf:type rdf:Property ;
+          rdfs:label "brand" ;
+          rdfs:domain ns0:Whisky ;
+          rdfs:range ns0:Brand ;
+          rdfs:isDefinedBy ns1:terms .
+
+ns0:finishingCask rdf:type rdf:Property ;
+                  rdfs:label "finishing cask" ;
+                  rdfs:domain ns0:Whisky ;
+                  rdfs:range ns0:Cask ;
+                  rdfs:isDefinedBy ns1:terms .
+
+ns0:expressionLabel rdf:type rdf:Property ;
+                    rdfs:label "expression label" ;
+                    rdfs:domain ns0:Whisky ;
+                    rdfs:isDefinedBy ns1:terms .
+
+ns0:character rdf:type rdf:Property ;
+              rdfs:label "character" ;
+              rdfs:domain ns0:Whisky ;
+              rdfs:isDefinedBy ns1:terms .
+
+ns0:colourDescription rdf:type rdf:Property ;
+                      rdfs:label "colour description" ;
+                      rdfs:domain ns0:Whisky ;
+                      rdfs:isDefinedBy ns1:terms .
+
+ns0:abv rdf:type rdf:Property ;
+        rdfs:label "alcohol by volume" ;
+        rdfs:comment "a standard measure of how much alcohol is contained in the drink" ;
+        rdfs:domain ns0:Whisky ;
+        rdfs:isDefinedBy ns1:terms .
+
+ns0:grain rdf:type rdf:Property ;
+          rdfs:label "grain" ;
+          rdfs:domain ns0:Whisky ;
+          rdfs:isDefinedBy ns1:terms .
+
+ns0:agingCask rdf:type rdf:Property ;
+              rdfs:label "aging cask" ;
+              rdfs:domain ns0:Whisky ;
+              rdfs:range ns0:Cask ;
+              rdfs:isDefinedBy ns1:terms .
+
+ns0:distillery rdf:type rdf:Property ;
+               rdfs:label "distillery" ;
+               rdfs:domain ns0:Whisky ;
+               rdfs:range ns0:Distillery ;
+               rdfs:isDefinedBy ns1:terms .
+
+ns0:region rdf:type rdf:Property ;
+           rdfs:label "region" ;
+           rdfs:domain ns0:Distillery ;
+           rdfs:range ns0:Region ;
+           rdfs:isDefinedBy ns1:terms .
+
+ns0:owner rdf:type rdf:Property ;
+          rdfs:label "owner" ;
+          rdfs:domain ns0:Distillery ;
+          rdfs:range foaf:Organization ;
+          rdfs:isDefinedBy ns1:terms .
+
+ns0:waterSource rdf:type rdf:Property ;
+                rdfs:label "water source" ;
+                rdfs:domain ns0:Distillery ;
+                rdfs:range ns0:WaterSource ;
+                rdfs:isDefinedBy ns1:terms .
+
+ns0:WhiskyReview rdf:type rdfs:Class ;
+                 rdfs:label "Whisky Review" ;
+                 rdfs:isDefinedBy ns1:terms .
+
+ns0:colour rdf:type rdf:Property ;
+           rdfs:label "colour" ;
+           rdfs:domain ns0:WhiskyReview ;
+           rdfs:isDefinedBy ns1:terms .
+
+ns0:nose rdf:type rdf:Property ;
+         rdfs:label "nose" ;
+         rdfs:domain ns0:WhiskyReview ;
+         rdfs:isDefinedBy ns1:terms .
+
+ns0:palate rdf:type rdf:Property ;
+           rdfs:label "palate" ;
+           rdfs:domain ns0:WhiskyReview ;
+           rdfs:isDefinedBy ns1:terms .
+
+ns0:body rdf:type rdf:Property ;
+         rdfs:label "body" ;
+         rdfs:domain ns0:WhiskyReview ;
+         rdfs:isDefinedBy ns1:terms .
+
+ns0:finish rdf:type rdf:Property ;
+           rdfs:label "finish" ;
+           rdfs:domain ns0:WhiskyReview ;
+           rdfs:isDefinedBy ns1:terms .
+
+ns0:material rdf:type rdf:Property ;
+             rdfs:label "material" ;
+             rdfs:domain ns0:Cask ;
+             rdfs:isDefinedBy ns1:terms .
+
+ns0:previousContents rdf:type rdf:Property ;
+                     rdfs:label "previous contents" ;
+                     rdfs:domain ns0:Cask ;
+                     rdfs:range ns3:LiquidTangibleThing ;
+                     rdfs:isDefinedBy ns1:terms .

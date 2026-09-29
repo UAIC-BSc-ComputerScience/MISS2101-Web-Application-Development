@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop="http://dbpedia.org/property/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:ns8="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Bounty">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tony_Oxley">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blade_Runner">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chariots_of_Fire">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Missing_(film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Milva">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/666_(Aphrodite&#39;s_Child_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Direct_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hypothesis_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_(soundtrack)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Antarctica_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blade_Runner_(soundtrack)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Donna_Summer_(album)">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Foros_Timis_Ston_Greco">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lifelines_(Andrea_Corr_album)">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mythodea">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Odes_(album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Odyssey:_The_Definitive_Collection">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Op%C3%A9ra_sauvage">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Polar_Shift_(album)">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Reflection_(Demis_Roussos_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Reprise_1990%E2%80%931999">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Soil_Festivities">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/State_of_Independence">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Voices_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://cs.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ko.dbpedia.org/resource/반젤리스">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pl.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Do_You_Hear_the_Dogs_Barking%3F">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Change_We_Must">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Conquest_of_Paradise_(song)">
+    <dbpedia-owl:musicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:musicalBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fais_que_ton_r%C3%AAve_soit_plus_long_que_la_nuit">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sex_Power_(album)">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mask_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vangelis">
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/MusicalPerformer" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/GreekComposers" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/21st-centuryClassicalComposers" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Maker110284064" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Object100002684" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artist109812338" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/20th-centuryClassicalComposers" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingThing100004258" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActorGeo" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Whole100003553" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Composer109947232" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/GreekElectronicMusicians" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Manufacturer110292316" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Artist" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Person100007846" />
+    <rdf:type rdf:resource="http://schema.org/MusicGroup" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingPeople" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicalArtist" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110339966" />
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/Artist" />
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/PersonWithOccupation" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Creator109614315" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/GreekRecordProducers" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CausalAgent100007347" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Organism100004475" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActor" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/GreekFilmScoreComposers" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PhysicalEntity100001930" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PeopleFromVolos" />
+    <owl:sameAs rdf:resource="http://sk.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ヴァンゲリス" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q153172" />
+    <owl:sameAs rdf:resource="http://bs.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://tr.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://lv.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ca.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://arz.dbpedia.org/resource/فانجيليس" />
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/반젤리스" />
+    <owl:sameAs rdf:resource="http://hr.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://zitgist.com/music/artist/57fca0e2-f9ad-4ae6-af9d-6a6f50cbcd5f" />
+    <owl:sameAs rdf:resource="http://da.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://th.dbpedia.org/resource/แวนเจลิส" />
+    <owl:sameAs rdf:resource="http://la.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://et.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://fa.dbpedia.org/resource/ونگلیس" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ka.dbpedia.org/resource/ვანგელისი" />
+    <owl:sameAs rdf:resource="http://fi.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://he.dbpedia.org/resource/ואנגליס" />
+    <owl:sameAs rdf:resource="http://ar.dbpedia.org/resource/فانجيليس" />
+    <owl:sameAs rdf:resource="http://el.dbpedia.org/resource/Βαγγέλης_Παπαθανασίου" />
+    <owl:sameAs rdf:resource="http://hu.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://sr.dbpedia.org/resource/Вангелис" />
+    <owl:sameAs rdf:resource="http://lt.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://uk.dbpedia.org/resource/Вангеліс" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.07zft" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://sq.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://no.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ro.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://zh.dbpedia.org/resource/范吉利斯" />
+    <owl:sameAs rdf:resource="http://war.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://bg.dbpedia.org/resource/Вангелис" />
+    <owl:sameAs rdf:resource="http://eo.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://mk.dbpedia.org/resource/Вангелис" />
+    <owl:sameAs rdf:resource="http://nn.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://sv.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://bat_smg.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ru.dbpedia.org/resource/Вангелис" />
+    <owl:sameAs rdf:resource="http://az.dbpedia.org/resource/Vangelis" />
+    <owl:sameAs rdf:resource="http://ast.dbpedia.org/resource/Vangelis" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Best_Original_Music_Score_Academy_Award_winners" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Greek_record_producers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:20th-century_classical_composers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Greek_composers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:1943_births" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Greek_film_score_composers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Vangelis" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:People_from_Volos" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:New_Age_synthesizer_players" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Greek_electronic_musicians" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Living_people" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:21st-century_classical_composers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Chevaliers_of_the_Ordre_des_Arts_et_des_Lettres" />
+    <dbpedia-owl:abstract xml:lang="ja">ヴァンゲリス（Vangelis、Βαγγέλης、本名・エヴァンゲロス・オディセアス・パパサナスィウ（後述）、Ευάγγελος Οδυσσέας Παπαθανασίου [evˈaɲɟelos oðiˈseas papaθanaˈsiu]、Evangelos Odysseas Papathanassiou 1943年3月29日 - ）は、ギリシャの音楽家（シンセサイザー奏者・作曲家）。</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="nl">Vangelis, pseudoniem van Evanghelos Odysseas Papathanasiou, is een Grieks muzikant en multi-instrumentalist die veelal gebruikmaakt van synthesizer, piano, keyboards en andere elektronische instrumenten. Hij is vooral bekend van de filmmuziek Chariots of Fire uit 1981 (waarvoor hij een Oscar won), voor de muziek van de film Blade Runner, de nummer 1-hit Conquest of Paradise uit de film 1492: Conquest of Paradise en het thema voor het Wereldkampioenschap voetbal 2002.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pl">Vangelis (właściwie Ευάγγελος Οδυσσέας Παπαθανασίου, Ewangelos Odiseas Papatanasiu, ur. 29 marca 1943) – grecki twórca muzyki elektronicznej i muzyki filmowej. Charakterystyczną cechą muzyki artysty jest bogate brzmienie instrumentów elektronicznych.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="sv">Vangelis, egentligen Evánghelos Odysséas Papathanassíou (grekiska Ευάγγελος Οδυσσέας Παπαθανασίου), född 29 mars 1943 i Volos, är en grekisk musiker och kompositör. Vangelis har varit verksam inom den elektroniska musiken och syntmusiken sedan genrens genombrott under 1970-talet. Tillsammans med Kraftwerk och Jean Michel Jarre är Vangelis förgrundsfigur inom elektronisk musik. Han har utöver sin solokarriär haft framgångar i samarbeten, inte minst i duon Jon &amp; Vangelis.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="fr">Evángelos Odysséas Papathanassíou, plus connu sous le nom d’artiste Vangélis Papathanassíou (Βανγέλης Παπαθανασίου), ou simplement Vangelis (Βανγέλης, diminutif d’Evángelos, à prononcer Vanguélis) est un musicien connu dans les domaines de la musique New age et électronique. Ses compositions les plus connues sont la musique du film Les Chariots de feu ainsi que la totalité de la bande originale du film Blade Runner et de 1492 : Christophe Colomb. Il a également composé l&#39;hymne de la Coupe du monde de football 2002. Au même titre que le Français Jean Michel Jarre et que les Allemands Klaus Schulze, Kraftwerk et Tangerine Dream, Vangelis est reconnu pour avoir été l&#39;un des pionniers de la musique électronique au cours des années 1970. En plus du grec, il parle anglais et français.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="zh">范吉利斯（希腊文：Ευάγγελος Οδυσσέας Παπαθανασίου，埃萬蓋洛斯·奧德修斯·帕帕薩納西奧斯，1943年3月29日－，范吉利斯是藝名），希腊音乐家，他的音乐风格集电子、新世纪、古典于一体。他曾因为电影《火戰車》、《银翼杀手》、《1492：征服天堂》、《南極物語》等製作电影配乐而成名。《火之战车》配乐赢得了奥斯卡“最佳电影歌曲”奖。《Mythodea: Music for the NASA Mission: 2001 Mars Odyssey》則是NASA火星探測任務2001火星奧德賽號的任務主題曲。 范吉利斯被评论家评为最伟大的电子音乐家之一。被譽為「電子樂界的柴可夫斯基」。</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="it">Fra le sue opere più acclamate compaiono alcune colonne sonore. Inoltre ha composto l&#39;inno per i Mondiali di calcio Giappone-Corea del Sud 2002.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pt">Vangelis é um músico grego dos estilos neoclássico, progressivo, música eletrônica e ambiente. Suas composições mais conhecidas são o tema vencedor do Oscar de 1981, com o filme Chariots of Fire, a trilha sonora do clássico Blade Runner, e mais recentemente, do filme biográfico de Cristóvão Colombo, 1492: Conquest of Paradise, com a música instrumental &quot;Conquest of Paradise&quot;. É conhecido também pelo uso de sua música na série da PBS, Cosmos de Carl Sagan. Entre suas composições, há o tema da Copa do Mundo de 2002.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="en">Evangelos Odysseas Papathanassiou (born 29 March 1943) is a Greek composer of electronic, progressive, ambient, jazz, pop rock, and orchestral music under the artist name Vangelis /væŋˈɡɛlɨs/. He is best known for his Academy Award-winning score for the film Chariots of Fire, composing scores for the films Antarctica, Blade Runner, 1492: Conquest of Paradise and Alexander, and the use of his music in the PBS documentary Cosmos: A Personal Voyage by Carl Sagan. Vangelis began his professional musical career working with several popular bands of the 1960s such as The Forminx and Aphrodite&#39;s Child, with the latter&#39;s album 666 going on to be recognized as a psychedelic &quot;classic&quot;. Throughout the 1970s, Vangelis composed music scores for several animal documentaries, including L&#39;Apocalypse Des Animaux, La Fête sauvage and Opéra sauvage; the success of these scores brought him into the film scoring mainstream. In the early 1980s, Vangelis formed a musical partnership with Jon Anderson, the lead singer of progressive rock band Yes, and the duo went on to release several albums together as Jon &amp; Vangelis. In 1981, he composed the score for the Oscar-winning film Chariots of Fire, which won him the Academy Award for Best Original Music Score. The soundtrack&#39;s single, &quot;Titles&quot;, also reached the top of the American Billboard Hot 100 chart and was used as the background music at the London 2012 Olympics winners&#39; medal presentation ceremonies. In a career spanning over 50 years, writing and composing more than 52 albums, Vangelis is regarded as one of the greatest composers of electronic music of all time.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ru">style=&quot;background: transparent&quot; | Кавалер ордена Почётного легиона || Кавалер ордена искусств и литературы |} |Сайт = http://www. vangelisworld. com |Викисклад = }} Вáнгелис — греческий композитор, один из первых исполнителей электронной музыки, автор саундтреков ко многим известным фильмам. Полное имя Эва́нгелос Одиссе́ас Папафанаси́у, (греч. Ευάγγελος Οδυσσέας Παπαθανασίου; Evangelos Odyssey Papathanassiou). В качестве творческого псевдонима, понятного англоязычной публике, он выбрал сокращённую версию своего первого имени — Вангелис (Vangelis).</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="de">Vangelis ist ein griechischer Komponist und einer der Pioniere der elektronischen Musik.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="es">Evángelos Odiseas Papathanassiou, más conocido como Vangelis (nacido en Volos, el 29 de marzo de 1943) es un famoso tecladista y compositor griego de música electrónica y rock sinfónico. Entre sus obras más conocidas destacan las partituras originales para las películas Carros de fuego (ganadora del Oscar a la mejor banda sonora en 1981), Blade Runner, y 1492: La conquista del paraíso. Su música se caracteriza por el uso de sintetizadores y ocasionalmente instrumentos acústicos para crear atmósferas de sonido envolvente, en un tono generalmente grandioso y solemne. No es sencillo enmarcar su música dentro de un género en concreto, aunque es habitual que se le incluya entre las filas de las llamadas Nuevas Músicas, o de forma más amplia como músico clásico contemporáneo. En cualquier caso, la diversidad y complejidad de la obra contenida en su discografía hace difícil su catalogación como artista puramente New Age, ya que incluso es considerado uno de los pioneros de la vanguardia de la música electrónica acontecida a mediados de los años 1970. Aunque algunos de sus trabajos más conocidos pertenecen al mundo de la música de cine y televisión, Vangelis ha logrado reconocimiento tanto por sus bandas sonoras como por sus discos de estudio. Entre sus obras se encuentran, además, varias creaciones para obras de teatro: Elektra (1983), Medea (1992), Las troyanas (2001), The Tempest (2002). También ha compuesto para ballet: R. B. Sque (1983), Frankenstein: Modern Prometheus (1985), The Beauty and the Beast (1986). Desarrolla una carrera paralela como pintor, habiendo realizado varias exposiciones internacionales. Su aporte a diversos proyectos de interés cultural le han afianzado como una personalidad de considerable peso mediático, especialmente en Grecia. En su honor, la Unión Astronómica Internacional dio su nombre a un asteroide, el (6354) Vangelis.</dbpedia-owl:abstract>
+    <dbpedia-owl:activeYearsStartYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961-01-01T00:00:00+02:00</dbpedia-owl:activeYearsStartYear>
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Yes_(band)" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Demis_Roussos" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Aphrodite&#39;s_Child" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Jon_and_Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Yes_(band)" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Demis_Roussos" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Aphrodite&#39;s_Child" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Jon_and_Vangelis" />
+    <dbpedia-owl:background xml:lang="en">non_vocal_instrumentalist</dbpedia-owl:background>
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-03-29</dbpedia-owl:birthDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://dbpedia.org/resource/Volos" />
+    <dbpedia-owl:hometown rdf:resource="http://dbpedia.org/resource/Volos" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Hammond_organ" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Polydor_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Warner_Bros._Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Atlantic_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Universal_Music_Group" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/RCA_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Sony_Music_Entertainment" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32472</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548126499</dbpedia-owl:wikiPageRevisionID>
+    <rdfs:label xml:lang="en">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="es">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="ja">ヴァンゲリス</rdfs:label>
+    <rdfs:label xml:lang="nl">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="de">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="sv">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="ru">Вангелис</rdfs:label>
+    <rdfs:label xml:lang="zh">范吉利斯</rdfs:label>
+    <rdfs:label xml:lang="it">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="pl">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="pt">Vangelis</rdfs:label>
+    <rdfs:label xml:lang="fr">Vangelis</rdfs:label>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/5/53/VangelisElGrecopremiereDE2.jpg" />
+    <rdfs:comment xml:lang="nl">Vangelis, pseudoniem van Evanghelos Odysseas Papathanasiou, is een Grieks muzikant en multi-instrumentalist die veelal gebruikmaakt van synthesizer, piano, keyboards en andere elektronische instrumenten. Hij is vooral bekend van de filmmuziek Chariots of Fire uit 1981 (waarvoor hij een Oscar won), voor de muziek van de film Blade Runner, de nummer 1-hit Conquest of Paradise uit de film 1492: Conquest of Paradise en het thema voor het Wereldkampioenschap voetbal 2002.</rdfs:comment>
+    <rdfs:comment xml:lang="sv">Vangelis, egentligen Evánghelos Odysséas Papathanassíou (grekiska Ευάγγελος Οδυσσέας Παπαθανασίου), född 29 mars 1943 i Volos, är en grekisk musiker och kompositör. Vangelis har varit verksam inom den elektroniska musiken och syntmusiken sedan genrens genombrott under 1970-talet. Tillsammans med Kraftwerk och Jean Michel Jarre är Vangelis förgrundsfigur inom elektronisk musik. Han har utöver sin solokarriär haft framgångar i samarbeten, inte minst i duon Jon &amp; Vangelis.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Evangelos Odysseas Papathanassiou (born 29 March 1943) is a Greek composer of electronic, progressive, ambient, jazz, pop rock, and orchestral music under the artist name Vangelis /væŋˈɡɛlɨs/. He is best known for his Academy Award-winning score for the film Chariots of Fire, composing scores for the films Antarctica, Blade Runner, 1492: Conquest of Paradise and Alexander, and the use of his music in the PBS documentary Cosmos: A Personal Voyage by Carl Sagan.</rdfs:comment>
+    <rdfs:comment xml:lang="zh">范吉利斯（希腊文：Ευάγγελος Οδυσσέας Παπαθανασίου，埃萬蓋洛斯·奧德修斯·帕帕薩納西奧斯，1943年3月29日－，范吉利斯是藝名），希腊音乐家，他的音乐风格集电子、新世纪、古典于一体。他曾因为电影《火戰車》、《银翼杀手》、《1492：征服天堂》、《南極物語》等製作电影配乐而成名。《火之战车》配乐赢得了奥斯卡“最佳电影歌曲”奖。《Mythodea: Music for the NASA Mission: 2001 Mars Odyssey》則是NASA火星探測任務2001火星奧德賽號的任務主題曲。 范吉利斯被评论家评为最伟大的电子音乐家之一。被譽為「電子樂界的柴可夫斯基」。</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Vangelis é um músico grego dos estilos neoclássico, progressivo, música eletrônica e ambiente. Suas composições mais conhecidas são o tema vencedor do Oscar de 1981, com o filme Chariots of Fire, a trilha sonora do clássico Blade Runner, e mais recentemente, do filme biográfico de Cristóvão Colombo, 1492: Conquest of Paradise, com a música instrumental &quot;Conquest of Paradise&quot;. É conhecido também pelo uso de sua música na série da PBS, Cosmos de Carl Sagan.</rdfs:comment>
+    <rdfs:comment xml:lang="pl">Vangelis (właściwie Ευάγγελος Οδυσσέας Παπαθανασίου, Ewangelos Odiseas Papatanasiu, ur. 29 marca 1943) – grecki twórca muzyki elektronicznej i muzyki filmowej. Charakterystyczną cechą muzyki artysty jest bogate brzmienie instrumentów elektronicznych.</rdfs:comment>
+    <rdfs:comment xml:lang="ru">style=&quot;background: transparent&quot; | Кавалер ордена Почётного легиона || Кавалер ордена искусств и литературы |} |Сайт = http://www. vangelisworld. com |Викисклад = }} Вáнгелис — греческий композитор, один из первых исполнителей электронной музыки, автор саундтреков ко многим известным фильмам. Полное имя Эва́нгелос Одиссе́ас Папафанаси́у, (греч. Ευάγγελος Οδυσσέας Παπαθανασίου; Evangelos Odyssey Papathanassiou).</rdfs:comment>
+    <rdfs:comment xml:lang="es">Evángelos Odiseas Papathanassiou, más conocido como Vangelis (nacido en Volos, el 29 de marzo de 1943) es un famoso tecladista y compositor griego de música electrónica y rock sinfónico. Entre sus obras más conocidas destacan las partituras originales para las películas Carros de fuego (ganadora del Oscar a la mejor banda sonora en 1981), Blade Runner, y 1492: La conquista del paraíso.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Fra le sue opere più acclamate compaiono alcune colonne sonore. Inoltre ha composto l&#39;inno per i Mondiali di calcio Giappone-Corea del Sud 2002.</rdfs:comment>
+    <rdfs:comment xml:lang="de">Vangelis ist ein griechischer Komponist und einer der Pioniere der elektronischen Musik.</rdfs:comment>
+    <rdfs:comment xml:lang="ja">ヴァンゲリス（Vangelis、Βαγγέλης、本名・エヴァンゲロス・オディセアス・パパサナスィウ（後述）、Ευάγγελος Οδυσσέας Παπαθανασίου [evˈaɲɟelos oðiˈseas papaθanaˈsiu]、Evangelos Odysseas Papathanassiou 1943年3月29日 - ）は、ギリシャの音楽家（シンセサイザー奏者・作曲家）。</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Evángelos Odysséas Papathanassíou, plus connu sous le nom d’artiste Vangélis Papathanassíou (Βανγέλης Παπαθανασίου), ou simplement Vangelis (Βανγέλης, diminutif d’Evángelos, à prononcer Vanguélis) est un musicien connu dans les domaines de la musique New age et électronique. Ses compositions les plus connues sont la musique du film Les Chariots de feu ainsi que la totalité de la bande originale du film Blade Runner et de 1492 : Christophe Colomb.</rdfs:comment>
+    <foaf:name xml:lang="en">Vangelis</foaf:name>
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Electronic_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/New_Age_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Progressive_rock" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Classical_music" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/VangelisElGrecopremiereDE2.jpg/200px-VangelisElGrecopremiereDE2.jpg" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.vangeliscollector.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.vangelishistory.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.vangelismovements.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.NemoStudios.co.uk" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.elsew.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.denofgeek.com/movies/7175/blade_runner_a_brief_chat_with_vangelis.html" />
+    <dbpprop:alternativeNames xml:lang="en">Papathanassiou, Evangelos Odysseas</dbpprop:alternativeNames>
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Aphrodite&#39;s_Child" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Jon_and_Vangelis" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Demis_Roussos" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Yes_(band)" />
+    <dbpprop:background xml:lang="en">non_vocal_instrumentalist</dbpprop:background>
+    <dbpprop:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-03-29</dbpprop:birthDate>
+    <dbpprop:birthName xml:lang="en">Evangelos Odysseas Papathanassiou</dbpprop:birthName>
+    <dbpprop:caption xml:lang="en">Vangelis at the premiere of El Greco</dbpprop:caption>
+    <dbpprop:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</dbpprop:dateOfBirth>
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Electronic_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/New_Age_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Progressive_rock" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Classical_music" />
+    <dbpprop:imageSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</dbpprop:imageSize>
+    <dbpprop:instrument xml:lang="en">Piano, synthesizer, keyboards, Hammond organ, drums, percussion</dbpprop:instrument>
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/Polydor_Records" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/Warner_Bros._Records" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/Atlantic_Records" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/Universal_Music_Group" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/RCA_Records" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/Sony_Music_Entertainment" />
+    <dbpprop:landscape xml:lang="en">yes</dbpprop:landscape>
+    <dbpprop:name xml:lang="en">Vangelis</dbpprop:name>
+    <dbpprop:occupation xml:lang="en">Composer, musician, record producer, arranger</dbpprop:occupation>
+    <dbpprop:origin xml:lang="en">Volos, Greece</dbpprop:origin>
+    <dbpprop:placeOfBirth xml:lang="en">Volos, Greece</dbpprop:placeOfBirth>
+    <dbpprop:shortDescription xml:lang="en">Composer, Record producer, Arranger</dbpprop:shortDescription>
+    <dbpprop:yearsActive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</dbpprop:yearsActive>
+    <dbpprop:wordnet_type rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-musician-noun-1" />
+    <foaf:givenName xml:lang="en">Evangelos Odysseas Papathanassiou</foaf:givenName>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vangelis" />
+    <dc:description xml:lang="en">Composer, Record producer, Arranger</dc:description>
+    <ns8:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Vangelis?oldid=548126499" />
+    <dbpprop:hasPhotoCollection rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://it.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ja.dbpedia.org/resource/ヴァンゲリス">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pt.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ru.dbpedia.org/resource/Вангелис">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/1492:_Conquest_of_Paradise">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Albedo_0.39">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Anthem_(The_2002_FIFA_World_Cup_Official_Anthem)">
+    <dbpedia-owl:musicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:musicalBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Beaubourg_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/China_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Earth_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/El_Greco_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/El_Greco_(soundtrack)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Heaven_and_Hell_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Invisible_Connections">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/L&#39;Apocalypse_des_animaux_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:previousWork rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/La_F%C3%AAte_sauvage">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nankyoku_Monogatari">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Oceanic_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Portraits_(So_Long_Ago,_So_Clear)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/See_You_Later">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Spiral_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_City_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Dragon_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Themes_(Vangelis_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vangelis_(disambiguation)">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jon_and_Vangelis">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Madagascar_(2005_film)">
+    <dbpprop:extra rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://el.dbpedia.org/resource/Βαγγέλης_Παπαθανασίου">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://es.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_(film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bitter_Moon">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/El_Greco_(2007_film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Francesco_(film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/1492:_Conquest_of_Paradise_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Aphrodite&#39;s_Child">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chariots_of_Fire_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Private_Collection_(Jon_and_Vangelis_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chariots_of_Fire_(instrumental)">
+    <dbpedia-owl:musicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:musicalBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Short_Stories_(Jon_and_Vangelis_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Demis_Roussos">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vangelis_Papathanassiou">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Angelis_(disambiguation)">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dick_Morrissey">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vassilis_Saleas">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Vangelis" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/6354_Vangelis">
+    <dbpprop:namedAfter rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Evangelos_Odysseas_Papathanassiou">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Evangelos_Papathanassiou">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cosmos:_A_Personal_Voyage">
+    <dbpedia-owl:composer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dreamchaser">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Vangelis">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Evangelis">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Endless_Summer:_Donna_Summer&#39;s_Greatest_Hits">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eu.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wikidata.dbpedia.org/resource/Q153172">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://zh.dbpedia.org/resource/范吉利斯">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ar.dbpedia.org/resource/فانجيليس">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://arz.dbpedia.org/resource/فانجيليس">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ast.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://az.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bg.dbpedia.org/resource/Вангелис">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bs.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ca.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://da.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eo.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://et.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fa.dbpedia.org/resource/ونگلیس">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fi.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://he.dbpedia.org/resource/ואנגליס">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hr.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hu.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ka.dbpedia.org/resource/ვანგელისი">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://la.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lt.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lv.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mk.dbpedia.org/resource/Вангелис">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nn.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://no.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ro.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sk.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sq.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sr.dbpedia.org/resource/Вангелис">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sv.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://th.dbpedia.org/resource/แวนเจลิส">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tr.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://uk.dbpedia.org/resource/Вангеліс">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://war.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bat_smg.dbpedia.org/resource/Vangelis">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vangelis" />
+  </rdf:Description>
+</rdf:RDF>

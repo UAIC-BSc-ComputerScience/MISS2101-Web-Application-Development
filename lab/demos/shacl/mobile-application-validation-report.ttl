@@ -1,0 +1,44 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:report a sh:ValidationReport ;
+	sh:result [
+		<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sh:ValidationResult ;
+		sh:resultSeverity sh:Violation ;
+		sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+		sh:sourceShape _:g1 ;
+		sh:focusNode _:angry-profs ;
+		sh:resultPath schema:datePublished ;
+		sh:value "null" ;
+		sh:resultMessage "Value does not have datatype <http://www.w3.org/2001/XMLSchema#date>" ;
+	], [
+		<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sh:ValidationResult ;
+		sh:resultSeverity sh:Violation ;
+		sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+		sh:sourceShape _:g1 ;
+		sh:focusNode _:angry-profs ;
+		sh:resultPath schema:datePublished ;
+		sh:resultMessage "More than 1 values" ;
+	], [
+		<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sh:ValidationResult ;
+		sh:resultSeverity sh:Violation ;
+		sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+		sh:sourceShape [
+			sh:path schema:description ;
+			sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> ;
+		] ;
+		sh:focusNode _:angry-profs ;
+		sh:resultPath schema:description ;
+		sh:value "..." ;
+		sh:resultMessage "Value does not have datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>" ;
+	] ;
+	sh:conforms false .
+
+sh:Violation a sh:Severity .
+
+_:g1 sh:path schema:datePublished ;
+	sh:datatype xsd:date ;
+	sh:maxCount 1 ;
+	sh:minCount 0 .
+

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>#WADe Syllabus</title>
+<link rel="stylesheet" href="./web.css">
+<link rel="author" href="https://profs.info.uaic.ro/sabin.buraga/">
+<link rel="me" href="https://profs.info.uaic.ro/sabin.buraga/">
+<meta name="subject" content="Web Application Development">
+<meta name="url" content="https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/">
+<meta name="description" content="Web Application Development: linked data &amp; knowledge management on Web / Prof. Sabin-Corneliu Buraga">
+<meta name="author" content="Sabin-Corneliu Buraga - https://profs.info.uaic.ro/sabin.buraga/">
+<style>
+.bib {
+  color: #633;
+}
+.tutorial {
+  padding: 0.2em;
+}
+.lecture {
+  color: #363;
+}
+.lab {
+  color: #663;
+}
+.tools {
+  color: #336;
+}
+.demo {
+  color: #333;
+}
+.terms, .online {
+  color: #666;
+  font-size: 75%;
+  border-bottom: 1px dotted gray;
+  text-align: right;
+}
+#future, #past {
+  padding: 0.2em;
+  margin: 0.2em;
+  border: 1px solid #CCC;
+  border-radius: 0.65em;
+  color: #666;
+  background: #DDD;
+  box-shadow: 0.05em 0.05em 0.7em rgba(74, 74, 74, 0.74);
+}
+#past::before {
+  content: "previous year (to be updated)";
+  display: block;
+  padding: 0.5em;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  font-weight: 600;
+}
+.supplement {
+  list-style-type: "\2615";
+}
+/* dark theme */
+@media (prefers-color-scheme: dark) {
+.bib, .lecture, .lab, .tools, .demo, .terms {
+  color: #DEF;
+}
+#future, #past {
+  color: #CCC;
+  background: #444;
+}
+}
+</style>
+</head> 
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" id="top">
+
+<div class="nav">
+<nav>
+<ul>
+<li class="opt main"><a href="index.html" title="Web Application Development (main page)" accesskey="W">#WADe</a></li>
+<li class="opt film"><a href="web-film.html" title="Details about the Web Application Development syllabus and readings" accesskey="F">film</a></li>
+<li class="opt exam"><a href="web-exam.html" title="Information regarding the evaluation, grading, marks et al." accesskey="E">eval&nbsp;()</a></li>
+<li class="opt biblio"><a href="web-biblio.html" title="Essential resources of interest" accesskey="B">biblio</a></li>
+<li class="opt contact"><a href="web-contact.html" title="Contact possibilities" accesskey="C">contact</a></li>
+<li class="opt main"><a href="#top" title="Top of this Webpage" accesskey="T">&#x27F0;</a></li>
+</ul>
+</nav>
+</div>
+
+<article>
+<header>
+<h1 itemprop="name">Web Application Development</h1>
+<p class="slogan" itemprop="description">syllabus (aka the WADe film)</p>
+</header>
+
+<p>Resources provided by this document only complement and do not substitute the students' pro-active involvement during the classes &ndash; consult the <a href="https://edu.info.uaic.ro/orar/discipline/orar_daw.html" title="Details about the full timetable (in Romanian)">WADe timetable</a>&nbsp;<span class="note">[RO]</span>.</p> 
+
+<nav>
+<ul>
+<!--
+<li><p><a href="#week14" title="Week #14">Week #14</a> (12&mdash;16 January 2026)<br>supplement: <a href="#web-onto-future" title="Details">Knowledge on Web: Uses &amp; Perspectives</a></p></li>
+<li><p><a href="#week13" title="Week #13">Week #13</a> (5&mdash;9 January 2026)<br>supplement: <a href="#web-onto-eng" title="Details">Ontology Engineering</a></p></li>
+<li><p><a href="#week12" title="Week #12">Week #12</a> (15&mdash;19 December 2025)</p></li>
+<li><p><a href="#week11" title="Week #11">Week #11</a> (8&mdash;12 December 2025)</p></li>
+<li><p><a href="#week10" title="Week #10">Week #10</a> (1&mdash;5 December 2025)</p></li>
+<li><p><a href="#week9" title="Week #9">Week #9</a> (24&mdash;28 November 2025)</p></li>
+<li><p><a href="#week8" title="Week #8">Week #8</a> (17&mdash;21 November 2025)</p></li>
+<li><p><a href="#week7" title="Week #7">Week #7</a> (10&mdash;14 November 2025)</p></li>
+<li><p><a href="#week6" title="Week #6">Week #6</a> (3&mdash;7 November 2025)</p></li>
+<li><p><a href="#week5" title="Week #5">Week #5</a> (27&mdash;31 October 2025)</p></li>
+<li><p><a href="#week4" title="Week #4">Week #4</a> (20&mdash;24 October 2025)</p></li>
+<li><p><a href="#week3" title="Week #3">Week #3</a> (13&mdash;17 October 2025)</p></li>
+<li><p><a href="#week2" title="Week #2">Week #2</a> (6&mdash;10 October 2025)</p></li>
+-->
+<li><p><a href="#week1" title="Week #1">Week #1</a> (28 September&mdash;2 October 2026)</p></li>
+</ul>
+</nav>
+
+<section id="week1">
+<h2 class="film">Week #1</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture0">
+<p>Presentation: <a href="presentations/web00Introducere.pdf" title="PDF document (available in Romanian language)">Introduction &amp; Administrative Info</a></p>
+</li>
+
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture1">
+<p>Lecture: <a href="presentations/web01Concepte.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Web Application Development: Concepts &amp; Vision</span></a></p>
+<div class="terms" itemprop="keywords">Web, architecture, social Web, semantic Web, data, modeling, standards, vision</div>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://www.ted.com/talks/tim_berners_lee_on_the_next_web" title="A TED presentation">Tim Berners-Lee: The Next Web</a>, <a href="http://www.mkbergman.com/1015/the-rationale-for-semantic-technologies/" title="Details">The Rationale for Semantic Technologies</a>, <a href="https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html" title="Making Your Data Ready for Agentic AI">Making Your Data Ready for Agentic AI</a>, <a href="https://www.latent.space/p/ontologies-agentic-systems" title="Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web">Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web</a></p>
+</li>
+
+<li class="lab">
+<p>Lab: Recapitulating <a href="https://edu.info.uaic.ro/web-technologies/web-film.html" title="Web Technologies (in Romanian)">Web Technologies</a></p>
+</li>
+
+</ul>
+</section>
+
+<div id="past">
+<section id="week2">
+<h2 class="film">Week #2</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture2">
+<p>Lecture: <a href="presentations/web02ServiciiWeb-REST-API.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Service-based Web Application Development. REST</span></a></p>
+<div class="terms" itemprop="keywords">Web, service, SOA, REST, HTTP, representation, resource, API, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://pokeapi.co/" title="Details about Pokemon API">Pok&eacute;API</a>, <a href="https://swapi.dev/documentation" title="The Star Wars API">Star Wars API</a>, <a href="http://stapi.co/" title="A Star Trek API">Star Trek API</a>, <a href="https://apifootball.com/documentation/" title="APIfootball">APIfootball</a>, <a href="https://www.openbankingtracker.com/api-directory" title="Open Banking Tracker">Open Banking Tracker</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: SOA: <a href="https://www.infoq.com/articles/updated-soa-principles" title="Updated Principles of Service Orientation">Principles of Service Orientation</a>, <a href="https://www.infoq.com/soa/" title="Resources about SOA">SOA</a>
+(InfoQ); REST: <a href="https://www.restapitutorial.com/" title="A tutorial about REST">Learn REST: A RESTful Tutorial</a>, <a href="https://www.infoq.com/presentations/rest-introduction" title="The basic principles of RESTful APIs, terminology, design patterns, data, pitfalls, best practices, and others">REST for an Hour</a>, <a href="https://nordicapis.com/designing-a-true-rest-state-machine/" title="Designing a True REST State Machine">Designing a True REST State Machine</a>, <a href="https://nordicapis.com/rest-state-machine-revisited/" title="REST State Machine Revisited">REST State Machine Revisited</a>, <a href="https://www.gov.uk/guidance/gds-api-technical-and-data-standards" title="A set of guiding principles for exposing a digital service as an API">API Technical and Data Standards</a> (gov.uk), <a href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md" title="Microsoft REST API Guidelines">REST API Guidelines</a> (Microsoft)</p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://github.com/marmelab/awesome-rest#readme" title="Various resources of interest regarding REST">Awesome REST</a>, <a href="https://github.com/n0shake/Public-APIs#readme" title="A public list of APIs from round the Web">Public APIs</a></p>
+</li>
+
+<li class="lab">
+<p>Lab: Discussions on <a href="https://docs.google.com/spreadsheets/d/1CXYynwelllcgrH2KuIej0_A--pRRwxQh4ssZALQRGJ8/edit?usp=sharing&amp;hl=en" title="The list of proposed student technical presentations">student presentation topics</a> + designing and using REST APIs &ndash; think about <a href="https://blog.mbedded.ninja/programming/serialization-formats/a-comparison-of-serialization-formats/" class="super" title="Considerations regarding CSV, JSON, Protobuf, XML, YAML">Serialization Formats</a></p>
+</li>
+
+</ul>
+</section>
+
+<section id="week3">
+<h2 class="film">Week #3</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture3">
+<p>Lecture: <a href="presentations/web03DezvoltareaAplicatiilorWeb-Servicii-API-Mashup-Arhitectura.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Web Application Development: Architectural Aspects</span></a></p>
+<div class="terms" itemprop="keywords">Web, engineering, architecture, microservice, microfrontend, OpenAPI, serverless</div>
+</li>
+
+<li class="demo">
+<p>Demo: Web engineering: <a href="https://arxiv.org/abs/1702.01715" title="Article: 'Software Engineering at Google'">Software Engineering at Google</a>, <a href="https://docs.gitlab.com/ee/development/architecture.html" title="About GitLab">GitLab Architecture</a>, <a href="https://systemdesign.one/slack-architecture/" title="Details about Slack System Design">Slack Architecture</a>, <a href="https://nickcraver.com/blog/archive/" title="Details about Stack Overflow">Stack Overflow: The Architecture</a>; technology stacks: <a href="http://todobackend.com/" title="A shared example to showcase backend tech stacks">Todo-Backend</a>, <a href="https://stackshare.io/stacks" title="The open source tools and SaaS behind the world's best startups">Tech Stacks</a>, <a href="http://highscalability.com/" title="Several examples of existing Web applications">Real Life Architectures</a>; microservices: <a href="https://github.com/ocp-power-demos/sock-shop-demo" title="Sock Shop: A Microservices Demo Application">Sock Shop: A Microservices Demo Application</a>, <a href="https://netflixtechblog.com/tagged/microservices" title="Microservice Architecture at Netflix">Microservices @ Netflix</a>; microfrontends: <a href="https://github.com/micro-frontends-demo" title="Details">Feed Me</a>; serverless: <a href="https://docs.openfaas.com/architecture/stack/" title="OpenFaaS stack">OpenFaaS Architecture</a>, <a href="https://www.openfaas.com/blog/exploring-serverless-live/" title="Details about serverless">Exploring Serverless Use-Cases</a></p> 
+</li>
+
+<li class="bib">
+<p>Resources: Web engineering: <a href="https://martinfowler.com/architecture/" title="Software Architecture Guide">Software Architecture Guide</a>, <a href="https://thefrugalarchitect.com/" title="Simple laws for building cost-aware, sustainable, and modern software architectures">The Frugal Architect</a>, <a href="https://nocomplexity.com/documents/arplaybook/" title="Architecture Playbook">Architecture Playbook</a>, <a href="https://aim42.github.io/" title="aim42 supports software evolution, maintenance, migration and improvement ">aim42</a>, <a href="https://12factor.net/" title="Details">The 12-Factor App</a>, <a href="https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231" title="Contemporary Front-end Architectures">Contemporary Front-end Architectures</a>; REST API design: <a href="http://apistylebook.com/" title="Collections of Resources for API Designers">API Stylebook</a>, <a href="https://www.infoq.com/articles/Web-APIs-From-Start-to-Finish" title="Details about the REST API design">Web APIs: From Start to Finish</a>, <a href="https://www.openapis.org/" title="Details about OpenAPI">OpenAPI Initiative</a>; microservices: <a href="https://martinfowler.com/articles/break-monolith-into-microservices.html" title="How to break a Monolith into Microservices">How to break a Monolith into Microservices</a>, <a href="https://microservices.io/" title="Microservice Architecture Patterns &amp; Best Practices">Microservice Architecture</a>, <a href="https://dzone.com/microservices-news-tutorials-tools" title="Microservices Zone">Microservices @ DZone</a>; microfrontends: <a href="https://martinfowler.com/articles/micro-frontends.html">Microfrontend Architecture</a>, <a href="https://micro-frontends.org/" title="Details about micro-frontends">Microfrontends</a>;  serverless: <a href="https://martinfowler.com/articles/serverless.html" title="Details about serverless architectures">Serverless Architectures</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://www.freepublicapis.com/" title="A selection of free public APIs">Free Public APIs</a>, <a href="https://apis.guru/" title="A collection of REST APIs">APIs Guru</a>, <a href="https://openapi.tools/" title="Useful tools &amp; resources">OpenAPI Tools</a>, <a href="https://github.com/mfornos/awesome-microservices#readme" title="Resources about microservices">Awesome Microservices</a>, <a href="https://github.com/anaibol/awesome-serverless#readme" title="A list of services, solutions and resources for serverless / nobackend applications">Awesome Serverless</a>; AWS case-study: <a href="https://github.com/open-guides/og-aws#readme" title="Details about the use of AWS">The Open Guide to Amazon Web Services</a></p>
+</li>
+
+<li>
+<p class="lab">Lab: Web application architectures, (micro)services &amp; serverless
++ discussion on <a href="projects/" title="Explore the list of WADe project proposals">WADe project proposals</a></p>
+</li>
+</ul>
+</section>
+
+<section id="week4">
+<h2 class="film">Week #4</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture4">
+<p>Lecture: <a href="presentations/web03DezvoltareaAplicatiilorWeb-Servicii-API-Mashup-Arhitectura.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Web Application Development: Architectural Aspects</span></a> (continued)</p>
+<div class="terms" itemprop="keywords">Web, architecture, API security, OAuth, JWT, GraphQL, SPA, PWA</div>
+</li>
+
+<li class="demo">
+<p>Demo: GraphQL: <a href="https://netflixtechblog.com/beyond-rest-1b76f7c20ef6" title="Beyond REST. Rapid Development with GraphQL Microservices">Rapid Development with GraphQL Microservices</a> (Netflix), <a href="https://docs.github.com/en/graphql" title="Details about GraphQL API by GitHub">GitHub GraphQL API</a>, <a href="https://shopify.dev/api/storefront" title="Details">Shopify Storefront GraphQL API</a>, <a href="https://shopify.engineering/using-graphql-for-high-performing-mobile-applications" title="Details">Using GraphQL for High-Performing Mobile Applications</a> (Shopify), <a href="https://github.com/pizzaql/next#readme" title="Modern OSS Order Management System for Pizza Restaurants">PizzaQL</a></p> 
+</li>
+
+<li class="bib">
+<p>Resources: Web auth: <a href="https://thecopenhagenbook.com/" title="A general guideline on implementing auth in Web applications">The Copenhagen Book</a>; OAuth: <a href="https://itnext.io/an-oauth-2-0-introduction-for-beginners-6e386b19f7a9" title="Details about OAuth 2.0">An OAuth 2.0 Introduction for Beginners</a>, <a href="https://aaronparecki.com/oauth-2-simplified/" title="OAuth 2 Simplified">OAuth 2 Simplified</a>; GraphQL: <a href="https://graphql.org/" title="A Data Query Language and Runtime">GraphQL</a>, <a href="https://www.howtographql.com/" title="A GraphQL tutorial">The Fullstack Tutorial for GraphQL</a>; others: <a href="https://devopedia.org/single-page-application" title="A tutorial on SPA">Single Page Application</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" title="Details about PWA">Progressive Web Apps</a> (MDN)</p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://jwt.io/" title="Details about JWT">JSON Web Tokens</a>; GraphQL: <a href="https://github.com/chentsulin/awesome-graphql#readme" title="Various resources about GraphQL">Awesome GraphQL</a>, <a href="https://github.com/IvanGoncharov/graphql-apis#readme" title="A collective list of public GraphQL APIs">Public GraphQL APIs</a></p>
+</li>
+
+<li>
+<p class="lab">Lab: Web application architectures, (micro)services &amp; serverless &ndash; API design via <a href="https://bump.sh/blog/openapi-31-cheatsheet" title="OpenAPI 3.1: The Cheat Sheet">OpenAPI</a></p>
+</li>
+</ul>
+</section>
+
+<section id="week5">
+<h2 class="film">Week #5</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture4bis">
+<p>Lecture: <a href="presentations/web03DezvoltareaAplicatiilorWeb-Servicii-API-Mashup-Arhitectura.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Web Application Development: Architectural Aspects</span></a> (continued)</p>
+<div class="terms" itemprop="keywords">Web, architecture, CORS, JAMstack, use cases</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://github.com/voc/voctoweb#readme" title="voctoweb – the frontend and backend software behind media.ccc.de">Web Architecture of the Chaos Computer Club (media.ccc.de) multimedia system</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" title="Resources regarding CORS">Cross-Origin Resource Sharing</a> (MDN), <a href="https://auth0.com/blog/cors-tutorial-a-guide-to-cross-origin-resource-sharing/" title="A tutorial about CORS">CORS Tutorial</a> (Auth0), <a href="https://jamstack.org/" title="Details about JAMstack">JAMstack</a>, <a href="https://www.epicweb.dev/the-webs-next-transition" title="The Web's Next Transition">The Web's Next Transition</a>, <a href="https://dzone.com/enterprise-integration-training-tools-news" title="Resources regarding application integration">Application Integration</a>, <a href="https://codecatalog.org/" title="A collection of instructive code examples with annotations">Code Catalog</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://github.com/automata/awesome-jamstack#readme" title="Modern Web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup">Awesome JAMstack</a></p>
+</li>
+
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture5">
+<p>Lecture: <a href="presentations/web04ModelareaCunostintelor.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Aspects regarding Data and Knowledge Modeling</span></a></p>
+<div class="terms" itemprop="keywords">model, conceptualization, tagging, folksonomy, use cases, Web, science</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://www.youtube.com/watch?v=AAK0Bb13LdU" title="A video lecture by Martin Irvine">What is Computation?</a>, <a href="https://prezi.com/ccef6c_laxeg/knowledge-types/" title="Knowledge Types (a presentation by Paul Johannesson)">Knowledge Types</a>, <a href="https://scribe.rip/better-humans/cognitive-bias-cheat-sheet-55a472476b18" title="Cognitive bias cheat sheet">Cognitive Bias</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://nexocode.com/blog/posts/definitive-guide-to-nlp/" title="The Definitive Guide to Natural Language Processing">A guide to NLP</a>, <a href="https://www.nomos-elibrary.de/10.5771/0943-7444-2018-6-500.pdf" title="About tagging (PDF)">Tagging</a>, <a href="https://obsoletemedia.org/" title="Museum of Obsolete Media">Museum of Obsolete Media</a>, <a href="https://devpedia.pages.dev/" title="An encyclopedia for developers">Dev Encyclopedia</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://jqlang.org/" title="A lightweight and flexible command-line JSON processor">jq</a> (<a href="https://earthly.dev/blog/jq-select/" title="An Introduction to jq">An Introduction to jq</a>), <a href="https://miller.readthedocs.io/en/latest/" title="A tool to process name-indexed data">Miller</a>, <a href="https://pandoc.org/" title="A universal document converter">Pandoc</a></p>
+</li>
+
+<li>
+<p class="lab">Lab: <a href="https://docs.google.com/spreadsheets/d/1FkDRKz_RNtg8Z6Zfzr823aYNNdgB7d9i11fzR6equNk/edit?usp=sharing&amp;hl=en" title="The list of proposed student technical presentations">Topics on Web application development</a></p>
+</li>
+</ul>
+</section>
+
+<section id="week6">
+<h2 class="film">Week #6</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture6">
+<p>Lecture: <a href="presentations/web05ModelulRDF.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Data Modeling in RDF (Resource Description Framework)</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, RDF, data, annotation, vocabulary, JSON-LD, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="demos/rdf/rdf.zip" title=".zip archive" download>RDF assertions</a> (<code>.zip</code> archive, 77K), <a href="https://www.dublincore.org/specifications/dublin-core/" title="Details about DCMI (Dublin Core Metadata Initiative)">DCMI</a>, <a href="https://github.com/rdmpage/wild-json-ld#readme" title="JSON-LD examples in the wild">JSON-LD in the wild</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://vimeo.com/133137907" title="'The Future of the Web', a Vimeo presentation">The Future of the Web: From Strings to Things</a>, <span itemscope="" itemtype="http://schema.org/CreativeWork"><a href="https://www.slideshare.net/busaco/semantic-social-web" title="'Semantic Social Web', a Slideshare presentation" itemprop="url"><span itemprop="name">Semantic Social Web</span></a></span>, <a href="https://www.w3.org/TR/rdf-primer/" title="RDF 1.1 Primer">RDF Primer</a> (W3C), <a href="https://json-ld.org/" title="JSON for Linking Data">JSON-LD</a>, <a href="https://www.go-fair.org/fair-principles/" title="Details about FAIR principles">FAIR Principles</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://marketplace.visualstudio.com/search?term=tag%3Aturtle&amp;target=VSCode&amp;category=All%20categories&amp;sortBy=Relevance" title="Visual Studio Code extensions for RDF">Visual Studio Code extensions for RDF <em>et al.</em></a>, <a href="http://sketch.zazuko.com/" title="RDF Sketch Editor">RDF Sketch Editor</a>, <a href="https://json-ld.org/playground/" title="JSON-LD Playground">JSON-LD Playground</a>, <a href="https://json-ld.org/#developers" title="Various JSON-LD Libraries">JSON-LD Libraries</a></p>
+</li>
+
+<li class="lab supplement" id="web-schemaorg">
+<p>Lab: Data Modeling in HTML</p>
+
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#schemaorg">
+<p>Tutorial: <a href="presentations/web-Microformats-HTML5schema.org.pdf" title="Data modeling in HTML5 documents: schema.org microdata (in Romanian)" itemprop="url"><span itemprop="name">Data Modeling in HTML: Schema.org HTML5 Microdata</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, HTML, annotation, microdata, schema.org, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://moz.com/blog/markup-for-emails" title="An Introduction to Schema.org Markup for Emails">Schema.org Markup for Emails</a>, <a href="http://blankdots.com/open/schema/" title="Proposed Personas and Usability Testing extensions to schema.org">Personas and UsabilityTest Schema Extensions</a>, <a href="https://shkspr.mobi/blog/2019/12/add-review-to-goodreads-from-schema-markup/" title="Add review to Goodreads from Schema.org markup">Add review to Goodreads from Schema.org markup</a>, <a href="https://developers.google.com/structured-data/" title="Details">Google Structured Data</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://www.imperva.com/learn/application-security/what-are-bots/" title="What are bots?">Bots</a> (Imperva), <a href="https://schema.org/docs/gs.html" title="Getting started with schema.org using Microdata">Getting Started with Schema.org using Microdata</a>, <a href="https://shkspr.mobi/blog/2019/12/the-future-of-the-web-isnt-the-web/" title="The future of the Web, isn't the Web">The future of the Web, isn't the Web</a>, <a href="https://primer.style/accessibility/semantic-html/" title="Understand when and how to use semantic HTML">Semantic HTML</a> (GitHub)</p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://validator.schema.org/?hl=en" title="Testing structured data">Schema.org Markup Validator</a>, <a href="https://osds.openlinksw.com/" title="Details about OSDS">Structured Data Sniffer</a> (OpenLink), <a href="https://search.google.com/test/rich-results" title="Rich Results Test">Rich Results Test</a> (Google), <a href="https://github.com/BruceDone/awesome-crawler#readme" title="A collection of awesome Web crawlers/spiders">Awesome Web Crawler</a>, <a href="https://github.com/scrapinghub" title="Turn Web content into useful data">Scrapinghub</a></p>
+</li>
+</ul>
+
+</li>
+</ul>
+</section>
+
+<section id="week7">
+<h2 class="film">Week #7</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture7">
+<p>Lecture: <a href="presentations/web06ManagementulDatelorRDF-SPARQL.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span
+itemprop="name">RDF Data Management. Accessing RDF Data via SPARQL</span></a></p>
+<div class="terms" itemprop="keywords">Web, RDF, data, management, triple store, SHACL, SPARQL, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="demos/shacl/shacl.zip" title=".zip archive" download>SHACL examples</a> (<code>.zip</code> archive, 5K), <a href="demos/sparql/sparql.zip" title=".zip archive" download>SPARQL queries</a> (<code>.zip</code> archive, 73K) &ndash; case-studies: <a href="https://www.bobdc.com/categories/sparql/" title="Articles about SPARQL">SPARQL posts on Bob DuCharme's blog</a>, <a href="https://triplydb.com/academy/" title="Educational material regarding knowledge graph management via SPARQL">Triply Academy</a>, <a href="https://www.wolfram.com/language/12/rdf-and-sparql/index.html" title="Wolfram Language: RDF &amp; SPARQL">RDF &amp; SPARQL</a> (Wolfram)</p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="http://www.validatingrdf.com/" title="Validating RDF">Validating RDF</a>, <a href="https://arxiv.org/abs/2102.13027" title="Details">A Survey of RDF Stores &amp; SPARQL Engines for Querying Knowledge Graphs</a>, <a href="https://db-engines.com/en/ranking/rdf+store" title="DB-Engines Ranking of RDF Stores">DB-Engines Ranking of RDF Stores</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: RDF storage: <a href="https://aws.amazon.com/neptune/" title="A graph database built for the cloud">Amazon Neptune</a>, <a href="https://developers.flur.ee/" title="A semantic graph data management system">Fluree</a>, <a href="http://ontotext.com/products/graphdb/" title="Details about Ontotext GraphDB">OntoText GraphDB</a> (<a href="https://www.ontotext.com/knowledgehub/case-studies/numedii-uses-ontotexts-knowledge-graph-powered-solution-to-support-research-activities-for-identifying-novel-therapies/" title="Details">real-life usage</a>), <a href="http://developer.marklogic.com/">MarkLogic</a> (<a href="https://developer.marklogic.com/learn/semantics-exercises" title="Details about MarkLogic">tutorial</a>), <a href="http://vos.openlinksw.com/owiki/wiki/VOS" title="Details about OpenLink Virtuoso Open-Source Edition">OpenLink Virtuoso</a> (<a href="https://medium.com/virtuoso-blog/tagged/sparql" title="Details">SPARQL use-cases</a>), <a href="https://www.stardog.com/learn-stardog/" title="Details about Stardog">Stardog</a>; RDF&nbsp;processing: <a href="https://jena.apache.org/" title="Details about Apache Jena">Apache Jena</a>, <a href="https://github.com/semsol/arc2#readme" title="ARC RDF Classes for PHP">ARC2</a>, <a href="https://www.dotnetrdf.org/" title="Details about dotNetRDF">dotNetRDF</a>, <a href="https://rdf4j.org/" title="Eclipse RDF4J, a Java framework for processing and handling RDF data">Eclipse RDF4J</a>, <a href="https://rdf.js.org/" title="Details abpit RDF JavaScript Libraries">RDF JavaScript Libraries</a>, <a href="http://librdf.org/" title="Details about Redland RDF Libraries">Redland</a>; RDF&nbsp;conversion: <a href="http://www.easyrdf.org/converter" title="Details">EasyRdf</a>, <a href="https://tarql.github.io/" title="Tarql: SPARQL for Tables">Tarql</a>; RDF&nbsp;visualization: <a href="https://github.com/VladimirAlexiev/rdf2rml#readme" title="Creating diagrams from Turtle documents">rdfpuml</a>; SPARQL endpoints: <a href="https://www.dbpedia.org/resources/sparql/" title="Accessing DBpedia data">DBpedia</a>, <a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help" title="Access the Wikidata Query">Wikidata Query</a> (<a href="https://en.wikibooks.org/wiki/SPARQL" title="SPARQL with Wikidata">tutorial</a> + <a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples" title="SPARQL query service/queries/examples at Wikidata">various examples</a>), <a href="http://dbtune.org/" title="Music-related RDF data">DBtune</a>, <a href="https://data.bnf.fr/semanticweb" title="Access to BNF (Biblioth&egrave;que Nationale de France) data">Biblioth&egrave;que Nationale de France</a>, <a href="http://nomisma.org/sparql" title="SPARQL endpoint provided by Nomisma">Nomisma</a> (<a href="http://nomisma.org/documentation/sparql" title="A list of SPARQL examples">examples</a>), <a href="https://data.europa.eu/data/sparql?locale=en" title="Access to European Union open data">EU Open Data Portal</a>; SHACL: <a href="http://shacl.org/playground/" title="A constraint validator for the Shapes Constraint Language">SHACL Playground</a>, <a href="https://shacl-play.sparna.fr/play/" title="SHACL Play!">SHACL Play!</a>, <a href="https://github.com/TopQuadrant/shacl#readme" title="SHACL API">SHACL API</a></p>
+</li>
+
+<li class="lab supplement" id="web-rdfa">
+<p>Lab: Data Modeling in HTML</p>
+
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#rdfa">
+<p>Tutorial: <a href="presentations/web-RDFa-TripleRDFinHTML.pdf" title="Data modeling in HTML5 documents: RDFa (in Romanian)" itemprop="url"><span itemprop="name">Data Modeling in HTML: RDFa</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, HTML, data, annotation, RDF, RDFa, vocabulary, tools, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://www.pinterest.com/kidehen/structured-metadata-related/" title="Various examples of pragmatic usages of structured data">Examples of Structured Data Embedded within HTML</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="http://rdfa.info/" title="Resources about RDFa">RDFa&mdash;Linked Data in HTML</a>, <a href="https://almanac.httparchive.org/en/2025/seo#structured-data" title="2025 Web Almanac: Structured Data">2025 Web Almanac: SEO &ndash; Structured Data</a> (HTTP Archive), <a href="https://almanac.httparchive.org/en/2024/structured-data" title="2024 Web Almanac: Structured Data">2024 Web Almanac: Structured Data</a> (HTTP Archive), <a href="http://webdatacommons.org/structureddata/" title="Web Data Commons&mdash;RDFa, Microdata, and Microformat Data Sets">Web Data Commons</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="http://rdfa.info/dev" title="Various RDFa libraries">RDFa Libraries</a></p>
+</li>
+
+</ul>
+</li>
+</ul>
+</section>
+
+<section id="week8">
+<h2 class="film">Week #8</h2>
+<ul>
+<li>
+<p>No regular classes &ndash; <a href="web-projects.html#calendar" title="Details about WADe projects">project preparation</a></p>
+</li>
+<li>
+<p>RDF and SPARQL experiments with <a href="https://yasgui.triply.cc/" title="Yet Another SPARQL GUI">YASGUI</a> &ndash; exercises: create a RDF model for <a href="https://www.sctpiasi.ro/servicii/opendata" title="Details">open data regarding the local public transportation</a>&nbsp;<span class="note">[RO]</span>, <a href="https://nomoregoogle.com/" title="Details">Google alternatives</a>, <a href="https://stackshare.io/stacks" title="Details">popular tech stacks</a>, <a href="https://www.hacksplaining.com/lessons" title="Details">Web application vulnerabilities</a>, <a href="https://world.openfoodfacts.org/" title="Visit the Open Food Facts Website">food facts</a> (provide also the equivalent schema.org or RDFa constructs to be included into HTML documents as JSON-LD); consider also <a href="http://prefix.cc/" title="Namespace lookup for RDF developers">prefix.cc</a></p>
+</li>
+</ul>
+</section>
+
+<section id="week9">
+<h2 class="film">Week #9</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture8">
+<p>Lecture: <a href="presentations/web07ArhitecturaAplicatiilorRDF-LinkedData.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Architecture of RDF-based Applications. Linked Data</span></a></p>
+<div class="terms" itemprop="keywords">Web, RDF, data, application, architecture, development, LOD, LDP, principles, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://shkspr.mobi/blog/2019/11/the-greater-bear-using-wikidata-to-generate-better-artwork/" title="Details">Using Wikidata to Generate Better Artwork</a>, <a href="https://dokie.li/" title="A client-side editor for decentralised article publishing, annotations and social interactions">dokieli</a>, <a href="https://scholia.toolforge.org/" title="A service that creates visual scholarly profiles by using Wikidata">Scholia</a>, <a href="https://sparql-anything.cc/" title="Query non-RDF resources with SPARQL">SPARQL Anything</a>, <a href="https://www.semantic-mediawiki.org/" title="An extension to MediaWiki able to manage knowledge">Semantic MediaWiki</a>, <a href="https://ontola.io/blog/full-stack-linked-data/" title="Details">Full-stack Linked Data: Lessons from Building an RDF Web Application</a></p>
+</li>
+
+<li class="demo">
+<p>Case-studies: <a href="https://dbpedia.org/" title="Details about DBpedia">DBpedia</a> (<a href="https://ceur-ws.org/Vol-3064/DBpedia-Technology-tutorial.pdf" title="The DBpedia Technology Tutorial (PDF)">The DBpedia Technology Tutorial</a>), <a href="https://www.wikidata.org/wiki/Wikidata:Introduction" title="Wikidata: an introduction">Wikidata</a> (<a href="https://docs.google.com/presentation/d/1cxKpTlLjNeVeMeA1eWYWmU_LYJ7pDarp92bz8zoRykQ/" title="A presentation about Wikidata">Introduction to Wikidata for Librarians</a>), <a href="https://semopenalex.org/" title="A large RDF-based knowledge graph about scientific publications and related entities">SemOpenAlex</a>, <a href="http://imgpedia.dcc.uchile.cl/" title="A linked dataset incorporating visual information">IMGpedia</a>, <a href="http://ceur-ws.org/Vol-2778/paper1.pdf" title="A Comparative Study of State-of-The-Art Linked Data Visualization Tools">A Comparative Study of State-of-The-Art Linked Data Visualization Tools</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <span itemscope="" itemtype="http://schema.org/CreativeWork"><a href="https://www.slideshare.net/busaco/towards-5star-data" title="'Towards 5-Star Data', a Slideshare presentation" itemprop="url"><span itemprop="name">Towards 5-Star Data</span></a></span>, <span itemscope="" itemtype="http://schema.org/CreativeWork"><a href="https://www.slideshare.net/busaco/why-5star-data" title="'Why 5-Star Data?', a Slideshare presentation" itemprop="url"><span itemprop="name">Why 5-Star Data?</span></a></span>, <a href="http://linkeddatabook.com/book" title="A freely available e-book on Linked Data">Linked Data: Evolving the Web into a Global Data Space</a>, <a href="http://patterns.dataincubator.org/" title="A freely available e-book on Linked Data patterns">Linked Data Patterns</a>, <a href="https://linkeddatafragments.org/" title="Query the Web of data on Web-scale by moving intelligence from servers to clients">Linked Data Fragments</a>, <a href="https://collaborative-data.theodi.org/patterns/" title="Collaborative Data Patterns">Collaborative Data Patterns</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://medium.com/openlink-software-blog/simple-linked-data-deployment-tutorial-a532e568c82f" title="Simple Linked Data Deployment Tutorial">Simple Linked Data Deployment Tutorial &ndash; using RDF Turtle</a>, <a href="https://medium.com/@kidehen/simple-linked-data-deployment-tutorial-using-json-ld-notation-3e753a5d44a3" title="Simple Linked Data Deployment Tutorial">Simple Linked Data Deployment Tutorial &ndash; using JSON-LD</a>, <a href="http://grlc.io/" title="Makes Linked Data accessible to the Web by automatically converting SPARQL queries into RESTful APIs">grlc</a>, <a href="https://wikiba.se/" title="A collection of applications and libraries for creating, managing and sharing structured data">Wikibase</a>, <a href="https://ckan.org/" title="Comprehensive Knowledge Archive Network, an open source data portal platform">CKAN</a>, <a href="https://solidproject.org/" title="A proposed set of conventions for building decentralized social applications on the Linked Data stack">Solid Project</a>, <a href="http://linkeddatafragments.org/software/" title="Client and server implementations for Linked Data Fragments specification">Linked Data Fragments Software</a>, <a href="https://www.opensemanticsearch.org/" title="Details about Open Semantic Search">Open Semantic Search</a></p>
+</li>
+
+<li class="lab"> 
+<p>Lab: RDF and SPARQL experiments regarding <a href="https://sparql.dblp.org/" title="Accessing dblp Computer Science bibliography">dblp</a> data &ndash; consult also <a href="https://github.com/dblp/kg/wiki/dblp-KG-Tutorial" title="A dblp KG Tutorial">A guided tour of the dblp KG</a></p>
+</li>
+
+</ul>
+</section>
+
+<section id="week10">
+<h2 class="film">Week #10</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture8">
+<p>Lecture: <a href="presentations/web08Taxonomie-RDFSchema-Lexicon-SKOS.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span
+itemprop="name">Modeling Vocabularies, Taxonomies, and Thesauri with RDF Schema and SKOS</span></a></p>
+<div class="terms" itemprop="keywords">Web, RDF, model, controlled vocabulary, taxonomy, thesaurus, RDF Schema, SKOS, inference</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="demos/rdfs/rdfs.zip" title=".zip archive" download>RDF Schema + SKOS</a> (<code>.zip</code> archive, 24.5K), <a href="http://www.snee.com/bobdc.blog/2018/10/sparql-full-text-wikipedia-sea.html" title="SPARQL full-text Wikipedia searching and Wikidata subclass inferencing">SPARQL full-text Wikipedia searching and Wikidata subclass inferencing</a>, <a href="https://aws.amazon.com/blogs/database/transform-data-into-knowledge-with-poolparty-semantic-suite-and-amazon-neptune/" title="Article: Transform data into knowledge with PoolParty Semantic Suite and Amazon Neptune">Transform data into knowledge with PoolParty Semantic Suite and Amazon Neptune</a> (Amazon)</p>
+</li>
+
+<li class="demo">
+<p>Case-studies: <a href="http://vocab.getty.edu/" title="Structured terminology for art and other material culture">Getty Vocabularies</a>, <a href="https://vocab.org/" title="Various vocabularies">Public Vocabularies</a>, <a href="http://vocabulary.semantic-web.at/semweb.html" title="Social Semantic Web Thesaurus">Social Semantic Web Thesaurus</a>, <a href="https://github.com/nasa/dictionaries#readme" title="A collection of NASA thesauri, taxonomies and ontologies">NASA Conceptual Models</a>, <a href="http://vocabularies.unesco.org/browser/thesaurus/en/" title="Details about the UNESCO Thesaurus">UNESCO Thesaurus</a>, <a href="https://dblp.org/rdf/docu/" title="Details">dblp RDF schema</a></p> 
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://www.bobdc.com/blog/whatisrdfs/" title="What is RDFS?">What is RDF Schema?</a>, <a href="https://www.bobdc.com/blog/whatisrdfspart2/" title="What else can I do with RDFS?">What else can I do with RDF Schema?</a>, <a href="https://www.bobdc.com/blog/skosibm/" title="Taxonomy management with SKOS">Taxonomy management with SKOS</a>, <a href="http://www.mkbergman.com/1905/a-partial-taxonomy-of-machine-learning-features/" title="An article: 'A (Partial) Taxonomy of Machine Learning Features'">A (Partial) Taxonomy of Machine Learning Features</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://github.com/innoq/iqvoc#readme" title="A Vocabulary Management System for the Semantic Web">iQvoc</a>, <a href="http://skosmos.org/" title="Open source Web-based SKOS browser and publishing tool">SKOSMOS</a>, <a href="http://labs.sparna.fr/skos-play/" title="A free Web application to render and visualise thesaurus, taxonomies or controlled vocabularies expressed in SKOS">SKOS Play!</a> (practical uses: <a href="https://semantic-web.com/visualize-poolparty-project-data-with-skos-play-in-four-steps/" title="Visualize PoolParty project data with SKOS Play!">Visualize PoolParty project data</a>), <a href="https://vocabularyserver.com/" title="TemaTres, an open source vocabulary server">TemaTres</a>, <a href="https://vocbench.uniroma2.it/" title="A Web-based, multilingual, collaborative development platform">VocBench</a> (read <a href="https://www.bobdc.com/blog/vocbench/" title="Editing schemas, ontologies, and SKOS taxonomies with VocBench">Editing schemas, ontologies, and SKOS taxonomies with VocBench</a>)</p> 
+</li>
+
+<li class="lab">
+<p>Lab: Knowledge modeling with RDF Schema and SKOS &ndash; exercises: create RDF-based taxonomies + thesauri by using <a href="https://www.acm.org/publications/class-2012" title="The 2012 ACM Computing Classification System">ACM Computing Classification System</a>, <a href="https://www.vocabularyserver.com/hpmulti/" title="Details">European Multilingual Thesaurus on Health Promotion</a>, <a href="https://www.eionet.europa.eu/gemet/en/groups/" title="General Multilingual Environmental Thesaurus">GEMET</a>, <a href="https://vocabularyserver.com/ip/" title="Details">Intellectual Property Subject Thesaurus</a>, <a href="https://vocabularyserver.com/music/index.php?tema=530&amp;/styles" title="Musicmoz Music Styles">Music Styles</a></p>
+</li>
+
+</ul>
+</section>
+
+<section id="week11">
+<h2 class="film">Week #11</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture9">
+<p>Lecture: <a href="presentations/web09SemanticWeb-Ontologii-OWL.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span
+itemprop="name">Specifying Ontologies in OWL (Web Ontology Language)</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, knowledge, ontology, OWL, class, property, individual, restriction, examples</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="demos/owl/owl.zip" title=".zip archive" download>Knowledge modeling via OWL</a> (<code>.zip</code> archive, 27K) + <a href="https://yago-knowledge.org/" title="YAGO: A High-Quality Knowledge Base">YAGO</a> (<a href="http://videolectures.net/eswc2020_tanon_paper_110/" title="Video: 'YAGO 4: A Reason-able Knowledge Base'">video presentation</a>), <a href="https://foodon.org/" title="FoodOn: A field to fork ontology">FoodOn</a>, <a href="http://musicontology.com/" title="The Music Ontology provides a model for publishing structured music-related data">The Music Ontology</a>, <a href="https://github.com/edmcouncil/fibo#readme" title="Details about Financial Industry Business Ontology">Financial Industry Business Ontology</a>, <a href="https://projects.ics.forth.gr/isl/MarineTLO/" title="A top-level ontology for the marine domain">MarineTLO</a>, <a href="https://vcharpenay.github.io/hto/" title="Haystack Tagging Ontology">Haystack Tagging Ontology</a>, <a href="https://babelnet.org/about" title="A multilingual encyclopedic dictionary + a semantic network">BabelNet</a>, <a href="https://lemon-model.net/" title="The Lexicon Model for Ontologies">lemon</a>, <a href="https://ukparliament.github.io/ontologies/" title="UK Parliament Ontologies">UK Parliament Ontologies</a>, <a href="https://www.semanticarts.com/gist/" title="A minimalist upper ontology">gist</a> (Semantic Arts)</p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://kgbook.org/" title="An open e-book: 'Knowledge Graphs'">Knowledge Graphs</a>, <a href="https://protege.stanford.edu/publications/ontology_development/ontology101.pdf" title="Ontology Development 101: A Guide to Creating Your First Ontology (PDF)">Ontology Development 101: A Guide to Creating Your First Ontology</a>, <a href="http://ceur-ws.org/Vol-1595/paper1.pdf" title="Article: 'Ontologies and the Cultural Heritage. The Case of GO!' (PDF)">Ontologies &amp; Cultural Heritage</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: ontology editing/modeling: <a href="https://protege.stanford.edu/" title="A free, open-source ontology editor and framework for building intelligent systems">Prot&eacute;g&eacute;</a> (<a href="https://protegewiki.stanford.edu/wiki/Main_Page" title="Useful resources of interest">wiki</a>), <a href="https://protegewiki.stanford.edu/wiki/WebProtege" title="A free, open source collaborative ontology development environment for the Web">WebProt&eacute;g&eacute;</a> (<a href="https://arxiv.org/abs/1902.08251" title="Details about WebProt&eacute;g&eacute;">details</a>), <a href="https://www.cognitum.eu/semantics/FluentEditor/" title="A tool for editing and manipulating complex ontologies that uses Controlled Natural Language">Fluent Editor</a>; ontology visualization: <a href="https://viziquer.lumii.lv/" title="ViziQuer: Visually Explore and Query Knowledge Graphs">ViziQuer</a>, <a href="https://essepuntato.it/lode/" title="Live OWL Documentation Environment">LODE</a>; ontology processing: <a href="https://github.com/owlcs/owlapi#readme" title="A reference API for OWL">OWL API</a>, <a href="https://jena.apache.org/documentation/ontology/" title="About Apache Jena Ontology API">Apache Jena Ontology API</a> + <a href="https://www.bobdc.com/blog/jenagems/" title="Hidden gems included with Jena’s command line utilities">Jena CLI tools</a>, <a href="https://owlready2.readthedocs.io/" title="A package for ontology-oriented programming in Python">Owlready2</a>, <a href="https://swot.sisinflab.poliba.it/cowl/" title="A lightweight C/C++ API for working with OWL 2 ontologies">Cowl</a>, <a href="https://sisinflab-swot.github.io/OWL-API-for-iOS/" title="OWL API for iOS">OWL API for iOS</a>; ontology collections: <a href="https://archivo.dbpedia.org/" title="A list of ontologies">DBpedia Archivo</a>, <a href="http://aber-owl.net/ontology/" title="AberOWL: ontology repository">AberOWL</a>, <a href="https://www.ebi.ac.uk/ols4/" title="A repository for biomedical ontologies">Ontology Lookup Service</a> (EMBL-EBI)</p>
+</li>
+
+<li>
+<p class="lab">Lab: Knowledge modeling in OWL</p>
+</li>
+</ul>
+</section>
+
+<section id="week12">
+<h2 class="film">Week #12</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture11">
+<p>Lecture: <a href="presentations/web10SemanticWeb-Ontologii-OWL2-BazeDeCunostinte-LogicileDescrierii-Rationamente.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Specifying Ontologies via OWL&nbsp;2. Description Logics. Reasoning</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, knowledge, ontology, OWL, formalism, logics, DL, reasoning, inference</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="demos/owl-dl/owl-dl.zip" title=".zip archive" download>OWL DL Reasoning</a> (<code>.zip</code> archive, 8K), <a href="http://www.sparontologies.net/" title="Details about Semantic Publishing and Referencing Ontologies">SPAR Ontologies</a>,  <a href="https://persons.iis.nsk.su/en/ponom/ontologies" title="A riddle which requires logical deduction">Zebra Puzzle</a>, <a href="https://www.w3.org/community/owled/files/2016/11/OWLED-ORE-2016_paper_10.pdf" title="Article: 'Towards Ontology Based Event Processing' (PDF)">Towards Ontology Based Event Processing</a>, <a href="http://www.semantic-web-journal.net/system/files/swj617.pdf" title="Article: 'An OWL ontology library representing judicial interpretations' (PDF)">Representing Judicial Interpretations</a>, <a href="https://www.howarddierking.com/2018/11/20/rdf-inferencing-in-action/" title="RDF Inferencing In Action">RDF Inferencing In Action</a>, <a href="https://medium.com/virtuoso-blog/using-british-royal-family-data-snippets-to-demonstrate-sparql-query-language-based-reasoning-56626a152419" title="Using British Royal Family Data Snippets to demonstrate SPARQL Query Language-based Reasoning &amp; Inference">SPARQL Reasoning &amp; Inference</a>, <a href="https://www.stardog.com/blog/nasas-knowledge-graph/" title="NASA's Knowledge Graph">NASA's Knowledge Graph</a>, <a href="https://medium.com/airbnb-engineering/scaling-knowledge-access-and-retrieval-at-airbnb-665b6ba21e95" title="Scaling Knowledge Access and Retrieval at Airbnb">Scaling Knowledge Access and Retrieval at Airbnb</a>, <a href="https://link.springer.com/article/10.1007/s11042-018-6788-5" title="Article: 'Inference-based Creation of Synthetic 3D Content with Ontologies'">Inference-based Creation of Synthetic 3D Content with Ontologies</a></p>
+</li>
+
+<li>
+<p class="bib">Resources: <a href="https://www.w3.org/2007/OWL/refcard" title="OWL 2 Reference Card">OWL&nbsp;2 Reference Card</a>, <a href="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/fhkbtutorial/" title="A comprehensive step-by-step guide to modelling family history using advanced OWL 2 features">Manchester Family History Advanced OWL Tutorial</a>, <a href="https://arxiv.org/abs/1201.4089" title="A self-contained first introduction to description logics (PDF)">A Description Logic Primer</a>, <a href="http://owl.cs.manchester.ac.uk/research/explanation/" title="Providing justifications about various DL reasoning processes">Explanation in OWL</a>, <a href="http://ceur-ws.org/Vol-996/papers/ldow2013-paper-08.pdf" title="Article: 'Reasoning over SPARQL' (PDF)">Reasoning over SPARQL</a>, <a href="https://www.semantic-web-book.org/w/images/5/5e/KI09-OWL-Rules-2.pdf" title="Rules for OWL (PDF)">Rules for OWL</a>, <a href="https://richardhammack.github.io/BookOfProof/" title="A freely available book: 'Book of Proof'">Book of Proof</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://protegewiki.stanford.edu/wiki/Protege_Plugin_Library" title="Various plug-ins for Prot&eacute;g&eacute;">Prot&eacute;g&eacute; Plugin Library</a>; reasoners: <a href="https://github.com/konclude/Konclude#readme" title="A parallel, tableau-based, high-performance reasoner">Konclude</a>, <a href="https://github.com/Galigator/openllet#readme" title="Openllet is an OWL 2 reasoner in Java">Openllet</a>, <a href="https://github.com/RDFLib/OWL-RL/#readme" title="OWL2 RL inferences in Python">owlrl</a>, <a href="https://github.com/ruby-rdf/rdf-reasoner#readme" title="A partial RDFS/OWL/schema.org reasoner written in Ruby">RDF::Reasoner</a>, <a href="https://www.oxfordsemantic.tech/rdfox" title="An AI reasoning engine">RDFox</a>, <a href="https://github.com/SANSA-Stack/SANSA-Stack#readme" title="Big Data RDF Processing and Analytics Stack built on Apache Spark and Apache Jena">SANSA Stack OWL API</a>, <a href="https://github.com/balhoff/whelk#readme" title="An OWL EL reasoner">Whelk</a>; reasoning support in RDF stores: <a href="https://jena.apache.org/documentation/inference/" title="Reasoners and rule engines: Jena inference support">Apache Jena</a>, <a href="https://github.com/blazegraph/database/wiki/InferenceAndTruthMaintenance" title="Inference support in Blazegraph">Blazegraph</a>, <a href="http://franz.com/agraph/support/documentation/current/materializer.html" title="Details about AllegroGraph's inference engines">Franz AllegroGraph</a>, <a href="https://docs.openlinksw.com/virtuoso/rdfsparqlrule/" title="Inference Rules &amp; Reasoning in Virtuoso">OpenLink Virtuoso</a>, <a href="https://docs.oracle.com/en/database/oracle/oracle-database/21/rdfrm/conceptual-and-usage-information.html" title="Graph Developer's Guide for RDF Graph">Oracle Database RDF Graph Developer's Guide</a>, <a href="https://docs.stardog.com/inference-engine/" title="Reasoning support provided by Stardog">Stardog</a>; others: <a href="https://github.com/ErgoAI" title="An advanced system for representing and reasoning about knowledge">ErgoAI</a>, <a href="https://github.com/eyereasoner/eye" title="Euler Yet another proof Engine">EYE</a>, <a href="A .NET library for Semantic Web applications">OWLSharp</a></p>
+</li>
+
+<li>
+<p class="lab">Lab: Knowledge modeling in OWL</p>
+</li>
+
+</ul>
+</section>
+
+<section id="week13">
+<h2 class="film">Week #13</h2>
+<ul>
+<li>
+<p>No regular classes &ndash; National holidays</p>
+</li>
+<li class="lab">
+<p>Lab (Thursday only): Q&amp;As about <a href="web-projects.html" title="Details about WADe projects">WADe project proposals</a></p>
+</li>
+</ul>
+</section>
+
+<section id="web-onto-eng">
+<h2 class="film">Supplement</h2>
+<ul>
+<li class="lecture supplement" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-supplement">
+<p>Lecture: <a href="presentations/web11SemanticWeb-InginerieOntologica.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span
+itemprop="name">Ontology Engineering: Knowledge Management. Methodologies and Design Patterns. Ontology Alignment</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, knowledge, ontology, engineering, methodology, design patterns, alignment</div>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://iswc2017.semanticweb.org/wp-content/uploads/papers/MainProceedings/179.pdf" title="UNDO: the United Nations System Document Ontology (PDF)">UNDO: the United Nations System Document Ontology</a>, <a href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-020-00224-y" title="The African Wildlife Ontology Tutorial Ontologies">The African Wildlife Ontology Tutorial Ontologies</a>, <a href="https://github.com/vroddon/RDFChess#readme" title="An example on how ontology design patterns can guide the creation of linked data">RDFChess</a>, <a href="http://videolectures.net/iswc2017_atzeni_source_code/" title="CodeOntology: RDF-ization of Source Code">CodeOntology: RDF-ization of Source Code</a></p>
+</li>
+
+<li class="bib">
+<p>Resources: <a href="https://people.cs.uct.ac.za/~mkeet/OEbook/" title="Book: 'An introduction to ontology engineering'">An Introduction to Ontology Engineering</a>, <a href="http://videolectures.net/iswc2017_sabou_protege_plugin/" title="Crowd-based Ontology Engineering with the uComp Protege Plugin">Crowd-based Ontology Engineering</a>, <a href="http://ontologydesignpatterns.org/" title="Resources regarding the ontology design patterns">Ontology Design Patterns</a>, <a href="https://arxiv.org/abs/1808.08433" title="Details">A Tutorial on Modular Ontology Modeling with Ontology Design Patterns</a>, <a href="http://disi.unitn.it/~pavel/OM/articles/Ochieng_CSUR_2018.pdf" title="Large-Scale Ontology Matching (PDF)">Large-Scale Ontology Matching: State-of-the-Art Analysis</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="http://oops.linkeddata.es/" title="OOPS! - OntOlogy Pitfall Scanner!">Detecting Common Pitfalls in Ontologies</a>, <a href="http://ontoology.linkeddata.es/" title="OnToology, a system to automate part of the collaborative ontology development process">OnToology</a>, <a href="https://moex.gitlabpages.inria.fr/alignapi/" title="Details about Alignment API and Alignment Server">Alignment API</a></p>
+</li>
+</ul>
+</section>
+
+<section id="week14">
+<h2 class="film">Week #14</h2>
+<ul>
+<li>
+<p>No regular classes &ndash; project assessments: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVkzwITm1iwYlsTxHLv_1LpJ_x8MzK_fgk-99MDqT3PFIi4fXaDYdiRodei0M1Os2tX9ABhpw67n45/pubhtml?gid=202506503&amp;single=true" target="_blank" title="Details">WADe project schedule</a></p>
+</li>
+</ul>
+</section>
+
+<section id="web-onto-future">
+<h2 class="film">Supplement</h2>
+<ul>
+<li class="lecture" itemscope="" itemtype="http://schema.org/CreativeWork" itemid="#wade-lecture14">
+<p>Lecture: <a href="presentations/web12SemanticWeb-CunostinteWeb_UtilizariPragmatice.pdf" title="PDF document (available in Romanian language)" itemprop="url"><span itemprop="name">Knowledge on Web: Pragmatic Uses and Perspectives</span></a></p>
+<div class="terms" itemprop="keywords">Web, model, knowledge, ontology, graph, engineering, rules, case studies</div>
+</li>
+
+<li class="demo">
+<p>Case-studies: <a href="https://2024-eu.semantics.cc/page/accepted_research" title="Accepted Papers (Research Track) @ Semantics 2024">SEMANTiCS 2024</a>, <a href="https://2025-eu.semantics.cc/page/accepted_research" title="Accepted Papers (Research Track) @ Semantics 2025">SEMANTiCS 2025</a>
+</p>
+</li>
+
+<li class="demo">
+<p>Demo: <a href="https://www.knowledgegraph.tech/kgc-2022-talk-how-to-build-a-customer-360-knowledge-graph-for-fintech-gupta-jere-intuit/" title="How To Build A Customer 360 Knowledge Graph for FinTech">How To Build A Customer 360 Knowledge Graph for FinTech</a>, <a href="https://medium.com/flat-pack-tech/ikeas-knowledge-graph-and-why-it-has-three-layers-a38fca436349" title="IKEA's Knowledge Graph and Why It Has Three Layers">IKEA's Knowledge Graph</a>, <a href="https://engineering.linkedin.com/blog/2016/10/building-the-linkedin-knowledge-graph" title="Building The LinkedIn Knowledge Graph">Building The LinkedIn Knowledge Graph</a>, <a href="https://www.marklogic.com/blog/semantic-recommendation-engine/" title="Building a Semantic Recommendation Engine">Building a Semantic Recommendation Engine</a> (MarkLogic), <a href="https://arxiv.org/abs/2011.05841" title="Details">Linking OpenStreetMap with Knowledge Graphs</a></p>
+</li>
+
+<li class="bib">
+<p>Resources:  <a href="https://ceur-ws.org/Vol-1695/paper4.pdf" title="Towards a Definition of Knowledge Graphs (PDF)">Towards a Definition of Knowledge Graphs</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3447772" title="A Survey on Knowledge Graphs (PDF)">Knowledge Graphs</a>, <a href="https://cacm.acm.org/magazines/2021/2/250085-a-review-of-the-semantic-web-field/fulltext" title="A Review of the Semantic Web Field">A Review of the Semantic Web Field</a> (2021), <a href="https://hal.inria.fr/hal-01935898" title="A Survey of the First 20 Years of Research on Semantic Web and Linked Data">A Survey of the First 20 Years of Research on Semantic Web and Linked Data</a>, <a href="http://www.cs.ox.ac.uk/people/ian.horrocks/Seminars/download/Kcap2021-Keynote-Ian_Horrocks.mp4" title="Knowledge Representation &amp; Reasoning: From Foundations to Products (video)">Knowledge Representation &amp; Reasoning: From Foundations to Products</a> (<a href="http://www.cs.ox.ac.uk/people/ian.horrocks/Seminars/download/K-CAP.pdf" title="Knowledge Representation &amp; Reasoning: From Foundations to Products (PDF)">slides</a>), <a href="https://github.com/w3c/cogai#readme" title="W3C Cognitive AI Community Group: Background materials">Towards a Sentient Web</a></p>
+</li>
+
+<li class="tools">
+<p>Tools: <a href="https://www.dbpedia.org/resources/archivo/" title="DBpedia Archivo, an online interface and augmented archive for all kinds of vocabularies">DBpedia Archivo</a>, <a href="https://www.dbpedia.org/resources/databus/" title="DBpedia Databus, a data cataloging and versioning platform for data developers and consumers">DBpedia Databus</a>, <a href="https://atomgraph.github.io/LinkedDataHub/" title="Data-driven Knowledge Graph management system">LinkedDataHub</a></p>
+</li>
+</ul>
+</section>
+</div>
+
+<section>
+<h3>Remarks</h3>
+
+<ul>
+<li>
+<p>To properly access the PDF files, you can use a <a href="https://pdfreaders.org/" title="Get a free software PDF reader">free software PDF reader</a>.</p>
+</li>
+
+<li>
+<p>Please, consider these presentations &ndash; available under the terms of the <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Details">Creative Commons Attribution-NonCommercial-ShareAlike</a> license &ndash; as <em>work in progress</em>.</p>
+</li>
+</ul>
+</section>
+
+<footer>
+<div class="urls">see also: <a href="web-exam.html" title="Details">Evaluation</a> &middot; <a href="web-biblio.html" title="Details">Resources</a> &middot; <a href="web-contact.html" title="Details">Contact</a></div>
+
+<div>Last update: 28 September 2026 / <a itemprop="license" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Details about Attribution-NonCommercial-ShareAlike 4.0 International License">CC</a><br>
+<span itemid="#busaco" itemscope="" itemtype="http://schema.org/Person" itemprop="author">Prof. <a href="https://profs.info.uaic.ro/sabin.buraga/" title="Visit the Website of Sabin-Corneliu Buraga" itemprop="url"><span itemprop="name">Sabin-Corneliu Buraga</span></a></span></div>
+</footer>
+
+</article>
+</body>
+</html>

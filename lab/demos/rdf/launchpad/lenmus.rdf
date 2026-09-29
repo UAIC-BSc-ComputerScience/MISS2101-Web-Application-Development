@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:doaml="http://ns.balbinus.net/doaml#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:lp="https://launchpad.net/rdf/launchpad#"
+         xmlns:wot="http://xmlns.com/wot/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <lp:Product>
+        <lp:specifiedAt rdf:resource="/lenmus/+rdf"/>
+        <lp:name>lenmus</lp:name>
+        <lp:displayName>LenMus</lp:displayName>
+        <lp:title>LenMus</lp:title>
+        <lp:shortDescription>LenMus is a free program for learning music. It allows you to focus on specific skills and exercises, on both theory and aural training. The different activities can be customized to meet your needs.</lp:shortDescription>
+        <lp:description>Phonascus aims to create, as a community, the best free program for music students, to help them in their studies. Phonascus has no commercial purpose and, so, it is licensed under the GNU General Public License.</lp:description>
+        <lp:creationDate>2012-09-21 15:07:56 UTC</lp:creationDate>
+        <lp:homepage rdf:resource="http://www.lenmus.org/en/phonascus/intro"/>
+        <lp:sourceforgeProject>lenmus</lp:sourceforgeProject>
+        <lp:programmingLanguage>C++, wxWidgets</lp:programmingLanguage>
+        <lp:screenshot>http://www.lenmus.org/en/phonascus/screenshots</lp:screenshot>
+        
+        <lp:series>
+            <lp:ProductSeries>
+                <lp:specifiedAt
+    rdf:resource="/lenmus/trunk/+rdf"/>
+            </lp:ProductSeries>
+        </lp:series>
+        <lp:series>
+            <lp:ProductSeries>
+                <lp:specifiedAt
+    rdf:resource="/lenmus/v5.3/+rdf"/>
+            </lp:ProductSeries>
+        </lp:series>
+        <lp:owner>
+            <foaf:Agent>
+                <foaf:Account
+    rdf:resource="/~lenmus-phonascus/+rdf"/>
+            </foaf:Agent>
+        </lp:owner>
+        <lp:status>Active</lp:status>
+        
+    </lp:Product>
+</rdf:RDF>

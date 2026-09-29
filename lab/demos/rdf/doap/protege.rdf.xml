@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:admin="http://webns.net/mvcb/" xmlns:dod="http://smi-web.stanford.edu/people/dameron/ontology/rdf/doap-od.rdf#" xmlns="http://protege.stanford.edu/doap/doap.rdf#" xml:base="http://protege.stanford.edu/doap/doap.rdf" xml:lang="en">
+	<rdfs:Class rdf:about="http://smi.stanford.edu/people/dameron/ontology/rdf/doap-od.rdf#Version">
+		<rdfs:isDefinedBy rdf:resource="http://smi.stanford.edu/people/dameron/ontology/rdf/doap-od.rdf#"/>
+		<rdfs:comment xml:lang="en">a dod:Version has a least one version-specific download page</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="http://usefulinc.com/ns/doap#Version"/>
+	</rdfs:Class>
+	<doap:Project rdf:ID="protege-project">
+		<doap:name>Protege</doap:name>
+		<doap:shortname>Protege</doap:shortname>
+		<doap:homepage rdf:resource="http://protege.stanford.edu/index.html"/>
+		<doap:created>1987-01-01</doap:created>
+		<doap:description>Protege is an ontology editor and a knowledge-base editor. Protege is also an open-source, Java tool that provides an extensible architecture for the creation of customized knowledge-based applications.</doap:description>
+		<doap:programming-language>Java</doap:programming-language>
+		<doap:license rdf:resource="http://usefulinc.com/doap/licenses/mpl"/>
+		<doap:download-page rdf:resource="http://protege.stanford.edu/download.html"/>
+		<doap:wiki rdf:resource="http://protege.cim3.net/cgi-bin/wiki.pl/"/>
+		<doap:maintainer>
+			<foaf:Person>
+				<foaf:name>Ray Fergerson</foaf:name>
+			</foaf:Person>
+		</doap:maintainer>
+		<doap:maintainer>
+			<foaf:Person>
+				<foaf:name>Jennifer Vendetti</foaf:name>
+			</foaf:Person>
+		</doap:maintainer>
+		<doap:repository>
+			<doap:SVNRepository>
+				<doap:anon-root>http://smi-protege.stanford.edu/repos/protege/protege-core/trunk/</doap:anon-root>
+				<doap:browse rdf:resource="http://smi-protege.stanford.edu/svn/?root=protege"/>
+			</doap:SVNRepository>
+		</doap:repository>
+		<doap:release>
+			<dod:Version>
+				<doap:branch>stable</doap:branch>
+				<doap:created>2005-02-04</doap:created>
+				<doap:revision>3.0</doap:revision>
+				<dod:version-number>3.0</dod:version-number>
+				<dod:build-number>141</dod:build-number>
+				<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/index.html"/>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/InstData/Linux/NoVM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/InstData/Linux/VM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/full/InstData/Linux/NoVM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/full/InstData/Linux/VM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>MacOSX</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/InstData/MacOSX/install_protege.zip"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>MacOSX</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/full/InstData/MacOSX/install_protege.zip"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/InstData/Windows/NoVM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/basic/InstData/Windows/VM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/full/InstData/Windows/NoVM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/release/full/InstData/Windows/VM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+			</dod:Version>
+		</doap:release>
+		<doap:release>
+			<dod:Version>
+				<doap:branch>beta</doap:branch>
+				<doap:created>2006-11-03</doap:created>
+				<doap:revision>3.2-b350</doap:revision>
+				<dod:version-number>3.2</dod:version-number>
+				<dod:build-number>350</dod:build-number>
+				<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/index.html"/>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/InstData/Linux/NoVM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/InstData/Linux/VM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/full/InstData/Linux/NoVM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Linux</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/full/InstData/Linux/VM/install_protege.bin"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>MacOSX</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/InstData/MacOSX/install_protege.zip"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>MacOSX</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/full/InstData/MacOSX/install_protege.zip"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/InstData/Windows/NoVM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>basic</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/basic/InstData/Windows/VM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>no</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/full/InstData/Windows/NoVM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+				<dod:distribution>
+					<dod:Package>
+						<dod:os>Windows</dod:os>
+						<dod:flavor>full</dod:flavor>
+						<dod:vm>yes</dod:vm>
+						<dod:download-page rdf:resource="http://protege.stanford.edu/download/prerelease/full/InstData/Windows/VM/install_protege.exe"/>
+					</dod:Package>
+				</dod:distribution>
+			</dod:Version>
+		</doap:release>
+	</doap:Project>
+</rdf:RDF>
+<!-- This doap file was automatically generated on Fri Nov 03 15:29:19 PST 2006 -->

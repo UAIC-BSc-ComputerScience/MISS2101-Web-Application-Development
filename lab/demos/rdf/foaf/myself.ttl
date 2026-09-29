@@ -1,0 +1,16 @@
+@prefix id: <https://profs.info.uaic.ro/~busaco/rdf#> . 
+@prefix rel: <http://purl.org/vocab/relationship/> . 
+@prefix schema: <http://schema.org/> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1> .
+@prefix : <http://wade.info/> .
+
+id:me a schema:Person ; 
+    rel:childOf 			id:mama , id:tata ;
+	rel:acquaintanceOf 		id:andreea , id:adria , id:dragos ; 
+	schema:honorificPrefix 	"Prof."@en ;
+    schema:honorificSuffix 	"Dr."@en ;
+	schema:workplaceHomepage <https://www.info.uaic.ro/> ;
+	foaf:holdsAccount		id:pocket-account , 
+                            id:google-account ;
+	foaf:interest			<https://www.w3.org/XML/> ,
+			:Literature,    <https://www.wikidata.org/wiki/Q638> .

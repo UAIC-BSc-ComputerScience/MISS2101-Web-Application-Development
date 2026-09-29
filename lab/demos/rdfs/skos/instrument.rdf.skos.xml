@@ -1,0 +1,17 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<!-- Specificarea unui concept din cadrul unui tezaur,
+     folosind SKOS (Simple Knowledge Organizational System) -->
+<skos:Concept rdf:about="#instrument">
+   <skos:definition xml:lang="ro">
+      Obiect utilizat intr-un anumit scop
+   </skos:definition>
+   <!-- specializare a unui alt concept -->
+   <skos:narrower rdf:resource="#obiect"/>
+   <!-- concepte inrudite -->
+   <skos:related rdf:resource="#unealta"/>
+   <skos:related rdf:resource="#dispozitiv"/>
+   <skos:related rdf:resource="#mecanism"/>
+   <skos:scopeNote>...</skos:scopeNote>
+</skos:Concept>   
+</rdf:RDF>

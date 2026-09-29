@@ -1,0 +1,1 @@
+<?xml version="1.0"?><rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	<rdf:Description rdf:about="urn:ISBN:0-201-00023-7">		<dc:format>			<rdf:Alt>				<rdf:li>text/html</rdf:li>				<rdf:li>text/plain</rdf:li>				<rdf:li>application/postscript</rdf:li>			</rdf:Alt>		</dc:format>	</rdf:Description></rdf:RDF>

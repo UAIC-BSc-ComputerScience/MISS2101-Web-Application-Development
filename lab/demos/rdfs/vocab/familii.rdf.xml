@@ -1,0 +1,18 @@
+<!-- Exemplu de modelare a unui fragment de web privitor la familii -->
+<rdf:RDF    
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"    
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns="http://www.familii.ro#">
+<rdfs:Class rdf:ID="Femeie" /> 
+<rdfs:Class rdf:ID="FemeieMaritata">       
+   <rdfs:subClassOf rdf:resource="#Femeie" />
+</rdfs:Class> 
+<rdf:Property rdf:about="#numeDeFata">
+	 <rdfs:domain rdf:resource="#FemeieMaritata" />	 
+	 <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+</rdf:Property> 
+<rdf:Description rdf:about="#marie-curie">
+   <numeDeFata rdf:resource="#Sklodowska" />
+   <rdf:type rdf:resource="#FemeieMaritata" />
+</rdf:Description>
+</rdf:RDF>

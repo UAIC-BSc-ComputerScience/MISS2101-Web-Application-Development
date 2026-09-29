@@ -1,0 +1,30 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# restrictii impuse datelor vizand o instanta de tip MobileApplication
+schema:MobileAppShape a sh:NodeShape ;
+  sh:targetClass schema:MobileApplication ;
+  sh:property [
+    sh:path schema:name ;
+    sh:datatype xsd:string
+  ], 
+  [
+    # data publicarii e optionala
+    sh:path schema:datePublished ;
+    sh:maxCount 1 ;
+    sh:minCount 0 ;
+    sh:datatype xsd:date
+  ],
+  [
+    # categoria e indicata via o adresa Web sau un literal
+    sh:path schema:applicationCategory ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRIOrLiteral
+  ], 
+  [
+    # descrierea trebuie sa includa sufixul limbii
+    sh:path schema:description ;
+    sh:datatype rdf:langString
+  ] .

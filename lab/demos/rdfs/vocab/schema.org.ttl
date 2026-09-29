@@ -1,0 +1,22 @@
+schema:APIReference a rdfs:Class ;
+  rdfs:comment "Reference documentation for APIs." ;
+  rdfs:subClassOf schema:TechArticle .
+
+schema:TechArticle a rdfs:Class ;
+    rdfs:label "TechArticle" ;
+    rdfs:comment "A technical article – e.g., How-to (task) topics, specifications, etc." ;
+    rdfs:subClassOf schema:Article .
+
+schema:Article a rdfs:Class ;
+    rdfs:label "Article" ;
+    rdfs:comment "An article, such as a news article or piece of investigative report." ;
+    rdfs:subClassOf schema:CreativeWork .
+
+schema:CreativeWork a rdfs:Class ;
+    rdfs:label "CreativeWork" ;
+    rdfs:comment "The most generic kind of creative work, including books, movies, photographs, software programs, etc." ;
+    rdfs:subClassOf schema:Thing .
+
+schema:Thing a rdfs:Class ;
+    rdfs:label "Thing" ;
+    rdfs:comment "The most generic type of item." .

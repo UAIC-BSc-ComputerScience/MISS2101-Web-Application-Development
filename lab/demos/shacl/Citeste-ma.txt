@@ -1,0 +1,23 @@
+Acest director contine o serie de exemple referitoare la validarea datelor RDF
+prin SHACL -- a se consulta si prelegerea de la curs:
+<https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/web-film.html#week6>.
+
+* mobile-application-shacl.ttl - restrictii SHACL exprimate in RDF (formatul Turtle)
+                                 ce vizeaza constrangerile suplimentare asupra
+                                 instantelor din clasa (conceptul) MobileApplication 
+                                 specificat(a) la
+                                 <https://schema.org/MobileApplication>
+* mobile-application-angryprofs.ttl - date RDF de validat (aici, fapte despre jocul
+                                 fictiv Angry Profs); datele nu sunt valide conform
+                                 regulilor SHACL de mai sus
+* mobile-application-validation-report.ttl - raportul RDF (in Turtle) emis de 
+                                 un instrument Web de validare precum: 
+                                 <https://shacl.org/playground/>,  
+                                 <https://shacl-playground.zazuko.com/>,
+                                 <https://shacl-play.sparna.fr/play/>. 
+
+Aceste resurse pot fi utilizate sub auspiciile prevazute de
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License: 
+<https://creativecommons.org/licenses/>.
+
+Ultima actualizare: 10 noiembrie 2025

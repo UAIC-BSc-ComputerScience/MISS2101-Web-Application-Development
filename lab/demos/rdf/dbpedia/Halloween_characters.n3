@@ -1,0 +1,68 @@
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns1:	<http://en.wikipedia.org/wiki/> .
+@prefix ns2:	<http://live.dbpedia.org/resource/> .
+@prefix ns7:	<http://live.dbpedia.org/property/> .
+@prefix ns8:	<http://live.dbpedia.org/resource/Template:> .
+@prefix ns9:	<http://live.dbpedia.org/ontology/> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+
+ns1:List_of_Halloween_characters	foaf:primaryTopic	ns2:List_of_Halloween_characters .
+
+ns2:List_of_Halloween_characters	rdfs:label	"List of Halloween characters"@en ;
+	rdfs:comment	"The following are fictional characters in the American Halloween film series."@en .
+ns2:List_of_Halloween_characters	owl:sameAs	dbpedia:List_of_Halloween_characters .
+
+ns2:List_of_Halloween_characters	dcterms:subject	<http://live.dbpedia.org/resource/Category:Halloween_%28film_series%29_characters> ;
+	foaf:page	ns1:List_of_Halloween_characters ;
+	foaf:homepage	<http://www.halloweenmovies.com> .
+ns2:List_of_Halloween_characters	ns7:wikiPageUsesTemplate	ns8:Multiple_issues ,
+		ns8:IMDb_title .
+
+ns2:List_of_Halloween_characters	ns9:wikiPageExternalLink	<http://www.halloweencomics.com/> ,
+		<http://www.halloweencomics.com/morguereports.php> ,
+		<http://www.halloweenflash.com> ,
+		<http://www.halloweenmovies.com> ;
+	ns9:abstract	"The following are fictional characters in the American Halloween film series."@en ;
+	ns8:IMDb_title	"title"@en ,
+		"id"@en ;
+	ns7:title	"Halloween II"@en ,
+		"Halloween 5: The Revenge of Michael Myers"@en ,
+		"Halloween III: Season of the Witch"@en ,
+		"Rob Zombie's Halloween II"@en ,
+		"Halloween 4: The Return of Michael Myers"@en ,
+		"Halloween"@en ,
+		"Halloween H20: 20 Years Later"@en ,
+		"Halloween: Resurrection"@en ,
+		"Rob Zombie's Halloween"@en ,
+		"Halloween: The Curse of Michael Myers"@en ;
+	ns8:Multiple_issues	"in-universe"@en ,
+		"refimprove"@en ,
+		"confusing"@en .
+
+ns2:List_of_Halloween_characters	ns7:id	"220506"^^xsd:int ,
+		"373883"^^xsd:int ,
+		"113253"^^xsd:int ,
+		"85636"^^xsd:int ,
+		"82495"^^xsd:int ,
+		"120694"^^xsd:int ,
+		"77651"^^xsd:int ,
+		"95271"^^xsd:int ,
+		"97474"^^xsd:int ,
+		"1311067"^^xsd:int ;
+	ns7:confusing	"August 2008"@en ;
+	ns7:refimprove	"June 2009"@en ;
+	ns7:inUniverse	"November 2007"@en .
+<http://live.dbpedia.org/resource/Characters_in_the_%22Halloween%22_series>	
+	ns9:wikiPageRedirects	ns2:List_of_Halloween_characters .
+ns2:List_of_Deaths_in_Halloween	
+	ns9:wikiPageRedirects	ns2:List_of_Halloween_characters .
+<http://live.dbpedia.org/resource/List_of_Halloween_%282007_film%29_characters>
+	ns9:wikiPageRedirects	ns2:List_of_Halloween_characters .
+ns2:List_of_characters_in_the_Halloween_series
+	ns9:wikiPageRedirects	ns2:List_of_Halloween_characters .
+ns2:List_of_characters_in_the_Halloween_film_series
+	ns9:wikiPageRedirects	ns2:List_of_Halloween_characters .

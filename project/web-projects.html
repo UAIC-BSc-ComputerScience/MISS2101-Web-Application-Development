@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>#WADe Projects</title>
+<link rel="stylesheet" href="./web.css">
+<link rel="author" href="https://profs.info.uaic.ro/sabin.buraga/">
+<link rel="me" href="https://profs.info.uaic.ro/sabin.buraga/">
+<meta name="subject" content="Web Application Development">
+<meta name="url" content="https://profs.info.uaic.ro/sabin.buraga/teach/courses/wade/">
+<meta name="description" content="Web Application Development: linked data &amp; knowledge management on Web / Prof. Sabin-Corneliu Buraga">
+<meta name="author" content="Sabin-Corneliu Buraga - https://profs.info.uaic.ro/sabin.buraga/">
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" id="top">
+
+<div class="nav">
+<nav>
+<ul>
+<li class="opt main"><a href="index.html" title="Web Application Development (main page)" accesskey="W">#WADe</a></li>
+<li class="opt film"><a href="web-film.html" title="Details about the Web Application Development syllabus and readings" accesskey="F">film</a></li>
+<li class="opt exam"><a href="web-exam.html" title="Information regarding the evaluation, grading, marks et al." accesskey="E">eval&nbsp;()</a></li>
+<li class="opt biblio"><a href="web-biblio.html" title="Essential resources of interest" accesskey="B">biblio</a></li>
+<li class="opt contact"><a href="web-contact.html" title="Contact possibilities" accesskey="C">contact</a></li>
+<li class="opt main"><a href="#top" title="Top of this Webpage" accesskey="T">&#x27F0;</a></li>
+</ul>
+</nav>
+</div>
+
+<article>
+<header>
+<h1 itemprop="name">Web Application Development</h1>
+<p class="slogan" itemprop="description">software projects</p>
+</header>
+
+<nav>
+<p class="announce">
+<a href="#requirements">Requirements</a> &middot; 
+<a href="#calendar">Deliverables &amp; Calendar</a>
+</p>
+</nav>
+
+<section id="requirements">
+<h2 class="projects">Requirements</h2>
+
+<p>The most important requirements are:</p>
+
+<ul>
+<li><aside class="menu"><a href="projects/index.html" title="The list of project proposals">WADe project<br>proposals</a></aside>
+<p>The project consists of a (micro-)service-based Web application (i.e., a software system) developed by using existing social and semantic Web technologies.</p> 
+</li>
+
+<li>
+<p><strong>A project proposal could be chosen by maximum 4&nbsp;teams. Each team must have 2 members.</strong></p>
+
+<!--
+<p class="info">In order to be evaluated, each team should fill in the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeqqcpJchd75_Dl8wF06NiWYIh3LCp95YgRt2qkcilpc1ZwPg/viewform?hl=en" title="A Web form collecting data about the project to be assessed">WADe Project Assessment form</a> &ndash; deadline: <strong>Monday</strong>, <strong>30&nbsp;October</strong>. The list of <a target="_blank" title="The list of WADe project applications" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLlvL1PbEHNaQyJDwvJei2XyZisBueurprBUYPbJ9LMhHnp_TiMf1XTOaR2C_75Nxzwm6LIAnZQsNo/pubhtml?gid=1497333114&amp;single=true&amp;hl=en">submitted project applications</a> is also available.</p>
+-->
+
+<!--
+<p class="info">Consult the <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLlvL1PbEHNaQyJDwvJei2XyZisBueurprBUYPbJ9LMhHnp_TiMf1XTOaR2C_75Nxzwm6LIAnZQsNo/pubhtml?gid=940724476&single=true&hl=en"
+title="Details">list of project submissions per teams</a>.</p>
+-->
+
+<li>
+<p>There are no restrictions regarding the project implementation: hardware and/or software platform(s), programming language(s)/paradigm(s), framework(s), libraries, public APIs, etc.</p>
+</li>
+
+<li>
+<p class="info">Open source approaches are highly encouraged.</p>
+</li>
+
+<li>
+<p>For the final assessment, the team must provide the full functionality of the developed solution, according to the specific requirements stated in the project description and discussed in the first 7&nbsp;weeks of the semester during practical works (WADe labs).</p>
+</li>
+
+<li>
+<p>The implemented Web system must include at least one micro-service able to provide resource recommendations based on content (e.g., using tags) and user profile (i.e. preferences) + user behavior &ndash; study <a href="https://arxiv.org/abs/1203.0332" title="A Personalized Tag-Based Recommendation in Social Web Systems">A Personalized Tag-Based Recommendation in Social Web Systems</a>.</p>
+</li>
+
+<li><aside class="menu"><a href="https://education.github.com/pack" title="Information about GitHub Student Developer Pack">GitHub Student<br>Developer Pack</a></aside>
+<p>The project should be developed and deployed according to the actual practices in <a href="web-film.html#week3" title="Details about Web engineering">Web engineering</a> (e.g., documentation, test driven development, modularity, bug reporting, etc.) by using a modern approach regarding source-code management like Bitbucket, GitHub, or similar cloud-based solutions.</p>
+</li>
+
+<li>
+<p>All data managed by the developed Web application must be described in <a href="web-film.html#week6" title="Details about RDF (Resource Description Framework)">RDF</a> &ndash; based on existing <a href="web-film.html#week10" title="Details regarding knowledge modelling">knowledge models</a> (vocabularies, taxonomies, thesauri, ontologies,...). Various interrogations should be performed by using the <a href="web-film.html#week6" title="Details about SPARQL">SPARQL</a> query language.</p>
+</li>
+ 
+<li>
+<p>Resource representations to be processed by the (Web/mobile) client will include a <a href="https://validator.w3.org/" title="Markup Validation Service (W3C Validator)">valid HTML</a> code, plus <a href="web-film.html#web-schemaorg" title="Details about schema.org">schema.org</a> and <a href="web-film.html#web-rdfa" title="Information about RDFa">RDFa</a> constructs.</p></li>
+
+<li>
+<p>Each thing (resource) of interest will be exposed and shared by using a generated URL and/or QR code.</p></li>
+
+<li>
+<p>The code-source and specific content (data) must be available under the terms of the <a href="https://opensource.org/licenses" title="Details">open source licenses</a> and <a href="https://creativecommons.org/about/licenses/" title="Details about Creative Commons licenses">Creative Commons</a> &ndash; consult <a href="https://tldrlegal.com/" title="Details about various software/data licenses">Software Licenses in Plain English</a> and <a href="https://coderefinery.github.io/social-coding/" title="Document: 'Social Coding and Open Software'">Social Coding and Open Software</a>.</p>
+</li>
+
+</ul>
+
+<p>Additional factors taken into consideration for the project evaluation:</p>
+
+<ul>
+<li>
+<p>A proper use of various "exotic" programming paradigms like functional, distributed, parallel, reactive, etc.</p>
+</li>
+
+<li>
+<p>Adopting <a target="_blank" href="https://landscape.cncf.io/?group=projects-and-products&amp;view-mode=grid" title="CNCF Cloud Native Interactive Landscape">a cloud-based solution</a> &ndash; i.e. for the (RDF) data storage and/or the Web application deployment.</p>
+</li>
+<!--
+<li>
+<p>Using specific design patterns regarding the Web application architecture and/or the knowledge modeling &ndash; for example, applying various <a href="web-film.html#week13" title="Details about ontology engineering">ontology design patterns</a>.</p>
+</li>
+-->
+<li>
+<p>Creativity and social impact of the proposed solution.</p>
+</li>
+
+<li>
+<p class="info">Team work &ndash; a <strong>penalty of 2&nbsp;points</strong> for each assessed component will be applied for a 1-person project effort. Each member of the team will specify the most important contributions to the developed solution.</p>
+</li>
+
+<li>
+<p>Implementation maturity &ndash; study <a href="https://technical-reference.readthedocs.io/en/latest/quality/software-checklist.html" title="Details">Software Quality Checklist</a> and <a
+href="https://www.toptal.com/developers/webdevchecklist" title="Details">Web Developer Checklist</a>.</p>
+</li>
+
+<li>
+<p>Overall impression &ndash; <em>e.g.</em>, the suitable use of discussed Web technologies, impact on the end users + usability, business aspects, performance, further directions of development &ndash; consider <a href="https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/" title="Things end users care about but programmers don't">things users care about</a>.</p>
+</li>
+</ul>
+
+<p>We also encourage positive critics and questions from students.</p>
+</section>
+
+<section id="calendar">
+<h2 class="projects">Deliverables &amp; Calendar</h2>
+
+<!--
+<div class="info">
+<p>&#x231B; The WADe project evaluation procedure will take place during week #14.
+
+Consult the <a
+href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVkzwITm1iwYlsTxHLv_1LpJ_x8MzK_fgk-99MDqT3PFIi4fXaDYdiRodei0M1Os2tX9ABhpw67n45/pubhtml?gid=202506503&amp;single=true" target="_blank"
+title="Details">WADe project assessment schedule</a>.
+
+</p>
+</div>
+-->
+<!--
+<p>The assessment procedure will also consider the deliverables provided by the URL's project. All resources created or modified after the due date (<time datetime="2026-01-03T09:00">13&nbsp;January 2026, 09:00 local time</time>) will be ignored.</p>
+-->
+<p>A student team must deliver the following resources, according to each <a href="projects/" title="The list of project proposals">project proposal</a>:</p>
+
+<ol>
+<li><aside class="menu"><a href="https://github.com/Louis3797/awesome-readme-template#readme" title="Awesome Readme Template">Readme Template</a></aside>
+<p>A public wiki associated to the WADe project repository should record the solution's progress. The content must be available in English language and minimally tagged with <code>project</code>, <code>infoiasi</code>, <code>wade</code>, and <code>web</code>. All project's deliverables must be referred by this wiki.</p>
+</li>
+
+<li><aside class="menu"><a href="https://github.com/kdeldycke/awesome-falsehood" title="A curated list of falsehoods programmers believe in">Falsehood</a><br><a href="https://uifaces.co/" title="UI Faces">UI Faces</a><br><a href="https://c4model.com/" title="The C4 model for visualising software architectur">C4 Model</a><br><a href="https://blog.pragmaticengineer.com/rfcs-and-design-docs/" title="Companies Using RFCs or Design Docs and Examples of These">Design Docs</a></aside>
+<p>A general (service-oriented) architecture of the Web application + the overall design from the point of view of a software engineer (for example: main modules, software architecture diagrams, input/output data formats, data/task flows, etc.) and
+concerning the end users.</p>
+</li>
+
+<li>
+<p>An <a href="https://github.com/OAI/OpenAPI-Specification#readme" title="Details about Open API Initiative">OpenAPI</a> specification regarding the REST API &ndash; or, alternatively, a schema for the GraphQL API &ndash; provided by the project, including various usage examples and pragmatic case studies.</p>
+</li>
+
+<li><aside class="menu"><a href="https://mcmassociates.io/textbook/" title="Online Technical Writing">Technical Writing</a></aside>
+<p>A <a href="https://w3c.github.io/scholarly-html/" title="Details about Scholarly HTML">Scholarly HTML</a> technical report. Its digital content will be equivalent to a minimum 10 printed A4 pages) describing the most significant details about:</p>
+
+<ul>
+<li><p>Internal data structures/models to be used and managed by the Web application.</p> 
+</li>
+
+<li>
+<p>Technical aspects concerning the <strong>implemented API(s)</strong> &ndash; by adopting REST and/or GraphQL &ndash; according to the proposed Web system architecture.</p> 
+</li>
+
+<li>
+<p>Considerations regarding the designed/reused <strong>RDF-based knowledge model(s)</strong> &ndash; for example, the expressiveness and real usage of the proposed and/or reused vocabulary, taxonomy or ontology in the context of the developed system.</p>
+</li>
+
+<li>
+<p>Pragmatic <strong>use of external data/knowledge sources</strong> &ndash; <em>e.g.</em>, using various knowledge bases like <a href="https://www.wikidata.org/" title="About Wikidata">Wikidata</a> and <a href="https://wiki.dbpedia.org/about" title="About DBpedia">DBpedia</a>, plus several non-trivial <strong>SPARQL queries</strong> of interest.  Also, explain how the solution conforms to the <a href="web-film.html#week9">linked data principles</a>.</p>
+</li>
+
+<li><aside class="menu"><a href="https://free-for.dev/" title="A list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers">free-for.dev</a><br><a href="https://www.mockaroo.com/" title="A realistic user data generator">Mockaroo</a></aside>
+<p>A user guide of the developed solution &ndash; also available as a <a href="https://w3c.github.io/scholarly-html/" title="Details about Scholarly HTML">Scholarly HTML</a> document including screen-captures and explaining at least 3&nbsp;case-studies &ndash;, plus a (U)HD-quality video demonstration (duration: 5&mdash;7&nbsp;minutes).</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>A fully implemented and deployed &ndash; <em>e.g.</em> in the cloud &ndash; solution of the software project.</p>
+</li>
+</ol>
+
+<p><strong>All deliverables are mandatory.</strong></p>
+
+<h3>&#x1F48E; <strong>Bonuses</strong></h3> 
+
+<p>Each team could be awarded with an amount of maximum 3&nbsp;points for:</p>
+<ul>
+
+<li>
+<p>adopting <a href="web-film.html#week7" title="Details about Shapes Constraint Language">SHACL</a> to validate RDF data,</p>
+</li>
+
+<li>
+<p>proposing a decentralized approach based on the <a href="https://solidproject.org/" title="Details about Solid, an open standard for structuring data, digital identities, and applications on the Web">Solid</a> &ndash; an open standard for structuring data, digital identities, and applications on the Web,</p>
+</li>
+
+<li>
+<p>using various deep/machine learning and/or blockchain-based techniques,</p> 
+</li>
+
+<li>
+<p>discussing and adopting methods and/or paradigms regarding the user interaction/experience,</p>
+</li> 
+
+<li>
+<p>providing various Description Logics reasoning features &ndash; such as inferences, recommendations, etc. &ndash; by using a knowledge-based reasoner tool (for instance, <a href="http://www.hermit-reasoner.com/" title="HermiT OWL Reasoner">HermiT</a>, <a href="https://github.com/stardog-union/pellet" title="Pellet is an OWL 2 reasoner in Java">Pellet</a>, <a href="https://docs.oxfordsemantic.tech/reasoning.html" title="Reasoning features of RDFox">RDFox</a> or <a href="https://www.w3.org/2001/sw/wiki/OWL/Implementations" title="OWL Implementations">others</a>) and/or a logical rule-based system (<em>e.g.</em> <a href="https://jena.apache.org/documentation/inference/" title="Reasoners and rule engines: Jena inference support">Apache Jena</a>).</p>
+</li>
+
+<li>
+<p>considering significant aspects with respect to the interoperability, performance, and/or security of the implemented solution.</p>
+</li>
+
+</ul>
+
+<p class="info">Bonuses may be granted only if the project solution fully complies with all requirements and is operational (i.e. implemented and deployed).</p>
+
+<aside class="menu"><a href="https://github.com/matteofigus/awesome-speaking" title="A collection of resources about public speaking">Awesome<br>Speaking</a></aside>
+<p>The presentation of the project has allocated <strong>maximum 10&nbsp;minutes</strong> per team, including questions.</p>
+<!--
+<h3>Project Reassessment</h3>
+
+<div class="info">
+<p>&#x231B; The WADe project reassessment procedure will start on <strong>Tuesday</strong>, <strong>18&nbsp;February</strong>, <strong>10:00</strong> local time.</p>
+
+<p>Consult the <a
+href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRW3Z43FGVgaS7-0_J4k330bd5I4cuBlRqIyUp2k5NKi3ck3tHAA8pNW9E1I92I92AvE1NtnRDRSeWR/pubhtml?gid=989110152&amp;single=true" target="_blank"
+title="Details">WADe reassessment schedule</a>.</p>
+</div>
+
+<ul>
+<li><p>Required deliverables remain the same.</p></li>
+
+<li><p>Each project will be reevaluated with a 2&nbsp;point penalty.</p></li>
+</ul> 
+-->
+</section>
+
+<footer>
+<div class="urls">see also: <a href="web-exam.html" title="Details about the assessment procedure">Evaluation</a> &middot; <a href="web-biblio.html" title="Details about WADe bibliography">Resources</a> &middot; <a href="web-contact.html" title="Details regarding the contact protocol">Contact</a></div>
+
+<div>Last update: 28 September 2026 / <a itemprop="license" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+title="Details about Attribution-NonCommercial-ShareAlike 4.0 International License">CC</a><br>
+<span itemid="#busaco" itemscope="" itemtype="http://schema.org/Person" itemprop="author">Prof. <a href="https://profs.info.uaic.ro/sabin.buraga/" title="Visit the Website of Sabin-Corneliu Buraga" itemprop="url"><span itemprop="name">Sabin-Corneliu Buraga</span></a></span></div>
+</footer>
+</article>
+
+</body>
+</html>

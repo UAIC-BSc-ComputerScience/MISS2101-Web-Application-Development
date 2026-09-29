@@ -1,0 +1,217 @@
+Namespace: owl2xml <http://www.w3.org/2006/12/owl2-xml#>
+Namespace: xsd <http://www.w3.org/2001/XMLSchema#>
+Namespace: cinema <http://www.infoiasi.ro/cinema.ro#>
+Namespace: rdfs <http://www.w3.org/2000/01/rdf-schema#>
+Namespace: rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Namespace: owl <http://www.w3.org/2002/07/owl#>
+
+
+
+Ontology: <file:/I:/cinema.owl>
+
+ObjectProperty: cinema:regizatDe
+
+    InverseOf: 
+        cinema:regizeazaFilm
+    
+    
+
+
+
+ObjectProperty: cinema:areTema
+
+    Domain: 
+        cinema:Film
+    
+    Range: 
+        cinema:Tema
+    
+    
+
+
+
+ObjectProperty: cinema:eInruditCu
+
+    Characteristics: 
+        Symmetric
+    
+    
+
+
+
+ObjectProperty: cinema:regizeazaFilm
+
+    Domain: 
+        cinema:Regizor
+    
+    Range: 
+        cinema:Film
+    
+    InverseOf: 
+        cinema:regizatDe
+    
+    
+
+
+
+ObjectProperty: cinema:investigheazaTema
+
+    Domain: 
+        cinema:Regizor
+    
+    Range: 
+        cinema:Tema
+    
+    
+
+
+
+ObjectProperty: cinema:areGen
+
+    Domain: 
+        cinema:Film
+    
+    Range: 
+        cinema:Gen
+    
+    
+
+
+
+Class: cinema:Film
+
+    DisjointWith: 
+        cinema:Regizor
+    
+    
+
+
+
+Class: cinema:Gen
+
+    
+
+
+
+Class: cinema:Tema
+
+    
+
+
+
+Class: cinema:Regizor
+
+    DisjointWith: 
+        cinema:Film
+    
+    
+
+
+
+Individual: cinema:Tarkovski
+
+    Types: 
+        cinema:Regizor
+    
+    Facts: 
+        cinema:regizeazaFilm  cinema:Andrei-Rubliov,
+        cinema:regizeazaFilm  cinema:The-Mirror
+    
+    
+
+
+
+Individual: cinema:Neo-realism
+
+    
+
+
+
+Individual: cinema:The-Wall
+
+    Types: 
+        cinema:Film
+    
+    Facts: 
+        cinema:regizatDe  cinema:Alan-Parker,
+        cinema:areTema  cinema:Nebunie,
+        cinema:areGen  cinema:Muzical
+    
+    
+
+
+
+Individual: cinema:The-Mirror
+
+    Types: 
+        cinema:Film
+    
+    Facts: 
+        cinema:regizatDe  cinema:Tarkovski
+    
+    
+
+
+
+Individual: cinema:Fellini
+
+    Facts: 
+        cinema:regizeazaFilm  cinema:La-Strada
+    
+    
+
+
+
+Individual: cinema:La-Strada
+
+    Types: 
+        cinema:Film
+    
+    Facts: 
+        cinema:regizatDe  cinema:Fellini,
+        cinema:areTema  cinema:Alienare,
+        cinema:areGen  cinema:Neo-realism
+    
+    
+
+
+
+Individual: cinema:Andrei-Rubliov
+
+    Types: 
+        cinema:Film
+    
+    Facts: 
+        cinema:regizatDe  cinema:Tarkovski
+    
+    
+
+
+
+Individual: cinema:Alienare
+
+    
+
+
+
+Individual: cinema:Muzical
+
+    
+
+
+
+Individual: cinema:Alan-Parker
+
+    Facts: 
+        cinema:regizeazaFilm  cinema:The-Wall
+    
+    
+
+
+
+Individual: cinema:Nebunie
+
+    
+
+
+

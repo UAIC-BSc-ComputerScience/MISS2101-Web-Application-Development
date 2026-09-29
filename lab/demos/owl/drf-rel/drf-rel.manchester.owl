@@ -1,0 +1,152 @@
+Namespace: owl2xml <http://www.w3.org/2006/12/owl2-xml#>
+Namespace: xsd <http://www.w3.org/2001/XMLSchema#>
+Namespace: dc <http://purl.org/dc/elements/1.1/>
+Namespace: drf-rel <file:/D:/drf-rel.rdf#>
+Namespace: rdfs <http://www.w3.org/2000/01/rdf-schema#>
+Namespace: foaf <http://xmlns.com/foaf/0.1/>
+Namespace: rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Namespace: owl <http://www.w3.org/2002/07/owl#>
+
+
+
+Ontology: <http://drf.googlecode.com/svn/trunk/rel/drf-rel>
+
+Annotations: 
+    dc:contributor "Sabin Buraga"^^xsd:string,
+    dc:creator "Ciprian Amariei"^^xsd:string,
+    dc:date "2005"^^xsd:gYear,
+    dc:title "Relatii specificate pentru Date Review Framework"^^xsd:string,
+    dc:description "Vocabular descriind tipuri de relatii intre persoane, folosite in cadrul implementarii Date Review Framework."^^xsd:string
+
+ObjectProperty: drf-rel:WorkedUnderLeadershipOf
+
+    Annotations: 
+        rdfs:comment "Relatia de a fi coordonat de o alta persoana"@ro,
+        rdfs:label "Work under leadership of"@en
+    
+    Domain: 
+        foaf:Person
+    
+    Range: 
+        foaf:Person
+    
+    InverseOf: 
+        drf-rel:ProjectLeaderTo
+    
+    SubPropertyOf: 
+        foaf:knows
+    
+    
+
+
+
+ObjectProperty: drf-rel:CollaboratorOf
+
+    Annotations: 
+        rdfs:label "Collaborator Of"@en,
+        rdfs:comment "Relatia de colaborare intre persoane"@ro
+    
+    Characteristics: 
+        Symmetric
+    
+    Domain: 
+        foaf:Person
+    
+    Range: 
+        foaf:Person
+    
+    SubPropertyOf: 
+        foaf:knows
+    
+    
+
+
+
+ObjectProperty: drf-rel:ProjectLeaderTo
+
+    Annotations: 
+        rdfs:comment "Relatia de coordonare a unei persoane"@ro,
+        rdfs:label "Project leader to",
+        rdfs:label "Project leader to"@en
+    
+    Domain: 
+        foaf:Person
+    
+    Range: 
+        foaf:Person
+    
+    InverseOf: 
+        drf-rel:WorkedUnderLeadershipOf
+    
+    SubPropertyOf: 
+        foaf:knows
+    
+    
+
+
+
+ObjectProperty: drf-rel:ReviewedBy
+
+    Annotations: 
+        rdfs:label "Has been reviewed by",
+        rdfs:isDefinedBy "http://drf.googlecode.com/svn/trunk/rel/drf-rel#"^^xsd:anyURI,
+        rdfs:label "Reviewed By"@en,
+        rdfs:comment "Specifica relatia de inspectare a datelor unei persoane"@ro
+    
+    Domain: 
+        foaf:Person
+    
+    Range: 
+        foaf:Person
+    
+    InverseOf: 
+        drf-rel:ReviewerOf
+    
+    SubPropertyOf: 
+        foaf:knows
+    
+    
+
+
+
+ObjectProperty: drf-rel:ReviewerOf
+
+    Annotations: 
+        rdfs:label "Reviewer of"@en,
+        rdfs:comment "Relatia de inspector al datelor altei persoane"@ro,
+        rdfs:label "Reviewer of"
+    
+    Domain: 
+        foaf:Person
+    
+    Range: 
+        foaf:Person
+    
+    InverseOf: 
+        drf-rel:ReviewedBy
+    
+    SubPropertyOf: 
+        foaf:knows
+    
+    
+
+
+
+ObjectProperty: foaf:knows
+
+    Annotations: 
+        rdfs:label "knows"
+    
+    
+
+
+
+Class: foaf:Person
+
+    Annotations: 
+        rdfs:label "Person"
+    
+    
+
+
+

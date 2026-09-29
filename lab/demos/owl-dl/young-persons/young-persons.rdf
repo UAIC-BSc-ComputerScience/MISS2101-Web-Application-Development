@@ -1,0 +1,148 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<rdf:RDF xmlns="http://www.info.uaic.ro/wade/young-persons#" xml:base="http://www.info.uaic.ro/wade/young-persons" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.info.uaic.ro/wade/young-persons#" />
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.info.uaic.ro/wade/young-persons#knownsBy -->
+  <owl:ObjectProperty rdf:about="http://www.info.uaic.ro/wade/young-persons#knownsBy" />
+  <!-- http://www.info.uaic.ro/wade/young-persons#knows -->
+  <owl:ObjectProperty rdf:about="http://www.info.uaic.ro/wade/young-persons#knows">
+    <owl:equivalentProperty>
+      <rdf:Description>
+        <owl:inverseOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#knownsBy" />
+      </rdf:Description>
+    </owl:equivalentProperty>
+  </owl:ObjectProperty>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.info.uaic.ro/wade/young-persons#hasAge -->
+  <owl:DatatypeProperty rdf:about="http://www.info.uaic.ro/wade/young-persons#hasAge" />
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.info.uaic.ro/wade/young-persons#Female -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#Female">
+    <rdfs:subClassOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#Person" />
+  </owl:Class>
+  <!-- http://www.info.uaic.ro/wade/young-persons#LivingThing -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#LivingThing" />
+  <!-- http://www.info.uaic.ro/wade/young-persons#Male -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#Male">
+    <rdfs:subClassOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#Person" />
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:complementOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#Female" />
+      </owl:Class>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <!-- http://www.info.uaic.ro/wade/young-persons#Person -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#Person">
+    <rdfs:subClassOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#LivingThing" />
+  </owl:Class>
+  <!-- http://www.info.uaic.ro/wade/young-persons#Student -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#Student">
+    <rdfs:subClassOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#Person" />
+  </owl:Class>
+  <!-- http://www.info.uaic.ro/wade/young-persons#YoungPerson -->
+  <owl:Class rdf:about="http://www.info.uaic.ro/wade/young-persons#YoungPerson">
+    <rdfs:subClassOf rdf:resource="http://www.info.uaic.ro/wade/young-persons#Person" />
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.info.uaic.ro/wade/young-persons#knows" />
+        <owl:someValuesFrom rdf:resource="http://www.info.uaic.ro/wade/young-persons#Student" />
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.info.uaic.ro/wade/young-persons#hasAge" />
+        <owl:someValuesFrom>
+          <rdfs:Datatype>
+            <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+            <owl:withRestrictions rdf:parseType="Collection">
+              <rdf:Description>
+                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</xsd:maxExclusive>
+              </rdf:Description>
+            </owl:withRestrictions>
+          </rdfs:Datatype>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.info.uaic.ro/wade/young-persons#Ana -->
+  <owl:NamedIndividual rdf:about="http://www.info.uaic.ro/wade/young-persons#Ana">
+    <rdf:type rdf:resource="http://www.info.uaic.ro/wade/young-persons#Female" />
+    <rdf:type>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.info.uaic.ro/wade/young-persons#YoungPerson" />
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.info.uaic.ro/wade/young-persons#knows" />
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="http://www.info.uaic.ro/wade/young-persons#Dan" />
+                </owl:oneOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:type>
+  </owl:NamedIndividual>
+  <!-- http://www.info.uaic.ro/wade/young-persons#Cristina -->
+  <owl:NamedIndividual rdf:about="http://www.info.uaic.ro/wade/young-persons#Cristina">
+    <rdf:type>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.info.uaic.ro/wade/young-persons#YoungPerson" />
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://www.info.uaic.ro/wade/young-persons#knows" />
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                  <rdf:Description rdf:about="http://www.info.uaic.ro/wade/young-persons#Dan" />
+                </owl:oneOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:type>
+    <knownsBy rdf:resource="http://www.info.uaic.ro/wade/young-persons#Ana" />
+  </owl:NamedIndividual>
+  <!-- http://www.info.uaic.ro/wade/young-persons#Dan -->
+  <owl:NamedIndividual rdf:about="http://www.info.uaic.ro/wade/young-persons#Dan">
+    <rdf:type rdf:resource="http://www.info.uaic.ro/wade/young-persons#Male" />
+  </owl:NamedIndividual>
+  <!-- http://www.info.uaic.ro/wade/young-persons#George -->
+  <owl:NamedIndividual rdf:about="http://www.info.uaic.ro/wade/young-persons#George">
+    <rdf:type>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.info.uaic.ro/wade/young-persons#knows" />
+        <owl:someValuesFrom rdf:resource="http://www.info.uaic.ro/wade/young-persons#Student" />
+      </owl:Restriction>
+    </rdf:type>
+  </owl:NamedIndividual>
+</rdf:RDF>
+<!--Generated by Cognitum FluentEditor2015, a part of Ontorion(TM) Knowledge Management Framework, (with support of OwlApi)-->

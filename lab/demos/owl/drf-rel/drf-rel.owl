@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://drf.googlecode.com/svn/trunk/rel/drf-rel#"
+     xml:base="http://drf.googlecode.com/svn/trunk/rel/drf-rel"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://drf.googlecode.com/svn/trunk/rel/drf-rel">
+        <dc:date rdf:datatype="&xsd;gYear">2005</dc:date>
+        <dc:creator rdf:datatype="&xsd;string">Ciprian Amariei</dc:creator>
+        <dc:title rdf:datatype="&xsd;string"
+            >Relatii specificate pentru Date Review Framework</dc:title>
+        <dc:contributor rdf:datatype="&xsd;string">Sabin Buraga</dc:contributor>
+        <dc:description rdf:datatype="&xsd;string"
+            >Vocabular descriind tipuri de relatii intre persoane, folosite in cadrul implementarii Date Review Framework.</dc:description>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://drf.googlecode.com/svn/trunk/rel/drf-rel#CollaboratorOf -->
+
+    <owl:ObjectProperty rdf:about="#CollaboratorOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label xml:lang="en">Collaborator Of</rdfs:label>
+        <rdfs:comment xml:lang="ro"
+            >Relatia de colaborare intre persoane</rdfs:comment>
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&foaf;knows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://drf.googlecode.com/svn/trunk/rel/drf-rel#ProjectLeaderTo -->
+
+    <owl:ObjectProperty rdf:about="#ProjectLeaderTo">
+        <rdfs:label
+            >Project leader to</rdfs:label>
+        <rdfs:label xml:lang="en"
+            >Project leader to</rdfs:label>
+        <rdfs:comment xml:lang="ro"
+            >Relatia de coordonare a unei persoane</rdfs:comment>
+        <owl:inverseOf rdf:resource="#WorkedUnderLeadershipOf"/>
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&foaf;knows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://drf.googlecode.com/svn/trunk/rel/drf-rel#ReviewedBy -->
+
+    <owl:ObjectProperty rdf:about="#ReviewedBy">
+        <rdfs:label
+            >Has been reviewed by</rdfs:label>
+        <rdfs:label xml:lang="en">Reviewed By</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://drf.googlecode.com/svn/trunk/rel/drf-rel#</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="ro"
+            >Specifica relatia de inspectare a datelor unei persoane</rdfs:comment>
+        <owl:inverseOf rdf:resource="#ReviewerOf"/>
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&foaf;knows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://drf.googlecode.com/svn/trunk/rel/drf-rel#ReviewerOf -->
+
+    <owl:ObjectProperty rdf:about="#ReviewerOf">
+        <rdfs:label>Reviewer of</rdfs:label>
+        <rdfs:label xml:lang="en">Reviewer of</rdfs:label>
+        <rdfs:comment xml:lang="ro"
+            >Relatia de inspector al datelor altei persoane</rdfs:comment>
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&foaf;knows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://drf.googlecode.com/svn/trunk/rel/drf-rel#WorkedUnderLeadershipOf -->
+
+    <owl:ObjectProperty rdf:about="#WorkedUnderLeadershipOf">
+        <rdfs:label xml:lang="en"
+            >Work under leadership of</rdfs:label>
+        <rdfs:comment xml:lang="ro"
+            >Relatia de a fi coordonat de o alta persoana</rdfs:comment>
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&foaf;knows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/knows -->
+
+    <owl:ObjectProperty rdf:about="&foaf;knows">
+        <rdfs:label>knows</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="&foaf;Person">
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

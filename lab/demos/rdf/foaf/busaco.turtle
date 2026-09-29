@@ -1,0 +1,46 @@
+@base <http://triplr.org/turtle/profs.info.uaic.ro/~busaco/busaco.foaf.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://profs.info.uaic.ro/~busaco/busaco.foaf.xml>
+    dc:description "RDF description for Sabin-Corneliu Buraga in
+         machine-readable RDF/XML"@en ;
+    dc:title "RDF Description of Sabin-Corneliu Buraga"@en ;
+    a foaf:PersonalProfileDocument ;
+    rdfs:label "RDF Description of Sabin-Corneliu Buraga" ;
+    foaf:maker <http://profs.info.uaic.ro/~busaco/busaco.foaf.xml#me> ;
+    foaf:primaryTopic <http://profs.info.uaic.ro/~busaco/busaco.foaf.xml#me> .
+
+<http://profs.info.uaic.ro/~busaco/busaco.foaf.xml#me>
+    a foaf:Person ;
+    foaf:based_near [
+        a geo:point ;
+        geo:lat "47.170519" ;
+        geo:long "27.579889"
+    ] ;
+    foaf:firstname "Sabin" ;
+    foaf:givenname "Buraga" ;
+    foaf:homepage <http://www.purl.org/net/busaco> ;
+    foaf:knows [
+        a foaf:Person ;
+        rdfs:seeAlso <http://kmi.open.ac.uk/people/rdf.cfm/idstring/laurian-gridinoc/> ;
+        foaf:mbox_sha1sum "4dcbfa3172d25467c3d5eba157caa36ab3b89b05" ;
+        foaf:name "Laurian Gridinoc"
+    ] ;
+    foaf:mbox_sha1sum "939923a71879cefd6efb6500e20541422f98c119" ;
+    foaf:name "Sabin-Corneliu Buraga" ;
+    foaf:schoolHomepage <http://www.liis.ro/> ;
+    foaf:schoolHomepage <http://www.info.uaic.ro/> ;
+    foaf:schoolHomepage <http://www.uaic.ro/> ;
+    foaf:thumbnail <http://thor.info.uaic.ro/~busaco/csb34c.jpg> ;
+    foaf:title "Dr." ;
+    foaf:workInfoHomepage <http://www.info.uaic.ro/bin/Structure/busaco> ;
+    foaf:workplaceHomepage <http://www.info.uaic.ro/> .
+
+# Made by Triplr http://triplr.org/ by Dave Beckett, http://www.dajobe.org/
+# from http://profs.info.uaic.ro/~busaco/busaco.foaf.xml in format rdfxml to turtle
+# using Redland 1.0.9 and Raptor 1.4.19 from http://librdf.org/
+# This document is http://triplr.org/turtle/profs.info.uaic.ro/~busaco/busaco.foaf.xml

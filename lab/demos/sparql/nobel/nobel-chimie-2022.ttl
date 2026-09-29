@@ -1,0 +1,173 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# premiul Nobel pentru chimie acordat in anul 2022... 
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> 
+	a <http://data.nobelprize.org/terms/NobelPrize> , <http://dbpedia.org/ontology/Award> ;
+	rdfs:label "The Nobel Prize in Chemistry 2022"@en , "Nobelpriset i kemi 2022"@sv , "Nobelprisen i kjemi 2022"@no ;
+	<http://data.nobelprize.org/terms/year> "2022"^^xsd:integer ;
+	# ...are ca membri 3 entitati 
+	<http://data.nobelprize.org/terms/laureate> 
+		<http://data.nobelprize.org/resource/laureate/743> , 
+		<http://data.nobelprize.org/resource/laureate/1015> , 
+		<http://data.nobelprize.org/resource/laureate/1016> ;
+	# ...care fac parte din multimea laureatilor Nobel	
+	dcterms:hasPart 
+		<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1015> , 
+		<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/743> , 
+		<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1016> ;
+	# categoria premiului: chimie	
+	<http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/terms/Chemistry> ;
+	<http://data.nobelprize.org/terms/categoryOrder> "2"^^xsd:integer .
+
+# date privind un premiu identificat prin URI
+<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1015> 
+	a <http://data.nobelprize.org/terms/LaureateAward> , <http://dbpedia.org/ontology/Award> ;
+	rdfs:label "The Nobel Prize in Chemistry 2022, Carolyn Bertozzi"@en , 
+		"Nobelprisen i kjemi 2022, Carolyn Bertozzi"@no , 
+		"Nobelpriset i kemi 2022, Carolyn Bertozzi"@sv ;
+	<http://data.nobelprize.org/terms/share> "3"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/motivation> "for the development of click chemistry and bioorthogonal chemistry"@en , "för utveckling av klickkemi och bioortogonal kemi"@sv ;
+	<http://data.nobelprize.org/terms/year> "2022"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate/1015> ;
+	<http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category/Chemistry> ;
+	dcterms:isPartOf <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	<http://data.nobelprize.org/terms/university> 
+		<http://data.nobelprize.org/resource/university/Stanford_University> , 
+		<http://data.nobelprize.org/resource/university/Howard_Hughes_Medical_Institute> ;
+	<http://data.nobelprize.org/terms/sortOrder> "1"^^xsd:integer .
+
+# date privind un laureat identificat prin URI
+<http://data.nobelprize.org/resource/laureate/1015> 
+	a <http://data.nobelprize.org/terms/Laureate> , foaf:Person ;
+	foaf:name "Carolyn Bertozzi" ;
+	foaf:familyName "Bertozzi" ;
+	foaf:givenName "Carolyn" ;
+	rdfs:label "Carolyn R. Bertozzi" ;
+	# premiul conferit
+	<http://data.nobelprize.org/terms/laureateAward> 
+		<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1015> ;
+	# afilierea	
+	<http://dbpedia.org/ontology/affiliation> 
+		<http://data.nobelprize.org/resource/university/Stanford_University> , 
+		<http://data.nobelprize.org/resource/university/Howard_Hughes_Medical_Institute> ;
+	foaf:gender "female" ;
+	<http://dbpedia.org/property/dateOfBirth> "1966-10-10"^^xsd:date ;
+	<http://dbpedia.org/ontology/birthPlace> 
+		<http://data.nobelprize.org/resource/country/USA> ;
+	# premiul Nobel pe anul 2022	
+	<http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	# similar (:sameAs) cu entitatea Q7442 din Wikidata (i.e. Carolyn Bertozzi)
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q7442> ;
+	foaf:birthday "1966-10-10"^^xsd:date .
+
+# date (fapte) despre afilieri -- aici, institutii universitare
+<http://data.nobelprize.org/resource/university/Stanford_University>
+	a <http://dbpedia.org/ontology/University> ;
+	rdfs:label "Stanford University"@en , 
+		"Stanford University"@sv , "Stanford University"@no ;
+	# localizare intr-un oras dintr-o tara
+	<http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Stanford%2C_CA> ;
+	<http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country/USA> .
+
+<http://data.nobelprize.org/resource/university/Howard_Hughes_Medical_Institute> 
+	a <http://dbpedia.org/ontology/University> ;
+	rdfs:label "Howard Hughes Medical Institute"@en , 
+		"Howard Hughes Medical Institute"@sv , "Howard Hughes Medical Institute"@no ;
+	<http://dbpedia.org/ontology/city> _:node1gf61294qx1 ; # nod blanc
+	<http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country/USA> .
+
+# fapte despre USA
+<http://data.nobelprize.org/resource/country/USA> a <http://dbpedia.org/ontology/Country> ;
+	rdfs:label "USA"@en , "USA"@sv , "USA"@no ;
+	# reprezinta si entitatea Q30 (Wikidata)
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q30> .
+
+# date privind alt laureat
+<http://data.nobelprize.org/resource/laureate/1016> 
+	a <http://data.nobelprize.org/terms/Laureate> , foaf:Person ;
+	foaf:name "Morten Meldal" ;
+	foaf:familyName "Meldal" ;
+	foaf:givenName "Morten" ;
+	rdfs:label "Morten Meldal" ;
+	<http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1016> ;
+	<http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university/University_of_Copenhagen> ;
+	foaf:gender "male" ;
+	<http://dbpedia.org/property/dateOfBirth> "1954-00-00"^^xsd:date ;
+	<http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/country/Denmark>  ;
+	<http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q6914509> ;
+	foaf:birthday "1954-00-00"^^xsd:date .
+
+# date (fapte) despre afilieri -- aici, institutii universitare
+<http://data.nobelprize.org/resource/university/University_of_Copenhagen> a <http://dbpedia.org/ontology/University> ;
+	rdfs:label "University of Copenhagen"@en , "University of Copenhagen"@sv , "University of Copenhagen"@no ;
+	<http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Copenhagen> ;
+	<http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country/Denmark> .
+
+# fapte despre Danemarca
+<http://data.nobelprize.org/resource/country/Denmark> a <http://dbpedia.org/ontology/Country> ;
+	rdfs:label "Denmark"@en , "Danmark"@sv , "Danmark"@no ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q35> .
+
+<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/1016> 
+	a <http://data.nobelprize.org/terms/LaureateAward> , <http://dbpedia.org/ontology/Award> ;
+	rdfs:label "The Nobel Prize in Chemistry 2022, Morten Meldal"@en , 
+		"Nobelprisen i kjemi 2022, Morten Meldal"@no , "Nobelpriset i kemi 2022, Morten Meldal"@sv ;
+	<http://data.nobelprize.org/terms/share> "3"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/motivation> "for the development of click chemistry and bioorthogonal chemistry"@en , "för utveckling av klickkemi och bioortogonal kemi"@sv ;
+	<http://data.nobelprize.org/terms/year> "2022"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate/1016> ;
+	<http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category/Chemistry> ;
+	dcterms:isPartOf <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	<http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university/University_of_Copenhagen> ;
+	<http://data.nobelprize.org/terms/sortOrder> "2"^^xsd:integer .
+
+# date referitoare la alt premiu Nobel acordat
+<http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/743> 
+	a <http://data.nobelprize.org/terms/LaureateAward> , <http://dbpedia.org/ontology/Award> ;
+	rdfs:label "The Nobel Prize in Chemistry 2022, K. Barry Sharpless"@en , 
+		"Nobelprisen i kjemi 2022, K. Barry Sharpless"@no , 
+		"Nobelpriset i kemi 2022, K. Barry Sharpless"@sv ;
+	<http://data.nobelprize.org/terms/share> "3"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/motivation> "for the development of click chemistry and bioorthogonal chemistry"@en , "för utveckling av klickkemi och bioortogonal kemi"@sv ;
+	<http://data.nobelprize.org/terms/year> "2022"^^xsd:integer ;
+	<http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate/743> ;
+	<http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category/Chemistry> ;
+	dcterms:isPartOf <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	<http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university/Scripps_Research> ;
+	<http://data.nobelprize.org/terms/sortOrder> "3"^^xsd:integer .
+
+# date privind alt laureat
+<http://data.nobelprize.org/resource/laureate/743> a <http://data.nobelprize.org/terms/Laureate> , foaf:Person ;
+	foaf:name "K. Barry Sharpless" ;
+	foaf:familyName "Sharpless" ;
+	foaf:givenName "Barry" ;
+	rdfs:label "K. Barry Sharpless" ;
+	<http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward/Chemistry/2001/743> , <http://data.nobelprize.org/resource/laureateaward/Chemistry/2022/743> ;
+	<http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university/The_Scripps_Research_Institute> , <http://data.nobelprize.org/resource/university/Scripps_Research> ;
+	foaf:gender "male" ;
+	<http://dbpedia.org/property/dateOfBirth> "1941-04-28"^^xsd:date ;
+	<http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Philadelphia%2C_PA> ;
+	<http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2001> , <http://data.nobelprize.org/resource/nobelprize/Chemistry/2022> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q110925> ;
+	foaf:birthday "1941-04-28"^^xsd:date .
+
+<http://data.nobelprize.org/resource/university/Scripps_Research> a <http://dbpedia.org/ontology/University> ;
+	rdfs:label "Scripps Research"@en , "Scripps Research"@sv , "Scripps Research"@no ;
+	<http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/La_Jolla%2C_CA> ;
+	<http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country/USA> .
+
+<http://data.nobelprize.org/resource/university/The_Scripps_Research_Institute> 
+	a <http://dbpedia.org/ontology/University> ;
+	rdfs:label "The Scripps Research Institute"@en , 
+		"The Scripps Research Institute"@sv , "The Scripps Research Institute"@no ;
+	<http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/La_Jolla%2C_CA> ;
+	<http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country/USA> .
+
+<http://data.nobelprize.org/resource/city/Philadelphia%2C_PA> a <http://dbpedia.org/ontology/City> ;
+	rdfs:label "Philadelphia, PA"@en , "Philadelphia, PA"@sv , "Philadelphia, PA"@no ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q1345> .

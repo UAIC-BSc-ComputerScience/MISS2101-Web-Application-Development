@@ -1,0 +1,23 @@
+{
+  "@context" : {
+       "pers"	 : "http://schema.org/Person",
+       "name" 	 : "pers:name", 
+       "title" 	 : "pers:title", 
+       "hasJobAt" : { 
+           "@id" 	 : "pers:worksFor" , 
+           "@type"   : "@id"
+       },
+       "knows"	 : "pers:knows" 
+   },
+  "@id"     : "busaco",
+  "name"    : "Sabin Buraga",
+  "title"   : [  
+        { "@language": "en", "@value": "PhD" }, 
+        { "@language": "ro", "@value": "Doctor" } 
+  ],   
+  "hasJobAt" : "https://www.info.uaic.ro/",
+  "knows" : [
+     { "@id" : "adria", "name" : "Lenuța Alboaie" },
+     { "@id" : "alecsandru", "name" : "Alecsandru Grigoriu" }
+  ]
+}
